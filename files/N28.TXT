@@ -1,0 +1,692 @@
+% FILENAME = N28.TXT
+% Propagation 
+% Release version 3, October 2001
+
+%QUESTION 1
+#28.1 A 'skip zone' is:  
+
+the distance between the antenna and where the refracted wave first 
+returns to earth 
+
+the distance between the far end of the ground wave and where the 
+refracted wave first returns to earth 
+
+the distance between any two refracted waves  
+
+a zone caused by lost sky waves 
+
+% ans 2 
+
+%QUESTION 2
+#28.2 The medium which reflects high frequency radio waves back to the earth's 
+surface is called the: 
+
+biosphere 
+
+stratosphere 
+
+ionosphere 
+
+troposphere 
+
+% ans 3 
+
+%QUESTION 3
+#28.3 The highest frequency that will be reflected back to the earth at any given time 
+is known as the: 
+
+UHF 
+
+MUF 
+
+OWF 
+
+LUF 
+
+% ans 2 
+
+%QUESTION 4
+#28.4 All communications frequencies throughout the spectrum are affected in 
+varying degrees by the: 
+
+atmospheric conditions 
+
+ionosphere 
+
+aurora borealis 
+
+sun 
+
+% ans 4 
+
+%QUESTION 5
+#28.5 Solar cycles have an average length of: 
+
+1 year 
+
+3 years 
+
+6 years 
+
+11 years 
+
+% ans 4 
+
+%QUESTION 6
+#28.6 The 'skywave' is another name for the: 
+
+ionospheric wave 
+
+tropospheric wave 
+
+ground wave 
+
+inverted wave 
+
+% ans 1 
+
+%QUESTION 7
+#28.7 The polarisation of an electromagnetic wave is defined by the direction of: 
+
+the H field 
+
+propagation 
+
+the E field 
+
+the receiving antenna 
+
+% ans 3 
+
+%QUESTION 8
+#28.8 That portion of HF radiation which is directly affected by the surface of the 
+earth is called: 
+
+ionospheric wave 
+
+local field wave 
+
+ground wave 
+
+inverted wave 
+
+% ans 3 
+
+%QUESTION 9
+#28.9 Radio wave energy on frequencies below 4 MHz during daylight hours is 
+almost completely absorbed by this ionospheric layer: 
+
+C 
+
+D 
+
+E 
+
+F 
+
+% ans 2 
+
+%QUESTION 10
+#28.10 Because of high absorption levels at frequencies below 4 MHz during daylight 
+hours, only high angle signals are normally reflected back by this layer: 
+
+C 
+
+D 
+
+E 
+
+F 
+
+% ans 3 
+
+%QUESTION 11
+#28.11 Scattered patches of high ionisation developed seasonally at the height of one 
+of the layers is called: 
+
+sporadic-E 
+
+patchy 
+
+random reflectors 
+
+trans-equatorial ionisation 
+
+% ans 1 
+
+%QUESTION 12
+#28.12 For long distance propagation, the radiation angle of energy from the antenna 
+should be: 
+
+less than 30 degrees 
+
+more than 30 degrees but less than forty-five 
+
+more than 45 degrees but less than ninety 
+
+90 degrees 
+
+% ans 1 
+
+%QUESTION 13
+#28.13 The path radio waves normally follow from a transmitting antenna to a 
+receiving antenna at VHF and higher frequencies is a: 
+
+circular path going north or south from the transmitter 
+
+great circle path 
+
+straight line 
+
+bent path via the ionosphere 
+
+% ans 3 
+
+%QUESTION 14
+#28.14 A radio wave may follow two or more different paths during propagation and 
+produce slowly-changing phase differences between signals at the receiver 
+resulting in a phenomenon called: 
+
+absorption 
+
+baffling 
+
+fading 
+
+skip 
+
+% ans 3 
+
+%QUESTION 15
+#28.15 The distance from the far end of the ground wave to the nearest point where the sky wave 
+returns to the earth is called the: 
+
+skip distance 
+
+radiation distance 
+
+skip angle 
+
+skip zone 
+
+% ans 4 
+
+%QUESTION 16
+#28.16 High Frequency long-distance propagation is most dependent on: 
+
+ionospheric reflection 
+
+tropospheric reflection 
+
+ground reflection 
+
+inverted reflection
+ 
+% ans 1 
+
+%QUESTION 17
+#28.17 The layer of the ionosphere mainly responsible for long distance 
+communication is: 
+
+C 
+
+D 
+
+E 
+
+F 
+
+% ans 4 
+
+%QUESTION 18
+#28.18 The ionisation level of the ionosphere reaches its minimum: 
+
+just after sunset 
+
+just before sunrise 
+
+at noon 
+
+at midnight 
+
+% ans 2 
+
+%QUESTION 19
+#28.19 One of the ionospheric layers splits into two parts during the day called: 
+
+A & B 
+
+D1 & D2 
+
+E1 & E2 
+
+F1 & F2 
+
+% ans 4 
+
+%QUESTION 20
+#28.20 Signal fadeouts resulting from an 'ionospheric storm' or 'sudden ionospheric 
+disturbance' are usually attributed to: 
+
+heating of the ionised layers 
+
+over-use of the signal path 
+
+insufficient transmitted power 
+
+solar flare activity 
+
+% ans 4 
+
+%QUESTION 21
+#28.21 	The 80 metre band is useful for working: 
+
+in the summer at midday during high sunspot activity 
+
+long distance during daylight hours when absorption is not significant 
+
+all points on the earth's surface 
+
+up to several thousand kilometres in darkness but atmospheric and 
+man-made noises tend to be high 
+
+% ans 4 
+
+%QUESTION 22
+#28.22 The skip distance of radio signals is determined by the: 
+
+type of transmitting antenna used 
+
+power fed to the final amplifier of the transmitter 
+
+only the angle of radiation from the antenna 
+
+both the height of the ionosphere and the angle of radiation from the 
+antenna 
+
+% ans 4 
+
+%QUESTION 23
+#28.23 Three recognised layers of the ionosphere that affect radio propagation are: 
+
+A, E, F 
+
+B, D, E 
+
+C, E, F 
+
+D, E, F 
+
+% ans 4 
+
+%QUESTION 24
+#28.24 Propagation on 80 metres during the summer daylight hours is limited to 
+relatively short distances because of 
+
+high absorption in the D layer 
+
+the disappearance of the E layer 
+
+poor refraction by the F layer 
+
+pollution in the T layer 
+
+% ans 1 
+
+%QUESTION 25
+#28.25 The distance from the transmitter to the nearest point where the sky wave 
+returns to the earth is called the: 
+
+angle of radiation 
+
+maximum usable frequency 
+
+skip distance 
+
+skip zone 
+
+% ans 3 
+
+%QUESTION 26
+#28.26 A variation in received signal strength caused by slowly changing differences 
+in path lengths is called: 
+
+absorption 
+
+fading 
+
+fluctuation 
+
+path loss 
+
+% ans 2 
+
+%QUESTION 27
+#28.27 VHF and UHF bands are frequently used for satellite communication because: 
+
+waves at these frequencies travel to and from the satellite relatively 
+unaffected by the ionosphere 
+
+the Doppler frequency change caused by satellite motion is much less 
+than at HF 
+
+satellites move too fast for HF waves to follow 
+
+the Doppler effect would cause HF waves to be shifted into the VHF 
+and UHF bands. 
+
+% ans 1 
+
+%QUESTION 28
+#28.28 The 'critical frequency' is defined as the: 
+
+highest frequency to which your transmitter can be tuned 
+
+lowest frequency which is reflected back to earth at vertical incidence 
+
+minimum usable frequency 
+
+highest frequency which will be reflected back to earth at vertical 
+incidence 
+
+% ans 4 
+
+%QUESTION 29
+#28.29 The speed of a radio wave: 
+
+varies indirectly to the frequency 
+
+is the same as the speed of light 
+
+is infinite in space 
+
+is always less than half the speed of light 
+
+% ans 2 
+
+%QUESTION 30
+#28.30 The MUF for a given radio path is the: 
+
+mean of the maximum and minimum usable frequencies 
+
+maximum usable frequency 
+
+minimum usable frequency 
+
+mandatory usable frequency 
+
+% ans 2 
+
+%QUESTION 31
+#28.31 The position of the E layer in the ionosphere is: 
+
+above the F layer 
+
+below the F layer 
+
+below the D layer 
+
+sporadic 
+
+% ans 2 
+
+%QUESTION 32
+#28.32 A distant amplitude-modulated station is heard quite loudly but the modulation 
+is at times severely distorted. A similar local station is not affected. The 
+probable cause of this is: 
+
+transmitter malfunction 
+
+selective fading 
+
+a sudden ionospheric disturbance 
+
+front end overload 
+
+% ans 2 
+
+%QUESTION 33
+#28.33 Skip distance is a term associated with signals through the ionosphere. Skip 
+effects are due to: 
+
+reflection and refraction from the ionosphere 
+
+selective fading of local signals 
+
+high gain antennas being used 
+
+local cloud cover 
+
+% ans 1 
+
+%QUESTION 34
+#28.34 The type of atmospheric layers which will best return signals to earth are: 
+
+oxidised layers 
+
+heavy cloud layers 
+
+ionised layers 
+
+sun spot layers 
+
+% ans 3 
+
+%QUESTION 35
+#28.35 The ionosphere: 
+
+is a magnetised belt around the earth 
+
+consists of magnetised particles around the earth 
+
+is formed from layers of ionised gases around the earth 
+
+is a spherical belt of solar radiation around the earth 
+
+% ans 3 
+
+%QUESTION 36
+#28.36 The skip distance of a sky wave will be greatest when the: 
+
+ionosphere is most densely ionised 
+
+signal given out is strongest 
+
+angle of radiation is smallest 
+
+polarisation is vertical 
+
+% ans 3 
+
+%QUESTION 37
+#28.37 If the height of the reflecting layer of the ionosphere increases, the skip 
+distance of a high frequency transmission: 
+
+stays the same 
+
+decreases 
+
+varies regularly 
+
+becomes greater 
+
+% ans 4 
+
+%QUESTION 38
+#28.38 If the frequency of a transmitted signal is so high that we no longer receive a 
+reflection from the ionosphere, the signal frequency is above the: 
+
+speed of light 
+
+sun spot frequency 
+
+skip distance 
+
+maximum usable frequency 
+
+% ans 4 
+
+%QUESTION 39
+#28.39 A 'line of sight' transmission between two stations uses mainly the: 
+
+ionosphere 
+
+troposphere 
+
+sky wave 
+
+ground wave 
+
+% ans 4 
+
+%QUESTION 40
+#28.40 The distance travelled by ground waves in air: 
+
+is the same for all frequencies 
+
+is less at higher frequencies 
+
+is more at higher frequencies 
+
+depends on the maximum usable frequency 
+
+% ans 2 
+
+%QUESTION 41
+#28.41 The radio wave from the transmitter to the ionosphere and back to earth is 
+correctly known as the: 
+
+sky wave 
+
+skip wave 
+
+surface wave 
+
+F layer 
+
+% ans 1 
+
+%QUESTION 42
+#28.42 Reception of high frequency radio waves beyond 4000 km normally occurs by 
+the: 
+
+ground wave 
+
+skip wave 
+
+surface wave 
+
+sky wave 
+
+% ans 4 
+
+%QUESTION 43
+#28.43 A 28 MHz radio signal is more likely to be heard over great distances: 
+
+if the transmitter power is reduced 
+
+during daylight hours 
+
+only during the night 
+
+at full moon 
+
+% ans 2 
+
+%QUESTION 44
+#28.44 The number of high frequency bands open to long distance communication at 
+any time depends on: 
+
+the highest frequency at which ionospheric reflection can occur 
+
+the number of frequencies the receiver can tune 
+
+the power being radiated by the transmitting station 
+
+the height of the transmitting antenna 
+
+% ans 1 
+
+%QUESTION 45
+#28.45 Regular changes in the ionosphere occur approximately every 11: 
+
+days 
+
+months 
+
+years 
+
+centuries 
+
+% ans 3 
+
+%QUESTION 46
+#28.46 When a HF transmitted radio signal reaches a receiver, small changes in the 
+ionosphere can cause: 
+
+consistently stronger signals 
+
+a change in the ground wave signal 
+
+variations in signal strength 
+
+consistently weaker signals 
+
+% ans 3 
+
+%QUESTION 47
+#28.47 The usual effect of ionospheric storms is to: 
+
+increase the maximum usable frequency 
+
+cause a fade-out of sky-wave signals 
+
+produce extreme weather changes 
+
+prevent communications by ground wave 
+
+% ans 2 
+
+%QUESTION 48
+#28.48 Changes in received signal strength when sky wave propagation is used are 
+called: 
+
+ground wave losses 
+
+modulation losses 
+
+fading 
+
+sunspots 
+
+% ans 3 
+
+%QUESTION 49
+#28.49 Although high frequency signals may be received from a distant station by a 
+sky wave at a certain time, it may not be possible to hear them an hour later. 
+This may be due to: 
+
+changes in the ionosphere 
+
+shading of the earth by clouds 
+
+changes in atmospheric temperature 
+
+absorption of the ground wave signal 
+
+% ans 1 
+
+%QUESTION 50
+#28.50 VHF or UHF signals transmitted towards a tall building are often received at a 
+more distant point in another direction because: 
+
+these waves are easily bent by the ionosphere 
+
+these waves are easily reflected by objects in their path 
+
+you can never tell in which direction a wave is travelling 
+
+tall buildings have elevators 
+
+% ans 2 
+

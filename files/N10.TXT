@@ -1,0 +1,145 @@
+% FILENAME = N10.TXT
+% Safety
+% Release version 2, January 2000
+
+%Question: 1
+#10.1 You can safely remove an unconscious person from contact with a high 
+voltage source by: 
+
+pulling an arm or a leg 
+
+wrapping the person in a blanket and pulling to a safe area 
+
+calling an electrician 
+
+turning off the high voltage and then removing the person 
+
+% ans 4 
+
+%Question: 2
+#10.2 For your safety, before checking a fault in a mains operated power supply 
+unit, first: 
+
+short the leads of the filter capacitor 
+
+turn off the power and remove the power plug 
+
+check the action of the capacitor bleeder resistance 
+
+remove and check the fuse in the power supply 
+
+% ans 2
+
+%Question: 3
+#10.3 Wires carrying high voltages in a transmitter should be well insulated to 
+avoid: 
+
+short circuits 
+
+overheating 
+
+over modulation 
+
+SWR effects 
+
+% ans 1
+
+%Question: 4
+#10.4 A residual current device is recommended for protection in a mains power 
+circuit because it: 
+
+reduces electrical interference from the circuit 
+
+removes power to the circuit when the phase and neutral currents are not equal 
+
+removes power to the circuit when the current in the phase wire equals the 
+current in the earth wire 
+
+limits the power provided to the circuit 
+
+% ans 2
+
+%Question: 5
+#10.5 An earth wire should be connected to the metal chassis of a 
+mains-operated power supply to ensure that if a fault develops, the chassis: 
+
+does not develop a high voltage with respect to earth 
+
+does not develop a high voltage with respect to the phase lead 
+
+becomes a conductor to bleed away static charge 
+
+provides a path to ground in case of lightning strikes 
+
+% ans 1
+
+%Question: 6
+#10.6 The purpose of using three wires in the mains power cord and plug on 
+amateur radio equipment is to: 
+
+make it inconvenient to use 
+
+prevent the chassis from becoming live in case of an internal short to the 
+chassis 
+
+prevent the plug from being reversed in the wall outlet 
+
+prevent short circuits 
+
+% ans 2
+
+%Question: 7
+#10.7 The correct colour coding for the phase wire in a flexible mains lead is: 
+
+brown 
+
+blue 
+
+yellow and green 
+
+white 
+
+% ans 1
+
+%Question: 8
+#10.8 The correct colour coding for the neutral wire in a flexible mains lead 
+is: 
+
+brown 
+
+blue 
+
+yellow and green 
+
+white 
+
+% ans 2
+
+%Question: 9 
+#10.9 The correct colour coding for the earth wire in a flexible mains lead is: 
+
+brown 
+
+blue 
+
+yellow and green 
+
+white 
+
+% ans 3
+
+%Question: 10
+#10.10 An isolating transformer is used to: 
+
+ensure that faulty equipment connected to it will blow a fuse in the 
+distribution board 
+
+ensure that no voltage is developed between either output lead and ground 
+
+ensure that no voltage is developed between the output leads 
+
+step down the mains voltage to a safe value 
+
+% ans 2
+
+

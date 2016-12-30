@@ -1,0 +1,147 @@
+% FILENAME = N13.TXT
+% Meters and Measuring
+% Release version 2, January 2000
+
+%Question: 1 
+#13.1 An ohmmeter measures the: 
+
+value of any resistance placed between its terminals 
+
+impedance of any component placed between its terminals 
+
+power factor of any inductor or capacitor placed between its terminals 
+
+voltage across any resistance placed between its terminals 
+
+% ans 1
+
+%Question: 2 
+#13.2 A VSWR meter switched to the "reverse" position provides an indication 
+of: 
+
+power output in watts 
+
+relative reflected voltage 
+
+relative forward voltage 
+
+reflected power in dB 
+
+% ans 2
+
+%Question: 2 
+#13.3 The correct instrument for measuring the supply current to an amplifier 
+is a: 
+
+wattmeter 
+
+voltmeter 
+
+ammeter 
+
+ohmmeter 
+
+% ans 3
+
+%Question: 4 
+#13.4 The following meter could be used to measure the power supply current 
+drawn by a small hand-held transistorised receiver: 
+
+a power meter 
+
+an RF ammeter 
+
+a DC ammeter 
+
+an electrostatic voltmeter 
+
+% ans 3
+
+%Question: 5 
+#13.5 When measuring the current drawn by a light bulb from a DC supply, the 
+meter will act in circuit as: 
+
+an insulator 
+
+a low value resistance 
+
+a perfect conductor 
+
+an extra current drain 
+
+% ans 2
+
+%Question: 6 
+#13.6 When measuring the current drawn by a receiver from a power supply, the 
+current meter should be placed: 
+
+in parallel with both receiver power supply leads 
+
+in parallel with one of the receiver power leads 
+
+in series with both receiver power leads 
+
+in series with one of the receiver power leads 
+
+% ans 4
+
+%Question: 7 
+#13.7 An ammeter should not be connected directly across the terminals of a 12 
+volt car battery because: 
+
+the resulting high current will probably destroy the ammeter 
+
+no current will flow because no other components are in the circuit 
+
+the battery voltage will be too low for a measurable current to flow 
+
+the battery voltage will be too high for a measurable current to flow 
+
+% ans 1
+
+%Question: 8 
+#13.8 A good ammeter should have: 
+
+a very high internal resistance 
+
+a resistance equal to that of all other components in the circuit 
+
+a very low internal resistance 
+
+an infinite resistance 
+
+% ans 3
+
+%Question: 9 
+#13.9 A good voltmeter should have: 
+
+a very high internal resistance 
+
+a resistance equal to that of all other components in the circuit 
+
+a very low internal resistance 
+
+an inductive reactance 
+
+% ans 1
+
+%Question: 10 
+#13.10 An rms-reading voltmeter is used to measure a 50 Hz sinewave of known 
+peak voltage 14 volt. The meter reading will be about: 
+
+14 volt 
+
+28 volt 
+
+10 volt 
+
+50 volt 
+
+% ans 3
+
+
+
+
+
+
+

@@ -1,0 +1,264 @@
+% FILENAME = N3.TXT
+% Electronics Fundamentals
+% Release version 3, October 2001
+% Question 3.7 replaced 9 Aug 2012 
+
+% Question: 1
+#3.1 The element Silicon is: 
+
+a conductor 
+
+an insulator 
+
+a superconductor 
+
+a semiconductor 
+
+% ans 4
+	
+% Question: 2
+#3.2 An element which falls somewhere between being an insulator and a conductor is called a: 
+
+P-type conductor
+
+intrinsic conductor 
+
+semiconductor 
+
+N-type conductor 
+
+% ans 3  
+	
+% Question: 3
+#3.3 In an atom: 
+
+the protons and the neutrons orbit the nucleus in opposite directions 
+
+the protons orbit around the neutrons 
+
+the electrons orbit the nucleus 
+
+the electrons and the neutrons orbit the nucleus 
+
+% ans 3  
+
+% Question: 4
+#3.4 An atom that loses an electron becomes: 
+
+a positive ion 
+
+an isotope 
+
+a negative ion 
+
+a radioactive atom 
+
+% ans 1  
+
+% Question: 5
+#3.5 An electric current passing through a wire will produce around the conductor: 
+
+an electric field 
+
+a magnetic field 
+
+an electrostatic field 
+
+nothing 
+
+% ans 2  
+
+% Question: 6
+#3.6 These magnetic poles repel: 
+
+unlike 
+
+like 
+
+positive 
+
+negative 
+
+% ans 2  
+
+% Question: 7
+#3.7 A common use for a magnet is in:
+
+A computer speaker
+
+An optical mouse
+
+A keyboard 
+
+A magnetic loop antenna 
+
+% ans 1  
+
+% Question: 8
+#3.8 The better conductor of electricity is: 
+
+copper 
+
+carbon 
+
+silicon 
+
+aluminium 
+
+% ans 1  
+
+% Question: 9
+#3.9 The term describing opposition to electron flow in a metallic circuit is: 
+
+current 
+
+voltage 
+
+resistance 
+
+power 
+
+% ans 3  
+
+% Question: 10
+#3.10 The substance which will most readily allow an electric current to flow is: 
+
+an insulator 
+
+a conductor 
+
+a resistor 
+
+a dielectric 
+
+% ans 2  
+
+% Question: 11
+#3.11 The plastic coating formed around wire is: 
+
+an insulator 
+
+a conductor 
+
+an inductor 
+
+a magnet 
+
+% ans 1  
+
+% Question: 12
+#3.12 The following is a source of electrical energy: 
+
+p-channel FET
+
+carbon resistor 
+
+germanium diode 
+
+lead acid battery 
+
+% ans 4  
+
+% Question: 13
+#3.13 An important difference between a common torch battery and a lead acid battery is that only the lead acid battery: 
+
+has two terminals 
+
+contains an electrolyte 
+
+can be re-charged 
+
+can be effectively discharged 
+
+% ans 3  
+
+% Question: 14
+#3.14 As temperature increases, the resistance of a metallic conductor: 
+
+increases 
+
+decreases 
+
+remains constant 
+
+becomes negative 
+
+% ans 1  
+
+% Question: 15
+#3.15 In an n-type semiconductor, the current carriers are: 
+
+holes 
+
+electrons 
+
+positive ions 
+
+photons 
+
+% ans 2  
+
+% Question: 16
+#3.16 In a p-type semiconductor, the current carriers are: 
+
+photons 
+
+electrons 
+
+positive ions 
+
+holes 
+
+% ans 4  
+
+% Question: 17
+#3.17 An electrical insulator: 
+
+lets electricity flow through it in one direction 
+
+does not let electricity flow through it 
+
+lets electricity flow through it when light shines on it 
+
+lets electricity flow through it 
+
+% ans 2  
+
+% Question: 18
+#3.18 Four good electrical insulators are: 
+
+plastic, rubber, wood, carbon
+
+glass, wood, copper, porcelain 
+
+paper, glass, air, aluminium 
+
+glass, air, plastic, porcelain 
+
+% ans 4  
+
+% Question: 19
+#3.19 Three good electrical conductors are: 
+
+copper, gold, mica 
+
+gold, silver, wood 
+
+gold, silver, aluminium 
+
+copper, aluminium, paper 
+
+% ans 3  
+
+% Question: 20
+#3.20 The name for the flow of electrons in an electric circuit is: 
+
+voltage 
+
+resistance 
+
+capacitance 
+
+current 
+
+% ans 4  

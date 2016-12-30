@@ -1,0 +1,138 @@
+% FILENAME = N21.TXT
+% Power Supplies
+% Release version 2, January 2000
+% Q 6 corrected 6 Mar 2012
+ 
+%Question: 1
+#21.1 A mains operated DC power supply: 
+
+converts DC from the mains into AC of the same voltage 
+
+converts energy from the mains into DC for operating electronic equipment 
+
+is a diode-capacitor device for measuring mains power 
+
+is a diode-choked device for measuring inductance power 
+
+% ans 2 
+	
+%Question: 2
+#21.2 The following unit in a DC power supply performs a rectifying operation: 
+
+an electrolytic capacitor 
+
+a fuse 
+
+a crowbar 
+
+a full-wave diode bridge 
+
+% ans 4 
+	
+%Question: 3
+#21.3 The following unit in a DC power supply performs a smoothing operation: 
+
+an electrolytic capacitor 
+
+a fuse 
+
+a crowbar 
+
+a full-wave diode bridge 
+
+% ans 1 
+	
+%Question: 4
+#21.4 The following could power a solid-state 10 watt VHF transceiver: 
+
+a 12 volt car battery 
+
+6 penlite cells in series 
+
+a 12 volt, 500 mA plug-pack 
+
+a 6 volt 10 Amp-hour Gel cell. 
+
+% ans 1 
+	
+%Question: 5
+#21.5 A fullwave DC power supply operates from the New Zealand AC mains. The ripple 
+frequency is: 
+
+25 Hz 
+
+50 Hz 
+
+70 Hz 
+
+100 Hz 
+
+% ans 4
+	
+%Question: 6
+#21.6 The capacitor value best suited for smoothing the output of a 12 volt 1 amp DC power supply is: 
+
+100 pF 
+
+10 nF 
+
+100 nF 
+
+10,000 uF 
+
+% ans 4 
+	
+%Question: 7
+#21.7 The following should always be included as a standard protection device in any power 
+supply: 
+
+a saturating transformer 
+
+a fuse in the mains lead 
+
+a zener diode bridge limiter 
+
+a fuse in the filter capacitor negative lead 
+
+% ans 2 
+	
+%Question: 8
+#21.8 A halfwave DC power supply operates from the New Zealand AC mains. The ripple 
+frequency will be: 
+
+25 Hz 
+
+50 Hz 
+
+70 Hz 
+
+100 Hz 
+
+% ans 2 
+	
+%Question: 9
+#21.9 The output voltage of a DC power supply decreases when current is drawn from it because: 
+
+drawing output current causes the input mains voltage to decrease 
+
+drawing output current causes the input mains frequency to decrease 
+
+all power supplies have some internal resistance 
+
+some power is reflected back into the mains. 
+
+% ans 3 
+	
+%Question: 10
+#21.10 Electrolytic capacitors are used in power supplies because: 
+
+they are tuned to operate at 50 Hz 
+
+they have very low losses compared to other types 
+
+they radiate less RF noise than other types 
+
+they can be obtained in larger values than other types 
+
+% ans 4 
+

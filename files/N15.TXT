@@ -1,0 +1,158 @@
+% FILENAME = N15.TXT
+% HF Station Arrangement 
+% Release version 3, October 2001
+
+%QUESTION: 1
+#15.1 In the block diagram shown, the "linear amplifier" is: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+an amplifier to remove distortion in signals from the transceiver 
+
+an optional amplifier to be switched in when higher power is required 
+
+an amplifier with all components arranged in-line 
+
+a push-pull amplifier to cancel second harmonic distortion 
+
+% ans 2 
+
+%QUESTION: 2
+#15.2 In the block diagram shown, the additional signal path above the 
+"linear amplifier" block indicates that: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+some power is passed around the linear amplifier for stability 
+
+"feed-forward" correction is being used to increase linearity 
+
+the linear amplifier input and output terminals may be short-circuited 
+
+the linear amplifier may be optionally switched out of circuit to reduce output power 
+
+% ans 4 
+
+%QUESTION: 3
+#15.3 In the block diagram shown, the "low pass filter" must be rated to: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+carry the full power output from the station 
+
+filter out higher-frequency modulation components for maximum intelligibility 
+
+filter out high-amplitude sideband components 
+
+emphasise low-speed Morse code output  
+
+% ans 1 
+
+%QUESTION: 4
+#15.4 In the block diagram shown, the "SWR bridge" is a: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+switched wave rectifier for monitoring power output 
+
+static wave reducer to minimize static electricity from the antenna 
+
+device to monitor the standing-wave-ratio on the antenna feedline 
+
+short wave rectifier to protect against lightning strikes 
+
+% ans 3 
+
+%QUESTION: 5
+#15.5 In the block diagram shown, the "antenna switch": 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+switches the transmitter output to the dummy load for tune-up purposes 
+
+switches the antenna from transmit to receive 
+
+switches the frequency of the antenna for operation on different bands 
+
+switches surplus output power from the antenna to the dummy load to avoid distortion. 
+
+% ans 1 
+
+%QUESTION: 6
+#15.6 In the block diagram shown, the "antenna tuner": 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+adjusts the resonant frequency of the antenna to minimize harmonic radiation 
+
+adjusts the resonant frequency of the antenna to maximise power output 
+
+changes the standing-wave-ratio on the transmission line to the antenna 
+
+adjusts the impedance of the antenna system seen at the transceiver output 
+
+% ans 4 
+
+%QUESTION: 7
+#15.7 In the block diagram shown, the "dummy load" is: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+used to allow adjustment of the transmitter without causing interference to 
+others 
+
+a load used to absorb surplus power which is rejected by the antenna system 
+
+used to absorb high-voltage impulses caused by lightning strikes to the antenna 
+
+an additional load used to compensate for a badly-tuned antenna system 
+
+% ans 1 
+
+%QUESTION: 8
+#15.8 In the block diagram shown, the connection between the SWR bridge and the 
+antenna switch is normally a: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+twisted pair cable 
+
+coaxial cable 
+
+quarter-wave matching section 
+
+short length of balanced ladder-line 
+
+% ans 2 
+
+%QUESTION: 9
+#15.9 In this block diagram, the block designated "antenna tuner" is not normally necessary when: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+the antenna input impedance is 50 ohms 
+
+a half wave antenna is used, fed at one end 
+
+the antenna is very long compared to a wavelength 
+
+the antenna is very short compared to a wavelength 
+
+% ans 1 
+
+%QUESTION: 10 
+#15.10 In the block diagram shown, the connection between the "antenna tuner" 
+and the "antenna" could be made with: 
+<img src = "hfsta.gif" align = center width = 600 height = 170> 
+<totallines = 16 >
+
+three-wire mains power cable 
+
+heavy hook-up wire 
+
+50 ohm coaxial cable 
+
+an iron-cored transformer 
+
+% ans 3 
+

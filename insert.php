@@ -1,24 +1,26 @@
 <?php
 require_once("includes/include.php");
-if (isset($_REQUEST['raw'])) {
+$files = glob("files/*");
+foreach($files as $file) {
+    $fileOpen = file_get_contents($file);
+    $fileOpen = implode("\n", array_slice(explode("\n", $fileOpen), 6));
+    $fileOpen = substr($fileOpen, 1);
     $questions = [];
-    $data = explode("%", $_REQUEST['raw']);
+    $data = explode("%", $fileOpen);
     $data = array_map('trim', $data);
-    foreach($data as $i=>$d) {
-        if(empty($d)) continue;
+    foreach ($data as $i => $d) {
+        if (empty($d)) continue;
         if (strpos(strtolower($d), 'question') !== false) {
-            $fullQuestion = substr(preg_replace('/^.+\n/', '', $d),1); //Strip useless firstline.
+            $fullQuestion = substr(preg_replace('/^.+\n/', '', $d), 1); //Strip useless firstline.
             $numbers = explode(" ", $fullQuestion);
             $questions[$i]['questionNumber'] = $numbers[0]; // Get # of question
             $lengthOfNumber = strlen($questions[$i]['questionNumber']); //Get length of #
             $splitNewLine = explode("\n", trim($fullQuestion)); //Split rest into lines.
-            $twoLineQuestion = $imageFirstLine = false;
+            $twoLineQuestion = $imageFirstLine = $threeLineQuestion = false;
             if (strpos(strtolower($splitNewLine[0]), '<img') !== false) {
                 preg_match('/".*?"/', $splitNewLine[0], $matches);
                 $questions[$i]['image'] = strtoupper($matches[0]);
-                $imageFirstLine = true;
-            }
-            if ($imageFirstLine) {
+
                 if (strpos($splitNewLine[1], ':') !== false || !empty(trim($splitNewLine[2]))) {
                     $twoLineQuestion = true;
                 }
@@ -29,20 +31,31 @@ if (isset($_REQUEST['raw'])) {
                     . $splitNewLine[2] : $firstLine), $lengthOfNumber));
             } else {
                 if (strpos($splitNewLine[0], ':') !== false || !empty(trim($splitNewLine[1]))) {
-                    $twoLineQuestion = true;
+                    if (strpos($splitNewLine[0], ':') !== false) {
+                        $twoLineQuestion = true;
+                        if (strpos(strtolower($splitNewLine[1]), '<img') !== false) {
+                            $twoLineQuestion = false;
+                            preg_match('/".*?"/', $splitNewLine[1], $matches);
+                            $questions[$i]['image'] = strtoupper($matches[0]);
+                        }
+                    } elseif (!empty(trim($splitNewLine[2]))) {
+                        $threeLineQuestion = true;
+                    }
                 }
                 $questions[$i]['question'] = trim(substr(($twoLineQuestion ? $splitNewLine[0] . " "
                     . $splitNewLine[1] : $splitNewLine[0]), $lengthOfNumber));
             }
-            $x=$b=1;
-            foreach ($splitNewLine as $a=>$line) {
-                if($a==0) continue;
-                if(($twoLineQuestion || $imageFirstLine) && $a==1) continue;
-                if($twoLineQuestion && $imageFirstLine && $a==2) continue;
-                if(empty(trim($line))) continue;
-                if(strpos(strtolower($line), 'totallines') !== false) continue;
+            $x = $b = 1;
+            foreach ($splitNewLine as $a => $line) {
+                //Don't ask what this witchcraft is.
+                if ($a == 0) continue;
+                if (($twoLineQuestion || $imageFirstLine) && $a == 1) continue;
+                if ($threeLineQuestion || ($twoLineQuestion && $imageFirstLine) && $a == 2) continue;
+                if ($imageFirstLine && $threeLineQuestion && $a == 3) continue;
+                if (empty(trim($line))) continue;
+                if (strpos(strtolower($line), 'totallines') !== false) continue;
 
-                if(strpos(strtolower($line), '<img') !== false) {
+                if (strpos(strtolower($line), '<img') !== false) {
                     preg_match('/".*?"/', $line, $matches);
                     $questions[$i]['image'] = strtoupper($matches[0]);
                     continue;
@@ -50,34 +63,33 @@ if (isset($_REQUEST['raw'])) {
                 $questions[$i]['answers'][$b] = trim($line);
                 $b++;
             }
-        } elseif (strpos($d, 'ans ') !== false) {
-            $questions[$i-1]['correctAnswer'] = substr($d, 3);
+        } elseif (strpos(strtolower($d), 'ans ') !== false) {
+            $questions[$i - 1]['correctAnswer'] = substr($d, 3);
         }
     }
-
     $i = $b = $d = $a = 0; //Clear the useless stuff from above.
-    if(isset($_REQUEST['insert']) && $_REQUEST['insert'] == 1 && count($questions)) {
+    if (isset($_REQUEST['insert']) && $_REQUEST['insert'] == 1 && count($questions)) {
         $count = 0;
-        foreach($questions as $q) {
+        foreach ($questions as $q) {
             $db = new db();
             $db->query("INSERT INTO question(question_time, questiondata_number, questiondata_content, questiondata_image)
-                          VALUES(:qTime, :qNumber, :qContent, :qImage)");
-            $db->bind("qTime",time());
-            $db->bind("qNumber", $q['questionNumber']?:0);
-            $db->bind("qContent",$q['question']);
-            $db->bind("qImage",$q['image']?:"");
+                      VALUES(:qTime, :qNumber, :qContent, :qImage)");
+            $db->bind("qTime", time());
+            $db->bind("qNumber", $q['questionNumber'] ?: 0);
+            $db->bind("qContent", $q['question']);
+            $db->bind("qImage", $q['image'] ?: "");
             $db->execute();
             $lastRow = $db->lastInsertId();
             $db->kill(); //IS THIS EVEN NEEDED?
             $row = 1;
-            foreach($q['answers'] as $a) {
+            foreach ($q['answers'] as $a) {
                 $db = new db();
                 $db->query("INSERT INTO answer(answer_time, answerdata_content, answerdata_question, answerdata_correct)
-                              VALUES(:aTime, :aContent, :aQuestion, :aCorrect)");
+                          VALUES(:aTime, :aContent, :aQuestion, :aCorrect)");
                 $db->bind("aTime", time());
                 $db->bind("aContent", $a);
                 $db->bind("aQuestion", $lastRow);
-                $db->bind("aCorrect",($q['correctAnswer']==$row?"1":"0"));
+                $db->bind("aCorrect", ($q['correctAnswer'] == $row ? "1" : "0"));
                 $db->execute();
                 $db->kill();
                 $row++;
@@ -85,7 +97,7 @@ if (isset($_REQUEST['raw'])) {
             $db = null;
         }
 
-        echo "Inserted ".$count." questions.";
+        echo "Inserted " . $count . " questions.";
     } else {
         var_dump($questions);
     }

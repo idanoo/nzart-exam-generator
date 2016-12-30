@@ -1,0 +1,279 @@
+% FILENAME = N26.TXT
+% Transmission Lines 
+% Release version 2, January 2000
+
+%Question: 1
+#26.1 Any length of transmission line may be made to appear as an infinitely 
+long line by: 
+
+shorting the line at the end 
+
+leaving the line open at the end 
+
+terminating the line in its characteristic impedance 
+
+increasing the standing wave ratio above unity 
+
+% ans 3
+
+%Question: 2
+#26.2 The characteristic impedance of a transmission line is determined by the: 
+
+length of the line 
+
+load placed on the line 
+
+physical dimensions and relative positions of the conductors 
+
+frequency at which the line is operated 
+
+% ans 3
+
+%Question: 3
+#26.3 The characteristic impedance of a 20 metre length of transmission line is 
+52 ohm. If 10 metres is cut off, the impedance will be: 
+
+13 ohm 
+
+26 ohm 
+
+39 ohm 
+
+52 ohm 
+
+% ans 4
+
+%Question: 4
+#26.4 The following feeder is the best match to the base of a quarter wave 
+ground plane antenna: 
+
+300 ohm balanced feedline 
+
+50 ohm coaxial cable 
+
+75 ohm balanced feedline 
+
+300 ohm coaxial cable 
+
+% ans 2
+
+%Question: 5
+#26.5 The designed output impedance of the antenna socket of most modern 
+transmitters is nominally: 
+
+25 ohm 
+
+50 ohm 
+
+75 ohm 
+
+100 ohm 
+
+% ans 2
+
+%Question: 6
+#26.6 To obtain efficient transfer of power from a transmitter to an antenna, 
+it is important that there is a: 
+
+high load impedance 
+
+low load impedance 
+
+correct impedance match between transmitter and antenna 
+
+high standing wave ratio 
+
+% ans 3
+
+%Question: 7
+#26.7 A coaxial feedline is constructed from: 
+
+a single conductor 
+
+two parallel conductors separated by spacers 
+
+braid and insulation around a central conductor 
+
+braid and insulation twisted together 
+
+% ans 3
+
+%Question: 8
+#26.8 An RF transmission line should be matched at the transmitter end to: 
+
+prevent frequency drift 
+
+overcome fading of the transmitted signal 
+
+ensure that the radiated signal has the intended polarisation 
+
+transfer maximum power to the antenna 
+
+% ans 4
+
+%Question: 9
+#26.9 A damaged antenna or feedline attached to the output of a transmitter 
+will present an incorrect load resulting in: 
+
+the driver stage not delivering power to the final 
+
+the output tuned circuit breaking down 
+
+excessive heat being produced in the transmitter output stage 
+
+loss of modulation in the transmitted signal 
+
+% ans 3
+
+%Question: 10 
+#26.10 A result of mismatch between the power amplifier of a transmitter and 
+the antenna is: 
+
+reduced antenna radiation 
+
+radiation of key clicks 
+
+lower modulation percentage 
+
+smaller DC current drain 
+
+% ans 1
+
+%Question: 11
+#26.11 Losses occurring on a transmission line between a transmitter and 
+antenna result in: 
+
+less RF power being radiated 
+
+a SWR of 1:1 
+
+reflections occurring in the line 
+
+improved transfer of RF energy to the antenna 
+
+% ans 1
+
+%Question: 12
+#26.12 If the characteristic impedance of a feedline does not match the antenna 
+input impedance then: 
+
+standing waves are produced in the feedline 
+
+heat is produced at the junction 
+
+the SWR drops to 1:1 
+
+the antenna will not radiate any signal 
+
+% ans 1
+
+%Question: 13
+#26.13 A result of standing waves on a non-resonant transmission line is: 
+
+maximum transfer of energy to the antenna from the transmitter 
+
+perfect impedance match between transmitter and feedline 
+
+reduced transfer of RF energy to the antenna 
+
+lack of radiation from the transmission line 
+
+% ans 3
+
+%Question: 14 
+#26.14 A quarter-wave length of 50-ohm coaxial line is shorted at one end. The 
+impedance seen at the other end of the line is: 
+
+zero 
+
+5 ohm 
+
+150 ohm 
+
+infinite 
+
+% ans 4
+
+%Question: 15
+#26.15 A switching system to use a single antenna for a separate transmitter 
+and receiver should also: 
+
+disable the unit not being used 
+
+disconnect the antenna tuner 
+
+ground the antenna on receive 
+
+switch between power supplies 
+
+% ans 1
+
+%Question: 16
+#26.16 An instrument to check whether RF power in the transmission line is 
+transferred to the antenna is: 
+
+a standing wave ratio meter 
+
+an antenna tuner 
+
+a dummy load 
+
+a keying monitor 
+
+% ans 1
+
+%Question: 17
+#26.17 This type of transmission line will exhibit the lowest loss: 
+
+twisted flex 
+
+coaxial cable 
+
+open-wire feeder 
+
+mains cable 
+
+% ans 3
+
+%Question: 18
+#26.18 The velocity factor of a coaxial cable with solid polythene dielectric 
+is about: 
+
+0.66 
+
+0.1 
+
+0.8 
+
+1.0 
+
+% ans 1
+
+%Question: 19
+#26.19 This commonly available antenna feedline can be buried directly in the 
+ground for some distance without adverse effects: 
+
+75 ohm twinlead 
+
+300 ohm twinlead 
+
+600 ohm open-wire 
+
+coaxial cable 
+
+% ans 4
+
+%Question: 20
+#26.20 If an antenna feedline must pass near grounded metal objects, the 
+following type should be used: 
+
+75 ohm twinlead 
+
+300 ohm twinlead 
+
+600 ohm open-wire 
+
+coaxial cable 
+
+% ans 4
+

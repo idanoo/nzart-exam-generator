@@ -1,0 +1,134 @@
+% FILENAME = N25.TXT
+% Q Signals
+% Release version 2  17 Dec 99
+
+%Question: 1
+#25.1 The signal "QRM" means:
+
+your signals are fading
+
+I am troubled by static
+
+your transmission is being interfered with
+
+is my transmission being interfered with?
+
+% ans 3
+
+%Question: 2
+#25.2 The signal "QRN" means:
+
+I am busy
+
+I am troubled by static
+
+are you troubled by static?
+
+I am being interfered with
+
+% ans 2
+
+%Question: 3
+#25.3 The "Q signal" requesting the other station to send slower is: 
+
+QRL
+
+QRN
+
+QRM
+
+QRS
+
+% ans 4
+
+%Question: 4
+#25.4 The question "Who is calling me?" is asked by:
+
+QRT?
+
+QRM?
+
+QRP?
+
+QRZ?
+
+% ans 4
+
+%Question: 5
+#25.5 The "Q" signal "what is your location?" is:
+
+QTH?
+
+QTC?
+
+QRL?
+
+QRZ?
+
+% ans 1
+
+%Question: 6
+#25.6 The "Q" signal "are you busy?" is:
+
+QRM?
+
+QRL?
+
+QRT?
+
+QRZ?
+
+% ans 2
+
+%Question: 7
+#25.7 The "Q" signal "shall I decrease transmitter power?" is: 
+
+QRP?
+
+QRZ?
+
+QRN?
+
+QRL?
+
+% ans 1
+
+%Question: 8
+#25.8 The "Q" signal "your signals are fading" is:
+
+QSO
+
+QSB
+
+QSL
+
+QRX
+
+% ans 2
+
+%Question: 9
+#25.9 The signal "QSY?" means:
+
+shall I change to transmission on another frequency?
+
+shall I increase transmitter power?
+
+shall I relay to .... ?
+
+is my signal fading?
+
+% ans 1
+
+%Question: 10
+#25.10 The "Q" signal which means "send faster" is:
+
+QRP
+
+QRQ
+
+QRS
+
+QRN
+
+% ans 2
+

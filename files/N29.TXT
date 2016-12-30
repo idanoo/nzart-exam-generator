@@ -1,0 +1,398 @@
+
+
+% FILENAME = N29.TXT
+% Interference and Filtering 
+% Release version 4, June 2004
+
+%QUESTION: 1 
+#29.1 Electromagnetic compatibility is: 
+
+two antennas facing each other 
+
+the ability of equipment to function satisfactorily in its own environment without introducing intolerable electromagnetic disturbances
+
+more than one relay solenoid operating simultaneously 
+
+the inability of equipment to function satisfactorily together and produce tolerable electromagnetic disturbances 
+
+% ans 2
+
+%QUESTION: 2 
+#29.2 On an amateur receiver, unwanted signals are found at every 15.625 kHz. This is probably due to: 
+
+a low-frequency government station 
+
+a remote radar station 
+
+radiation from a nearby TV line oscillator 
+
+none of these 
+
+% ans 3
+
+%QUESTION: 3 
+#29.3 Narrow-band interference can be caused by: 
+
+transmitter harmonics 
+
+a neon sign 
+
+a shaver motor 
+
+lightning flashes 
+
+% ans 1
+
+%QUESTION: 4 
+#29.4 Which of the following is most likely to cause broad-band continuous interference: 
+
+an electric blanket switch 
+
+a refrigerator thermostat 
+
+a microwave transmitter 
+
+poor commutation in an electric motor 
+
+% ans 4
+
+%QUESTION: 5 
+#29.5 If broadband noise interference varies when it rains, the most likely cause could be from: 
+
+underground power cables  
+
+outside overhead power lines  
+
+car ignitions  
+
+your antenna connection  
+
+% ans 2
+
+%QUESTION: 6 
+#29.6 Before explaining to a neighbour that the reported interference is due to a lack of immunity in the neighbour's electronic equipment: 
+
+disconnect all your equipment from their power sources 
+
+write a letter to the MED 
+
+make sure that there is no interference on your own domestic equipment 
+
+ignore all complaints and take no action 
+
+% ans 3
+
+%QUESTION: 7 
+#29.7 A neighbour's stereo system is suffering RF break-through. One possible cure is to: 
+
+put a ferrite bead on the transmitter output lead 
+
+put a capacitor across the transmitter output 
+
+use open-wire feeders to the antenna 
+
+use screened wire for the loudspeaker leads 
+
+% ans 4
+
+%QUESTION: 8 
+#29.8 When living in a densely-populated area, it is wise to: 
+
+always use maximum transmitter output power 
+
+use the minimum transmitter output power necessary 
+
+only transmit during popular television programme times 
+
+point the beam at the maximum number of television antennas 
+
+% ans 2
+
+%QUESTION: 9 
+#29.9 When someone in the neighbourhood complains of TVI it is wise to: 
+
+deny all responsibility 
+
+immediately blame the other equipment 
+
+inform all the other neighbours 
+
+check your log to see if it coincides with your transmissions 
+
+% ans 4
+
+%QUESTION: 10 
+#29.10 Cross-modulation is usually caused by: 
+
+rectification of strong signals in overloaded stages 
+
+key-clicks generated at the transmitter 
+
+improper filtering in the transmitter 
+
+lack of receiver sensitivity and selectivity 
+
+% ans 1
+
+%QUESTION: 11 
+#29.11 When the signal from a transmitter overloads the audio stages of a broadcast receiver, the transmitted signal: 
+
+can be heard irrespective of where the receiver is tuned 
+
+appears only when a broadcast station is received 
+
+is distorted on voice peaks 
+
+appears on only one frequency 
+
+% ans 1
+
+%QUESTION: 12 
+#29.12 Cross-modulation of a broadcast receiver by a nearby transmitter would be noticed in the receiver as: 
+
+a lack of signals being received 
+
+the undesired signal in the background of the desired signal 
+
+interference only when a broadcast signal is received 
+
+distortion on transmitted voice peaks 
+
+% ans 2
+
+%QUESTION: 13 
+#29.13 Unwanted signals from a radio transmitter which cause harmful interference to other users are known as: 
+
+rectified signals 
+
+re-radiation signals 
+
+reflected signals 
+
+harmonic and other spurious signals 
+
+% ans 4
+
+%QUESTION: 14 
+#29.14 To reduce harmonic output from a transmitter, the following could be put in the transmission line as close to the 
+transmitter as possible: 
+
+wave trap 
+
+low-pass filter 
+
+high-pass filter 
+
+band reject filter 
+
+% ans 2
+
+%QUESTION: 15 
+#29.15 To reduce energy from an HF transmitter getting into a television receiver, the following could be placed in the TV antenna lead as close to the TV as possible: 
+
+active filter 
+
+low-pass filter 
+
+high-pass filter 
+
+band reject filter 
+
+% ans 3
+
+%QUESTION: 16 
+#29.16 A low-pass filter used to eliminate the radiation of unwanted signals is connected to the: 
+
+output of the balanced modulator 
+
+output of the amateur transmitter 
+
+input of the stereo system 
+
+input of the mixer stage of your SSB transmitter 
+
+% ans 2
+
+%QUESTION: 17 
+#29.17 A band-pass filter will: 
+
+pass frequencies each side of a band 
+
+attenuate low frequencies but not high frequencies 
+
+attenuate frequencies each side of a band 
+
+attenuate high frequencies but not low frequencies 
+
+% ans 3
+
+%QUESTION: 18 
+#29.18 A band-stop filter will: 
+
+pass frequencies each side of a band 
+
+stop frequencies each side of a band 
+
+only allow one spot frequency through 
+
+pass frequencies below 100 MHz 
+
+% ans 1
+
+%QUESTION: 19 
+#29.19 A low-pass filter for a high frequency transmitter output would: 
+
+attenuate frequencies above 30 MHz 
+
+pass audio frequencies below 3 kHz 
+
+attenuate frequencies below 30 MHz 
+
+pass audio frequencies above 3 kHz 
+
+% ans 1
+
+%QUESTION: 20 
+#29.20 Installing a low-pass filter between the transmitter and transmission line will: 
+
+permit higher frequency signals to pass to the antenna 
+
+ensure an SWR not exceeding 2:1 
+
+reduce the power output back to the legal maximum 
+
+permit lower frequency signals to pass to the antenna 
+
+% ans 4
+
+%QUESTION: 21 
+#29.21 A low-pass filter may be used in an amateur radio installation: 
+
+to attenuate signals lower in frequency than the transmission 
+
+to attenuate signals higher in frequency than the transmission 
+
+to boost the output power of the lower frequency transmissions 
+
+to boost the power of higher frequency transmissions 
+
+% ans 2
+
+%QUESTION: 22 
+#29.22 Television interference caused by harmonics radiated from an amateur transmitter could be eliminated by fitting: 
+
+a low-pass filter in the TV receiver antenna input 
+
+a high-pass filter in the transmitter output 
+
+a low-pass filter in the transmitter output 
+
+a band-pass filter to the speech amplifier 
+
+% ans 3
+
+%QUESTION: 23 
+#29.23 A high-pass filter can be used to: 
+
+prevent interference to a telephone 
+
+prevent overmodulation in a transmitter 
+
+prevent interference to a TV receiver 
+
+pass a band of speech frequencies in a modulator 
+
+% ans 3
+
+%QUESTION: 24 
+#29.24 A high-pass RF filter would normally be fitted: 
+
+between transmitter output and feedline 
+
+at the antenna terminals of a TV receiver 
+
+at the Morse key or keying relay in a transmitter 
+
+between microphone and speech amplifier 
+
+% ans 2
+
+%QUESTION: 25 
+#29.25 A high-pass filter attenuates: 
+
+a band of frequencies in the VHF region 
+
+all except a band of VHF frequencies 
+
+high frequencies but not low frequencies 
+
+low frequencies but not high frequencies
+
+% ans 4
+
+%QUESTION: 26 
+#29.26 An operational amplifier connected as a filter always utilises: 
+
+positive feedback to reduce oscillation 
+
+negative feedback 
+
+random feedback 
+
+inductors and resistor circuits only 
+
+% ans 2
+
+%QUESTION: 27 
+#29.27 The voltage gain of an operational amplifier at low frequencies is: 
+
+very high but purposely reduced using circuit components 
+
+very low but purposely increased using circuit components 
+
+less than one 
+
+undefined 
+
+% ans 1
+
+%QUESTION: 28 
+#29.28 The input impedance of an operational amplifier is generally: 
+
+very high 
+
+very low 
+
+capacitive 
+
+inductive 
+
+% ans 1
+
+%QUESTION: 29 
+#29.29 An active audio low-pass filter could be constructed using: 
+
+zener diodes and resistors 
+
+electrolytic capacitors and resistors 
+
+an operational amplifier, resistors and capacitors 
+
+a transformer and capacitors 
+
+% ans 3
+
+%QUESTION: 30 
+#29.30 A filter used to attenuate a very narrow band of frequencies centred on 3.6 MHz would be called: 
+
+a band-pass filter 
+
+a high-pass filter 
+
+a low-pass filter 
+
+a notch filter 
+
+% ans 4 
+
+

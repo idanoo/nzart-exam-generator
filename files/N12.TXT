@@ -1,0 +1,154 @@
+% FILENAME = N12.TXT
+% Device Recognition
+% Release version 3, October 2001
+
+%QUESTION: 1
+#12.1 <img src = "npn.gif" align = right width = 177 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 2 represents the: 
+
+collector of a pnp transistor 
+
+emitter of an npn transistor 
+
+base of an npn transistor 
+
+source of a junction FET
+
+% ans 3 
+	
+%QUESTION: 2
+#12.2 <img src = "npn.gif" align = right width = 177 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 3 represents the: 
+
+drain of a junction FET 
+
+collector of an npn transistor
+
+emitter of a pnp transistor 
+
+base of an npn transistor 
+
+% ans 2 
+
+%QUESTION: 3 
+#12.3 <img src = "pnp.gif" align = right width = 177 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 2 represents the: 
+
+base of a pnp transistor 
+
+drain of a junction FET 
+
+gate of a junction FET 
+
+emitter of a pnp transistor 
+
+% ans 1 
+
+%QUESTION: 4 
+#12.4 <img src = "pnp.gif" align = right width = 177 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 1 represents the: 
+
+collector of a pnp transistor 
+
+gate of a junction FET 
+
+source of a MOSFET 
+
+emitter of a pnp transistor 
+
+% ans 4 
+
+%QUESTION: 5
+#12.5 <img src = "jfet.gif" align = right width = 167 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 2 represents the: 
+
+drain of a p-channel junction FET
+
+collector of an npn transistor 
+
+gate of an n-channel junction FET 
+
+base of a pnp transistor 
+
+% ans 3 
+
+%QUESTION: 6 
+#12.6 <img src = "jfet.gif" align = right width = 167 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 3 represents the: 
+
+source of an n-channel junction FET 
+
+gate of a p-channel junction FET 
+
+emitter of a pnp transistor 
+
+drain of an n-channel junction FET 
+
+% ans 4 
+
+%QUESTION: 7 
+#12.7 <img src = "mosfet.gif" align = right width = 177 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 2 represents the: 
+
+gate of a MOSFET 
+
+base of a dual bipolar transistor 
+
+anode of a silicon controlled rectifier 
+
+cathode of a dual diode 
+
+% ans 1 
+
+%QUESTION: 8 
+#12.8 <img src = "mosfet.gif" align = right width = 177 height = 90> 
+<extralines = 1 totallines = 6 >
+The figure shown represents a: 
+
+dual bipolar transistor 
+
+dual diode 
+
+dual varactor diode 
+
+dual gate MOSFET 
+
+% ans 4 
+
+%QUESTION: 9 
+#12.9 <img src = "tetrode.gif" align = right width = 154 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 3 represents the: 
+
+filament of a tetrode 
+
+anode of a triode 
+
+grid of a tetrode 
+
+screen grid of a pentode 
+
+% ans 3 
+
+%QUESTION: 10 
+#12.10 <img src = "tetrode.gif" align = right width = 154 height = 90> 
+<extralines = 1 totallines = 6 >
+In the figure shown, 5 represents the: 
+
+grid of a tetrode 
+
+screen grid of a tetrode 
+
+heater of a pentode 
+
+grid of a triode 
+
+% ans 2 
+

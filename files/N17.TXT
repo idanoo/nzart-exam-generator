@@ -1,0 +1,395 @@
+% FILENAME = N17.TXT
+% Receiver Operation 
+% Release version 3, October 2001
+% Q 23 modified 6 Mar 2012
+
+%QUESTION: 1
+#17.1 The frequency stability of a receiver is its ability to:
+
+stay tuned to the desired signal
+
+track the incoming signal as it drifts 
+
+provide a frequency standard 
+
+provide a digital readout 
+
+% ans 1 
+
+%QUESTION: 2
+#17.2 The sensitivity of a receiver specifies: 
+
+the bandwidth of the RF preamplifier 
+
+the stability of the oscillator 
+
+its ability to receive weak signals 
+
+its ability to reject strong signals 
+
+% ans 3 
+
+%QUESTION: 3
+#17.3 Of two receivers, the one capable of receiving the weakest signal will have: 
+
+an RF gain control 
+
+the least internally-generated noise 
+
+the loudest audio output 
+
+the greatest tuning range 
+
+% ans 2 
+
+%QUESTION: 4 
+#17.4 The figure in a receiver's specifications which indicates its sensitivity is the: 
+
+bandwidth of the IF in kilohertz 
+
+audio output in watts 
+
+signal plus noise to noise ratio 
+
+number of RF amplifiers 
+
+% ans 3 
+
+%QUESTION: 5 
+#17.5 If two receivers are compared, the more sensitive receiver will produce: 
+
+more than one signal 
+
+less signal and more noise
+
+more signal and less noise 
+
+a steady oscillator drift 
+
+% ans 3 
+
+%QUESTION: 6 
+#17.6 The ability of a receiver to separate signals close in frequency is called its: 
+
+noise figure 
+
+sensitivity 
+
+bandwidth 
+
+selectivity 
+
+% ans 4 
+
+%QUESTION: 7 
+#17.7 A receiver with high selectivity has a: 
+
+wide bandwidth 
+
+wide tuning range 
+
+narrow bandwidth 
+
+narrow tuning range 
+
+% ans 3 
+
+%QUESTION: 8 
+#17.8 The BFO in a superhet receiver operates on a frequency nearest to that of its: 
+
+RF amplifier 
+
+audio amplifier 
+
+local oscillator 
+
+IF amplifier 
+
+% ans 4 
+
+%QUESTION: 9 
+#17.9 To receive Morse code signals, a BFO is employed in a superhet receiver to: 
+
+produce IF signals 
+
+beat with the local oscillator signal to produce sidebands 
+
+produce an audio tone to beat with the IF signal 
+
+beat with the IF signal to produce an audio tone 
+
+% ans 4 
+
+%QUESTION: 10 
+#17.10 The following transmission mode is usually demodulated by a product detector: 
+
+pulse modulation 
+
+double sideband full carrier modulation 
+
+frequency modulation 
+
+single sideband suppressed carrier modulation 
+
+% ans 4 
+
+%QUESTION: 11 
+#17.11 A superhet receiver for SSB reception has an insertion oscillator to: 
+
+replace the suppressed carrier for detection 
+
+phase out the unwanted sideband signal 
+
+reduce the passband of the IF stages 
+
+beat with the received carrier to produce the other sideband 
+
+% ans 1 
+
+%QUESTION: 12 
+#17.12 A stage in a receiver with input and output circuits tuned to the received frequency is the: 
+
+RF amplifier 
+
+local oscillator 
+
+audio frequency amplifier 
+
+detector 
+
+% ans 1 
+
+%QUESTION: 13 
+#17.13 An RF amplifier ahead of the mixer stage in a superhet receiver: 
+
+enables the receiver to tune a greater frequency range 
+
+means no BFO stage is needed 
+
+makes it possible to receive SSB signals 
+
+increases the sensitivity of the receiver 
+
+% ans 4 
+
+%QUESTION: 14 
+#17.14 A communication receiver may have several IF filters of different bandwidths. The operator selects one to:
+
+improve the S-meter readings 
+
+improve the receiver sensitivity 
+
+improve the reception of different types of signal 
+
+increase the noise received 
+
+% ans 3 
+
+%QUESTION: 15 
+#17.15 The stage in a superhet receiver with a tuneable input and fixed tuned output is the: 
+
+RF amplifier 
+
+mixer stage 
+
+IF amplifier 
+
+local oscillator 
+
+% ans 2 
+
+%QUESTION: 16 
+#17.16 The mixer stage of a superhet receiver: 
+
+produces spurious signals 
+
+produces an intermediate frequency signal 
+
+acts as a buffer stage 
+
+demodulates SSB signals 
+
+% ans 2 
+
+%QUESTION: 17 
+#17.17 A 7 MHz signal and a 16 MHz oscillator are applied to a mixer stage. The output will contain the input frequencies and: 
+
+8 and 9 MHz 
+
+7 and 9 MHz 
+
+9 and 23 MHz 
+
+3.5 and 9 MHz 
+
+% ans 3 
+
+%QUESTION: 18 
+#17.18 Selectivity in a superhet receiver is achieved primarily in the: 
+
+RF amplifier 
+
+Mixer 
+
+IF amplifier 
+
+Audio stage 
+
+% ans 3 
+
+%QUESTION: 19 
+#17.19 The abbreviation AGC means: 
+
+attenuating gain capacitor 
+
+automatic gain control 
+
+anode-grid capacitor 
+
+amplified grid conductance 
+
+% ans 2 
+
+%QUESTION: 20 
+#17.20 The AGC circuit in a receiver usually controls the: 
+
+audio stage 
+
+mixer stage 
+
+power supply 
+
+RF and IF stages 
+
+% ans 4 
+
+%QUESTION: 21 
+#17.21 The tuning control of a superhet receiver changes the tuned frequency of the: 
+
+audio amplifier 
+
+IF amplifier 
+
+local oscillator 
+
+post-detector amplifier 
+
+% ans 3 
+
+%QUESTION: 22 
+#17.22 A superhet receiver, with an IF at 500 kHz, is receiving a 14 MHz signal. The local oscillator frequency is: 
+
+14.5 MHz 
+
+19 MHz 
+
+500 kHz 
+
+28 MHz 
+
+% ans 1 
+
+%QUESTION: 23 
+#17.23 An audio amplifier is necessary in an AM receiver because: 
+
+signals leaving the detector are weak 
+
+the carrier frequency must be replaced 
+
+the signal requires demodulation 
+
+RF signals are not heard by the human ear 
+
+% ans 1 
+
+%QUESTION: 24 
+#17.24 The audio output transformer in a receiver is required to: 
+
+step up the audio gain 
+
+protect the loudspeaker from high currents 
+
+improve the audio tone 
+
+match the output impedance of the audio amplifier to the speaker 
+
+% ans 4 
+
+%QUESTION: 25 
+#17.25 If the carrier insertion oscillator is counted, then a single conversion superhet receiver has: 
+
+one oscillator 
+
+two oscillators 
+
+three oscillators 
+
+four oscillators 
+
+% ans 2 
+
+%QUESTION: 26 
+#17.26 A superhet receiver, with a 500 kHz IF, is receiving a signal at 21.0 MHz. A strong unwanted signal at 22 MHz is interfering. The cause is: 
+
+insufficient IF selectivity 
+
+the 22 MHz signal is out-of-band 
+
+22 MHz is the image frequency 
+
+insufficient RF gain 
+
+% ans 3 
+
+%QUESTION: 27 
+#17.27 A superhet receiver receives an incoming signal of 3540 kHz and the local oscillator produces a signal of 3995 kHz. The IF amplifier is tuned to: 
+
+455 kHz 
+
+3540 kHz 
+
+3995 kHz 
+
+7435 kHz 
+
+% ans 1 
+
+%QUESTION: 28 
+#17.28 A double conversion receiver designed for SSB reception has a carrier insertion oscillator and: 
+
+one IF stage and one local oscillator 
+
+two IF stages and one local oscillator 
+
+two IF stages and two local oscillators 
+
+two IF stages and three local oscillators 
+
+% ans 3           
+
+%QUESTION: 29 
+#17.29 An advantage of a double conversion receiver is that it: 
+
+does not drift off frequency 
+
+produces a louder audio signal 
+
+has improved image rejection characteristics 
+
+is a more sensitive receiver 
+
+% ans 3 
+
+%QUESTION: 30 
+#17.30 A receiver squelch circuit: 
+
+automatically keeps the audio output at maximum level
+
+silences the receiver speaker during periods of no received signal 
+
+provides a noisy operating environment 
+
+is not suitable for pocket-size receivers 
+
+% ans 2 
+

@@ -1,0 +1,265 @@
+% FILENAME = N24.TXT
+% Practical Operating Knowledge 
+% Release version 2, January 00
+
+%QUESTION: 1
+#24.1 You are mobile and talking through a VHF repeater. The other station reports that you keep 
+"dropping out". This means: 
+
+your signal is drifting lower in frequency 
+
+your signal does not have enough strength to operate the repeater 
+
+your voice is too low-pitched to be understood 
+
+you are not speaking loudly enough 
+
+% ans 2 
+
+%QUESTION: 2 
+#24.2 A "pileup" is: 
+
+an old, worn-out radio 
+
+another name for a junkbox 
+
+a large group of stations all calling the same DX station 
+
+a type of selenium rectifier 
+
+% ans 3 
+
+%QUESTION: 3 
+#24.3 "Break-in keying" means: 
+
+unauthorised entry has resulted in station equipment disappearing 
+
+temporary emergency operating 
+
+key-down changes the station to transmit, key-up to receive 
+
+the other station's keying is erratic 
+
+% ans 3 
+
+%QUESTION: 4 
+#24.4 A repeater operating with a "positive 600 kHz split": 
+
+listens on a frequency 600 kHz higher than its designated frequency 
+
+transmits on a frequency 600 kHz higher than its designated frequency 
+
+transmits simultaneously on its designated frequency and one 600 kHz higher 
+
+uses positive modulation with a bandwidth of 600 kHz 
+
+% ans 1 
+
+%QUESTION: 5 
+#24.5 The standard frequency offset (split) for 2 metre repeaters in New Zealand is: 
+
+plus 600 kHz above 147 MHz, minus 600 kHz on or below 147 MHz 
+
+plus 600 kHz below 147 MHz, minus 600 kHz on or above 147 MHz 
+
+minus 5 MHz below 147 MHz, plus 5 MHz kHz on or above 147 MHz 
+
+plus 5 MHz below 147 MHz, minus 5 MHz kHz on or above 147 MHz 
+
+% ans 1 
+
+%QUESTION: 6 
+#24.6 The standard frequency offset (split) for 70 cm repeaters in New Zealand is plus or minus: 
+
+600 kHz 
+
+1 MHz 
+
+2 MHZ 
+
+5 MHz 
+
+% ans 4 
+
+%QUESTION: 7 
+#24.7 You are adjusting an antenna matching unit using an SWR bridge. You should adjust for: 
+
+maximum reflected power 
+
+equal reflected and transmitted power 
+
+minimum reflected power 
+
+minimum transmitted power 
+
+% ans 3 
+
+%QUESTION: 8 
+#24.8 The "squelch" or "muting" circuitry on a VHF receiver: 
+
+inhibits the audio output unless a station is being received 
+
+compresses incoming voice signals to make them more intelligible 
+
+reduces audio burst noise due to lightning emissions 
+
+reduces the noise on incoming signals 
+
+% ans 1 
+
+%QUESTION: 9 
+#24.9 The "S meter" on a receiver: 
+
+indicates where the squelch control should be set 
+
+indicates the standing wave ratio 
+
+indicates the state of the battery voltage 
+
+indicates relative incoming signal strengths 
+
+% ans 4 
+
+%QUESTION: 10 
+#24.10 The "National System" is: 
+
+the legal licensing standard of Amateur operation in New Zealand 
+
+a series of nationwide amateur radio linked repeaters in the 70 cm band 
+
+the official New Zealand repeater band plan 
+
+A nationwide emergency communications procedure 
+
+% ans 2 
+
+%QUESTION: 11 
+#24.11 A noise blanker on a receiver is most effective to reduce: 
+
+50 Hz power supply hum 
+
+noise originating from the mixer stage of the receiver 
+
+ignition noise 
+
+noise originating from the RF stage of the receiver. 
+
+% ans 3 
+
+%QUESTION: 12 
+#24.12 The purpose of a VOX unit in a transceiver is to: 
+
+change from receiving to transmitting using the sound of the operator's voice 
+
+check the transmitting frequency using the voice operated crystal 
+
+enable a volume operated extension speaker for remote listening 
+
+enable the variable oscillator crystal 
+
+% ans 1 
+
+%QUESTION: 13 
+#24.13 "VOX" stands for: 
+
+volume operated extension speaker 
+
+voice operated transmit 
+
+variable oscillator transmitter 
+
+voice operated expander 
+
+% ans 2 
+
+%QUESTION: 14 
+#24.14 "RIT" stands for: 
+
+receiver interference transmuter 
+
+range independent transmission 
+
+receiver incremental tuning 
+
+random interference tester 
+
+% ans 3 
+
+%QUESTION: 15 
+#24.15 The "RIT" control on a transceiver: 
+
+reduces interference on the transmission 
+
+changes the frequency of the transmitter section without affecting the frequency of the receiver section 
+
+changes the transmitting and receiver frequencies by the same amount 
+
+changes the frequency of the receiver section without affecting the frequency of the transmitter section 
+
+% ans 4 
+
+%QUESTION: 16 
+#24.16 The "split frequency" function on a transceiver allows the operator to: 
+
+transmit on one frequency and receive on another 
+
+monitor two frequencies simultaneously using a single loudspeaker 
+
+monitor two frequencies simultaneously using two loudspeakers 
+
+receive CW and SSB signals simultaneously on the same frequency 
+
+% ans 1 
+
+%QUESTION: 17 
+#24.17 The term "ALC" stands for: 
+
+audio limiter control 
+
+automatic level control 
+
+automatic loudness control 
+
+automatic listening control 
+
+% ans 2 
+
+%QUESTION: 18 
+#24.18 The AGC circuit is to: 
+
+expand the audio gain 
+
+limit the extent of amplitude generation 
+
+minimise the adjustments needed to the receiver gain control knobs 
+
+amplitude limit the crystal oscillator output 
+
+% ans 3 
+
+%QUESTION: 19 
+#24.19 Many receivers have both RF and AF gain controls. These allow the operator to: 
+
+vary the receiver frequency and AM transmitter frequency independently 
+
+vary the low and high frequency audio gain independently 
+
+vary the receiver's "real" and "absolute" frequencies independently 
+
+vary the gain of the radio frequency and audio frequency amplifier stages 
+independently 
+
+% ans 4 
+
+%QUESTION: 20 
+#24.20 The term "PTT" means: 
+
+push to talk 
+
+piezo-electric transducer transmitter 
+
+phase testing terminal 
+
+phased transmission transponder 
+
+% ans 1 

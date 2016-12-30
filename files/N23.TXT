@@ -1,0 +1,134 @@
+% FILENAME = N23.TXT
+% General Operating Procedures 
+% Release version 2, January 00
+
+%QUESTION: 1
+#23.1 The correct order for callsigns in a callsign exchange at the start and end of a transmission is: 
+
+the other callsign followed by your own callsign 
+
+your callsign followed by the other callsign 
+
+your own callsign, repeated twice 
+
+the other callsign, repeated twice 
+
+% ans 1 
+
+%QUESTION: 2 
+#23.2 The following phonetic code is correct for the callsign "ZL1AN": 
+
+zanzibar london one america norway 
+
+zulu lima one alpha november 
+
+zulu lima one able nancy 
+
+zulu lima one able niner 
+
+% ans 2 
+
+%QUESTION: 3 
+#23.3 The accepted way to call "CQ" with a SSB transceiver is: 
+
+"CQ  CQ  CQ this is   ZL1XXX   ZL1XXX   ZL1XXX" 
+
+"This is ZL1XXX calling CQ  CQ  CQ" 
+
+"CQ to anyone, CQ to anyone, I am ZL1XXX" 
+
+"CQ  CQ  CQ  CQ  CQ this is New Zealand" 
+
+% ans 1 
+
+%QUESTION: 4 
+#23.4 A signal report of "5 and 1" indicates: 
+
+very low intelligibility but good signal strength 
+
+perfect intelligibility but very low signal strength 
+
+perfect intelligibility, high signal strength 
+
+medium intelligibilty and signal strength 
+
+% ans 2 
+
+%QUESTION: 5 
+#23.5 The correct phonetic code for the callsign VK5ZX is: 
+
+victor kilowatt five zulu xray 
+
+victor kilo five zulu xray 
+
+victor kilo five zanzibar xray 
+
+victoria kilo five zulu xray 
+
+% ans 2 
+
+%QUESTION: 6 
+#23.6 The accepted way to announce that you are listening to a VHF repeater is: 
+
+"hello 6695, this is ZL2ZZZ listening" 
+
+"calling 6695, 6695, 6695 from ZL2ZZZ" 
+
+"6695 from ZL2ZZZ" 
+
+"ZL2ZZZ listening on 6695" 
+
+% ans 4 
+
+%QUESTION: 7 
+#23.7 A rare DX station calling CQ on CW and repeating "up 2" at the end of the call means the 
+station: 
+
+will be listening for replies 2 kHz higher in frequency 
+
+will reply only to stations sending at greater than 20 wpm 
+
+is about to shift his calling frequency 2 kHz higher 
+
+will wait more than 2 seconds before replying to his call 
+
+% ans 1 
+
+%QUESTION: 8 
+#23.8 When conversing via a VHF or UHF repeater you should pause between overs for about: 
+
+half a second 
+
+3 seconds 
+
+30 seconds 
+
+several minutes 
+
+% ans 2 
+
+%QUESTION: 9 
+#23.9 Before calling CQ on the HF bands, you should: 
+
+listen first, then ask if the frequency is in use 
+
+request that other operators clear the frequency 
+
+request a signal report from any station listening 
+
+use a frequency where many stations are already calling 
+
+% ans 1 
+
+%QUESTION: 10 
+#23.10 The phrase "you are fully quieting the repeater" means: 
+
+your signal is too weak for the repeater to reproduce correctly 
+
+your signal into the repeater is strong enough to be noise-free on the output frequency 
+
+your modulation level is too low 
+
+you are speaking too quietly into the microphone. 
+
+% ans 2 

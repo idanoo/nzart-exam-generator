@@ -1,0 +1,553 @@
+% FILENAME = N27.TXT
+% Antennas
+% Release version 3, October 2001
+
+%Question: 1
+#27.1 <img src = "yagi.gif" align = right width = 291 height = 123> 
+<extralines = 4 totallines = 10 >
+In this diagram the item U corresponds to the: 
+
+boom 
+
+reflector 
+
+driven element 
+
+director 
+
+% ans 1
+
+%Question: 2
+#27.2 <img src = "yagi.gif" align = right width = 291 height = 123> 
+<extralines = 4 totallines = 10 >
+In this diagram the item V corresponds to the: 
+
+boom 
+
+reflector 
+
+driven element 
+
+director 
+
+% ans 2
+
+%Question: 3
+#27.3 <img src = "yagi.gif" align = right width = 291 height = 123> 
+<extralines = 4 totallines = 10 >
+In this diagram the item X corresponds to the: 
+
+boom 
+
+reflector 
+
+director 
+
+driven element 
+
+% ans 3
+
+%Question: 4
+#27.4 <img src = "dipole.gif" align = right width = 400 height = 90> 
+<totallines = 10 >
+The antenna in this diagram has two equal lengths of wire shown as 'X' forming 
+a dipole between insulators. The optimum operating frequency will be when the: 
+
+length X+X equals the signal wavelength 
+
+dimensions are changed with one leg doubled in length 
+
+length X+X is a little shorter than one-half of the signal wavelength 
+
+antenna has one end grounded 
+
+% ans 3
+
+%Question: 5
+#27.5 <img src = "dipole.gif" align = right width = 400 height = 90> 
+<totallines = 7 >
+The antenna in this diagram can be made to operate on several bands if the 
+following item is installed at the points shown at 'X' in each wire: 
+
+a capacitor
+
+an inductor 
+
+a fuse 
+
+a parallel-tuned trap 
+
+% ans 4
+
+%Question: 6
+#27.6 <img src = "dipole.gif" align = right width = 400 height = 90> 
+<totallines = 9 >
+The physical length of the antenna shown in this diagram can be shortened and 
+the electrical length maintained, if one of the following items is added at the 
+points shown at 'X' in each wire: 
+
+an inductor 
+
+a capacitor 
+
+an insulator 
+
+a resistor 
+
+% ans 1
+
+%Question: 7
+#27.7 The approximate physical length of a half-wave antenna for a frequency of 
+1000 kHz is: 
+
+300 metres 
+
+600 metres 
+
+150 metres 
+
+30 metres 
+
+% ans 3
+
+%Question: 8
+#27.8 The wavelength for a frequency of 25 MHz is: 
+
+15 metres 
+
+32 metres 
+
+4 metres 
+
+12 metres 
+
+% ans 4
+
+%Question: 9
+#27.9 Magnetic and electric fields about an antenna are: 
+
+parallel to each other 
+
+determined by the type of antenna used 
+
+perpendicular to each other 
+
+variable with the time of day 
+
+% ans 3
+
+%Question: 10
+#27.10 Radio wave polarisation is defined by the orientation of the radiated: 
+
+magnetic field 
+
+electric field 
+
+inductive field 
+
+capacitive field 
+
+% ans 2
+
+%Question: 11
+#27.11 A half wave dipole antenna is normally fed at the point of: 
+
+maximum voltage 
+
+maximum current 
+
+maximum resistance 
+
+resonance 
+
+% ans 2
+
+%Question: 12
+#27.12 An important factor to consider when high angle radiation is desired 
+from a horizontal half-wave antenna is the: 
+
+size of the antenna wire 
+
+time of the year 
+
+height of the antenna 
+
+mode of propagation 
+
+% ans 3
+
+%Question: 13
+#27.13 An antenna which transmits equally well in all compass directions is a: 
+
+dipole with a reflector only 
+
+quarterwave grounded vertical 
+
+dipole with director only 
+
+half-wave horizontal dipole 
+
+% ans 2
+
+%Question: 14
+#27.14 A groundplane antenna emits a: 
+
+horizontally polarised wave 
+
+elliptically polarised wave 
+
+axially polarised wave 
+
+vertically polarised wave 
+
+% ans 4
+
+%Question: 15
+#27.15 The impedance at the feed point of a folded dipole antenna is 
+approximately: 
+
+300 ohm 
+
+150 ohm 
+
+200 ohm 
+
+100 ohm 
+
+% ans 1
+
+%Question: 16
+#27.16 The centre impedance of a 'half-wave' dipole in 'free space' is 
+approximately: 
+
+52 ohm 
+
+73 ohm 
+
+100 ohm 
+
+150 ohm 
+
+% ans 2
+
+%Question: 17
+#27.17 The effect of adding a series inductance to an antenna is to: 
+
+increase the resonant frequency 
+
+have no change on the resonant frequency 
+
+have little effect 
+
+decrease the resonant frequency 
+
+% ans 4
+
+%Question: 18
+#27.18 The purpose of a balun in a transmitting antenna system is to: 
+
+balance harmonic radiation 
+
+reduce unbalanced standing waves 
+
+protect the antenna system from lightning strikes 
+
+match unbalanced and balanced transmission lines 
+
+% ans 4
+
+%Question: 19
+#27.19 A dummy antenna: 
+
+attenuates a signal generator to a desirable level 
+
+provides more selectivity when a transmitter is being tuned 
+
+matches an AF generator to the receiver 
+
+duplicates the characteristics of an antenna without radiating signals
+
+% ans 4
+
+%Question: 20
+#27.20 A half-wave antenna resonant at 7100 kHz is approximately this long: 
+
+20 metres 
+
+40 metres 
+
+80 metres 
+
+160 metres 
+
+% ans 1
+
+%Question: 21
+#27.21 An antenna with 20 metres of wire each side of a centre insulator will 
+be resonant at approximately: 
+
+3600 kHz 
+
+3900 kHz 
+
+7050 kHz 
+
+7200 kHz 
+
+% ans 1
+
+%Question: 22
+#27.22 A half wave antenna cut for 7 MHz can be used on this band without 
+change: 
+
+10 metre 
+
+15 metre 
+
+20 metre 
+
+80 metre 
+
+% ans 2
+
+%Question: 23
+#27.23 This property of an antenna broadly defines the range of frequencies to 
+which it will be effective: 
+
+bandwidth 
+
+front-to-back ratio 
+
+impedance 
+
+polarisation 
+
+% ans 1
+
+%Question: 24
+#27.24 The resonant frequency of an antenna may be increased by: 
+
+shortening the radiating element 
+
+lengthening the radiating element 
+
+increasing the height of the radiating element 
+
+lowering the radiating element 
+
+% ans 1
+
+%Question: 25
+#27.25 Insulators are used at the end of suspended antenna wires to: 
+
+increase the effective antenna length 
+
+limit the electrical length of the antenna 
+
+make the antenna look more attractive 
+
+prevent any loss of radio waves by the antenna 
+
+% ans 2
+
+%Question: 26
+#27.26 To lower the resonant frequency of an antenna, the operator should: 
+
+lengthen the antenna 
+
+centre feed the antenna with TV ribbon 
+
+shorten the antenna 
+
+ground one end 
+
+% ans 1
+
+%Question: 27
+#27.27 A half-wave antenna is often called a: 
+
+bi-polar 
+
+Yagi 
+
+dipole 
+
+beam 
+
+% ans 3
+
+%Question: 28
+#27.28 The resonant frequency of a dipole antenna is mainly determined by: 
+
+its height above the ground 
+
+its length 
+
+the output power of the transmitter used 
+
+the length of the transmission line 
+
+% ans 2
+
+%Question: 29
+#27.29 A transmitting antenna for 28 MHz for mounting on the roof of a car 
+could be a: 
+
+vertical long wire 
+
+quarter wave vertical 
+
+horizontal dipole 
+
+full wave centre fed horizontal 
+
+% ans 2
+
+%Question: 30
+#27.30 A vertical antenna which uses a flat conductive surface at its base is 
+the: 
+
+vertical dipole 
+
+quarter wave ground plane 
+
+rhombic 
+
+long wire 
+
+% ans 2
+
+%Question: 31
+#27.31 The main characteristic of a vertical antenna is that it: 
+
+requires few insulators 
+
+is very sensitive to signals coming from horizontal aerials 
+
+receives signals from all points around it equally well 
+
+is easy to feed with TV ribbon feeder 
+
+% ans 3
+
+%Question: 32
+#27.32 At the ends of a half-wave dipole the: 
+
+voltage and current are both high 
+
+voltage is high and current is low 
+
+voltage and current are both low 
+
+voltage low and current is high 
+
+% ans 2
+
+%Question: 33
+#27.33 An antenna type commonly used on HF is the: 
+
+parabolic dish 
+
+cubical quad 
+
+13-element Yagi 
+
+helical Yagi 
+
+% ans 2
+
+%Question: 34
+#27.34 A Yagi antenna is said to have a power gain over a dipole antenna for 
+the same frequency band because: 
+
+it radiates more power than a dipole 
+
+more powerful transmitters can use it 
+
+it concentrates the radiation in one direction 
+
+it can be used for more than one band 
+
+% ans 3
+
+%Question: 35
+#27.35 The maximum radiation from a three element Yagi antenna is: 
+
+in the direction of the reflector end of the boom 
+
+in the direction of the director end of the boom 
+
+at right angles to the boom 
+
+parallel to the line of the coaxial feeder 
+
+% ans 2
+
+%Question: 36
+#27.36 The reflector and director(s) in a Yagi antenna are called: 
+
+oscillators 
+
+tuning stubs 
+
+parasitic elements 
+
+matching units 
+
+% ans 3
+
+%Question: 37
+#27.37 An isotropic antenna is a: 
+
+half wave reference dipole 
+
+infinitely long piece of wire 
+
+dummy load 
+
+hypothetical point source 
+
+% ans 4
+
+%Question: 38
+#27.38 The main reason why many VHF base and mobile antennas in amateur use are 
+5/8 of a wavelength long is that: 
+
+it is easy to match the antenna to the transmitter 
+
+it is a convenient length on VHF 
+
+the angle of radiation is high giving excellent local coverage 
+
+most of the energy is radiated at a low angle 
+
+% ans 4
+
+%Question: 39
+#27.39 A more important consideration when selecting an antenna for working 
+stations at great distances is: 
+
+sunspot activity 
+
+angle of radiation 
+
+impedance 
+
+bandwidth 
+
+% ans 2
+
+%Question: 40
+#27.40 On VHF and UHF bands, polarisation of the receiving antenna is important 
+in relation to the transmitting antenna, but on HF it is relatively unimportant 
+because: 
+
+the ionosphere can change the polarisation of the signal from moment to moment 
+
+the ground wave and the sky wave continually shift the polarisation 
+
+anomalies in the earth's magnetic field profoundly affect HF polarisation 
+
+improved selectivity in HF receivers makes changes in polarisation redundant 
+
+% ans 1

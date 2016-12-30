@@ -1,0 +1,917 @@
+% FILENAME = N1.TXT
+% Regulations
+% Release version 4, October 2006
+% Q44 modified 6 March 2012
+% further mods 6 September 2012
+
+%Question: 1
+#1.1 The Amateur Service may be briefly defined as: 
+
+a private radio service for personal gain and public benefit 
+
+a public radio service used for public service communications 
+
+a radiocommunication service for the purpose of self-training, intercommunication and technical investigation 
+
+a private radio service intended only for emergency communications 
+
+% ans 3
+
+%Question: 2
+#1.2 The organisation responsible for the International Radio Regulations is the: 
+
+European Radiocommunications Office 
+
+United Nations 
+
+International Telecommunication Union 
+
+European Telecommunication Standards Institute 
+
+% ans 3 
+
+%Question: 3
+#1.3 New Zealand's views on international radio regulatory matters are coordinated by the: 
+
+New Zealand Association of Radio Transmitters (NZART) 
+
+Ministry of Business, Innovation, and Employment
+
+International Amateur Radio Union (IARU) 
+
+Prime Minister's Office 
+
+% ans 2 
+
+%Question: 4
+#1.4 For regulatory purposes the world is divided into regions each with different radio spectrum allocations. New Zealand is in: 
+
+Region 1 
+
+Region 2 
+
+Region 3 
+
+Region 4 
+
+% ans 3 
+
+%Question: 5
+#1.5 The prime document for the administration of the Amateur Service in New Zealand is the: 
+
+New Zealand Radiocommunications Regulations 
+
+Broadcasting Act 
+
+Radio Amateur's Handbook 
+
+minutes of the International Telecommunication Union meetings 
+
+% ans 1 
+
+%Question: 6
+#1.6 The administration of the Amateur Service in New Zealand is by: 
+
+Ministry of Business, Innovation, and Employment Radio Spectrum Management Group 
+
+the Area Code administrators of New Zealand Post 
+
+the Radio Communications Division of the Ministry of Police 
+
+your local council public relations section 
+
+% ans 1 
+
+%Question: 7
+#1.7 An Amateur Station is a station: 
+
+in the public radio service 
+
+using radiocommunications for a commercial purpose 
+
+using equipment for training new radiocommunications operators 
+
+in the Amateur Service 
+
+% ans 4 
+
+%Question: 8
+#1.8 A General Amateur Operator Certificate of Competency can be inspected by an authorised officer from the Ministry of Business, Innovation, and Employment: 
+
+at any time 
+
+on any business day 
+
+before 9 p.m. 
+
+only on public holidays 
+
+% ans 1 
+
+%Question: 9
+#1.9 The fundamental regulations controlling the Amateur Service are to be found in: 
+
+the International Radio Regulations from the ITU 
+
+the Radio Amateur's Handbook 
+
+the NZART Callbook 
+
+on the packet radio bulletin-board 
+
+% ans 1 
+
+%Question: 10
+#1.10 You must have a General Amateur Operator Certificate of Competency to: 
+
+transmit on public-service frequencies 
+
+retransmit shortwave broadcasts 
+
+repair radio equipment 
+
+transmit in bands allocated to the Amateur Service 
+
+% ans 4 
+
+%Question: 11
+#1.11 A New Zealand General Amateur Operator Certificate of Competency allows you to operate: 
+
+anywhere in the world 
+
+anywhere in New Zealand and in any other country that recognises the Certificate 
+
+within 50 km of your home station location 
+
+only at your home address 
+
+% ans 2 
+
+%Question: 12
+#1.12 With a General Amateur Operator Certificate of Competency you may operate transmitters in your station: 
+
+one at a time 
+
+one at a time, except for emergency communications 
+
+any number at one time 
+
+any number, so long as they are transmitting on different bands 
+
+% ans 3 
+
+%Question: 13
+#1.13 You must keep the following document at your amateur station: 
+
+your General Amateur Operator Certificate of Competency 
+
+a copy of the Rules and Regulations for the Amateur Service 
+
+a copy of the Radio Amateur's Handbook for instant reference 
+
+a chart showing the amateur radio bands 
+
+% ans 1 
+
+%Question: 14
+#1.14 An Amateur Station is one which is: 
+
+operated by the holder of a General Amateur Operator Certificate of Competency on the amateur radio bands 
+
+owned and operated by a person who is not engaged professionally in radio communications 
+
+used exclusively to provide two-way communication in connection with activities of amateur sporting organisations 
+
+used primarily for emergency communications during floods, earthquakes and similar disasters. 
+
+% ans 1 
+
+%Question: 15
+#1.15 If the qualified operator of an amateur radio station is absent overseas, the home station may be used by: 
+
+any member of the immediate family to maintain contact with only the qualified operator 
+
+any person with an appropriate General Amateur Operator Certificate of Competency 
+
+the immediate family to communicate with any amateur radio operator 
+
+the immediate family if a separate callsign for mobile use has been obtained by the absent operator 
+
+% ans 2 
+
+%Question: 16
+#1.16 All amateur stations, regardless of the mode of transmission used, must be equipped with: 
+
+a reliable means for determining the operating radio frequency 
+
+a dummy antenna 
+
+an overmodulation indicating device 
+
+a dc power meter 
+
+% ans 1 
+
+%Question: 17
+#1.17 An amateur station may transmit unidentified signals: 
+
+when making a brief test not intended for reception by anyone else 
+
+when conducted on a clear frequency when no interference will be caused 
+
+when the meaning of transmitted information must be obscured to preserve secrecy 
+
+never, such transmissions are not permitted 
+
+% ans 4 
+
+
+%Question: 18
+#1.18 You may operate your amateur radio station somewhere in New Zealand for short periods away from the location entered in the administration's database: 
+
+only during times of emergency 
+
+only after giving proper notice to the Ministry of Business, Innovation, and Employment 
+
+during an approved emergency practice 
+
+whenever you want to 
+
+% ans 4 
+
+%Question: 19
+#1.19 Before operating an amateur station in a motor vehicle, you must: 
+
+give the Land Transport Authority the vehicle's licence plate number 
+
+inform the Ministry of Business, Innovation, and Employment
+
+hold a current General Amateur Operator Certificate of Competency 
+
+obtain an additional callsign 
+
+% ans 3 
+
+%Question: 20
+#1.20 An applicant for a New Zealand General Amateur Operator Certificate of Competency must first qualify by meeting the appropriate examination requirements. Application may then be made by: 
+
+anyone except a representative of a foreign government 
+
+only a citizen of New Zealand 
+
+anyone except an employee of the Ministry of Business, Innovation, and Employment
+
+anyone 
+
+% ans 4 
+
+%Question: 21
+#1.21 An amateur radio operator must have current New Zealand postal and email addresses so the Ministry of Business, Innovation, and Employment: 
+
+has a record of the location of each amateur station 
+
+can refund overpaid fees 
+
+can publish a callsign directory 
+
+can send mail to the operator 
+
+% ans 4 
+
+%Question: 22
+#1.22 If you transmit from another amateur's station, the person responsible for its proper operation is: 
+
+both of you 
+
+the other amateur (the station’s owner) 
+
+you, the operator 
+
+the station owner, unless the station records show that you were the operator at the time 
+
+% ans 3 
+
+%Question: 23
+#1.23 Your responsibility as a station operator is that you must: 
+
+allow another amateur to operate your station upon request 
+
+be present whenever the station is operated 
+
+be responsible for the proper operation of the station in accordance with the Radiocommunications Regulations 
+
+notify the Ministry of Business, Innovation, and Employment if another amateur acts as the operator 
+
+% ans 3 
+
+%Question: 24
+#1.24 An amateur station must have a qualified operator: 
+
+only when training another amateur 
+
+whenever the station receiver is operated 
+
+whenever the station is used for transmitting 
+
+when transmitting and receiving 
+
+% ans 3 
+
+%Question: 25
+#1.25 A log-book for recording stations worked: 
+
+is compulsory for every amateur radio operator 
+
+is recommended for all amateur radio operators 
+
+must list all messages sent 
+
+must record time in UTC 
+
+% ans 2 
+
+%Question: 26
+#1.26 Unqualified persons in your family cannot transmit using your amateur station if they are alone with your equipment because they must: 
+
+not use your equipment without your permission 
+
+hold a General Amateur Operator Certificate of Competency before they are allowed to be operators 
+
+first know how to use the right abbreviations and Q signals 
+
+first know the right frequencies and emissions for transmitting 
+
+% ans 2 
+
+%Question: 27
+#1.27 Amateur radio repeater equipment and frequencies in New Zealand are co-ordinated by: 
+
+the Ministry of Business, Innovation, and Employment
+
+NZART branches in the main cities 
+
+repeater trustees 
+
+the NZART Frequency Management and Technical Advisory Group. 
+
+% ans 4 
+
+%Question: 28
+#1.28 A qualified operator of an amateur radio station may permit anyone to: 
+
+operate the station under direct supervision 
+
+send business traffic to any other station. 
+
+pass brief comments of a personal nature provided no fees or other considerations are requested or accepted 
+
+use the station for Morse sending practice 
+
+% ans 3 
+
+%Question: 29
+#1.29 The minimum age for a person to hold a General Amateur Operator Certificate of Competency is: 
+
+12 years 
+
+16 years 
+
+21 years 
+
+there is no age limit 
+
+% ans 4 
+
+%Question: 30
+#1.30 If you contact another station and your signal is strong and perfectly readable, you should: 
+
+turn on your speech processor 
+
+reduce your SWR 
+
+not make any changes, otherwise you may lose contact 
+
+reduce your transmitter power output to the minimum needed to maintain contact 
+
+% ans 4 
+
+%Question: 31
+#1.31 The age when an amateur radio operator is required to surrender the General Amateur Operator Certificate of Competency is: 
+
+65 years 
+
+70 years 
+
+75 years 
+
+there is no age limit 
+
+% ans 4 
+
+%Question: 32
+#1.32 Peak envelope power (PEP) output is the: 
+
+average power output at the crest of the modulating cycle 
+
+total power contained in each sideband 
+
+carrier power output 
+
+transmitter power output on key-up condition 
+
+% ans 1 
+
+%Question: 33
+#1.33 The maximum power output permitted from an amateur station is: 
+
+that needed to overcome interference from other stations 
+
+30 watt PEP 
+
+specified in the amateur radio General User Radio Licence 
+
+1000 watt mean power or 2000 watt PEP 
+
+% ans 3 
+
+%Question: 34
+#1.34 The transmitter power output for amateur stations at all times is: 
+
+25 watt PEP minimum output 
+
+that needed to overcome interference from other stations 
+
+1000 watt PEP maximum 
+
+the minimum power necessary to communicate and within the terms of the amateur radio GURL 
+
+% ans 4 
+
+%Question: 35
+#1.35 You identify your amateur station by transmitting your: 
+
+"handle" 
+
+callsign 
+
+first name and your location 
+
+full name 
+
+% ans 2 
+
+%Question: 36
+#1.36 This callsign could be allocated to an amateur radio operator in New Zealand: 
+
+ZK-CKF 
+
+ZLC5 
+
+ZL2HF 
+
+ZMX4432 
+
+% ans 3 
+
+%Question: 37
+#1.37 The callsign of a New Zealand amateur radio station: 
+
+is listed in the administration's database 
+
+can be any sequence of characters made-up by the operator 
+
+can never be changed 
+
+is changed annually 
+
+% ans 1 
+
+%Question: 38
+#1.38 These letters are generally used for the first letters in New Zealand amateur radio callsigns: 
+
+ZS 
+
+ZL 
+
+VK 
+
+LZ 
+
+% ans 2 
+
+%Question: 39
+#1.39 The figures normally used in New Zealand amateur radio callsigns are: 
+
+any two-digit number, 45 through 99 
+
+any two-digit number, 22 through 44 
+
+a single digit, 5 through 9 
+
+a single digit, 1 through 4 
+
+% ans 4 
+
+%Question: 40
+#1.40 Before re-issuing, a relinquished callsign is normally kept for: 
+
+1 year 
+
+2 years 
+
+0 years 
+
+5 years 
+
+% ans 1 
+
+%Question: 41
+#1.41 A General Amateur Operator Certificate of Competency authorises the use of: 
+
+all amateur radio transmitting and receiving apparatus 
+
+a TV receiver 
+
+amateur radio transmitting apparatus only 
+
+marine mobile equipment 
+
+% ans 3 
+
+%Question: 42
+#1.42 General Amateur Operator Certificates of Competency and callsigns are issued pursuant to the Regulations by the: 
+
+New Zealand Association of Radio Transmitters (NZART) 
+
+Ministry of Business, Innovation, and Employment Approved Radio Examiners 
+
+Department of Internal Affairs 
+
+Prime Minister's Office 
+
+% ans 2 
+
+%Question: 43
+#1.43 To replace a written copy of your General Amateur Operator Certificate of Competency you should: 
+
+Apply to an Approved Radio Examiner to re-sit the examination 
+
+Download an application form from the Department of Internal Affairs website   
+
+Download an application form from the Ministry's website (or have an Approved Radio Examiner do this for you) 
+
+Download and print one from the official database (or have an Approved Radio Examiner do this for you) 
+
+% ans 4 
+
+%Question: 44
+#1.44 A General Amateur Operator Certificate of Competency holder must advise permanent changes to postal and email addresses and update the official database records within: 
+
+One Calendar month
+
+7 days 
+
+10 days 
+
+one year 
+
+% ans 1 
+
+%Question: 45
+#1.45 A General Amateur Operator Certificate of Competency: 
+
+expires after 6 months  
+
+contains the unique callsign(s) to be used by that operator
+
+is transferable 
+
+permits the transmission of radio waves
+
+% ans 2 
+
+%Question: 46
+#1.46 A General Amateur Operator Certificate of Competency is normally issued for: 
+
+1 year 
+
+5 years 
+
+10 years 
+
+life 
+
+% ans 4 
+
+%Question: 47
+#1.47 A licence that provides for a given class of radio transmitter to be used without requiring a licence in the owner’s own name is known as: 
+
+a repeater licence 
+
+a general user radio licence 
+
+a beacon licence 
+
+a reciprocal licence 
+
+% ans 2 
+
+%Question: 48
+#1.48 The holder of a General Amateur Operator Certificate of Competency may permit anyone to: 
+
+use an amateur radio station to communicate with other radio amateurs 
+
+pass brief messages of a personal nature provided no fees or other consideration are requested or accepted 
+
+operate the amateur station under the supervision and in the presence of a qualified operator 
+
+take part in communications only if prior written permission is received from the Ministry of Business, Innovation, and Employment
+
+% ans 2 
+
+%Question: 49
+#1.49 International communications on behalf of third parties may be transmitted by an amateur station only if: 
+
+prior remuneration has been received 
+
+such communications have been authorised by the countries concerned 
+
+the communication is transmitted in secret code 
+
+English is used to identify the station at the end of each transmission 
+
+% ans 2 
+
+%Question: 50
+#1.50 The term "amateur third party communications" refers to: 
+
+a simultaneous communication between three operators 
+
+the transmission of commercial or secret messages 
+
+messages to or on behalf of non-licensed people or organisations 
+
+none of the above 
+
+% ans 3 
+
+%Question: 51
+#1.51 The Morse code signal SOS is sent by a station: 
+
+with an urgent message 
+
+in grave and imminent danger and requiring immediate assistance 
+
+making a report about a shipping hazard 
+
+sending important weather information 
+
+% ans 2 
+
+%Question: 52
+#1.52 If you hear distress traffic and are unable to render assistance, you should: 
+
+maintain watch until you are certain that assistance is forthcoming 
+
+enter the details in the log book and take no further action 
+
+take no action 
+
+tell all other stations to cease transmitting 
+
+% ans 1 
+
+%Question: 53
+#1.53 The transmission of messages in a secret code by the operator of an amateur station is: 
+
+permitted when communications are transmitted on behalf of a government agency 
+
+permitted when communications are transmitted on behalf of third parties 
+
+permitted during amateur radio contests 
+
+not permitted except for control signals by the licensees of remote beacon or repeater stations 
+
+% ans 4 
+
+%Question: 54
+#1.54 Messages from an amateur station in one of the following are expressly forbidden: 
+
+ASCII 
+
+International No. 2 code 
+
+Baudot code 
+
+secret cipher 
+
+% ans 4 
+
+%Question: 55
+#1.55 The term "harmful interference" means: 
+
+interference which obstructs or repeatedly interrupts radiocommunication services 
+
+an antenna system which accidentally falls on to a neighbour's property 
+
+a receiver with the audio volume unacceptably loud 
+
+interference caused by a station of a secondary service 
+
+% ans 1 
+
+%Question: 56
+#1.56 When interference to the reception of radiocommunications is caused by the operation of an amateur station, the station operator: 
+
+must immediately comply with any action required by the Ministry of Business, Innovation, and Employment to prevent the interference 
+
+may continue to operate with steps taken to reduce the interference when the station operator can afford it 
+
+may continue to operate without restrictions 
+
+is not obligated to take any action 
+
+% ans 1 
+
+%Question: 57
+#1.57 An amateur radio operator may knowingly interfere with another radio communication or signal: 
+
+when the operator of another station is acting in an illegal manner 
+
+when another station begins transmitting on a frequency you already occupy 
+
+never 
+
+when the interference is unavoidable because of crowded band conditions 
+
+% ans 3 
+
+%Question: 58
+#1.58 After qualifying and gaining a General Amateur Operator Certificate of Competency you are permitted to: 
+
+operate on any frequency in the entire radio spectrum 
+
+first operate for three months on amateur radio bands below 5 MHz and bands above 25 MHz to log fifty or more contacts 
+
+ignore published bandplans 
+
+make frequent tune-up transmissions at 10 MHz 
+
+% ans 2 
+
+%Question: 59
+#1.59 Morse code is permitted for use by: 
+
+only operators who have passed a Morse code test 
+
+those stations with computers to decode it 
+
+any amateur radio operator 
+
+only those stations equipped for headphone reception 
+
+% ans 3 
+
+%Question: 60
+#1.60 As a New Zealand amateur radio operator you may communicate with: 
+
+only amateur stations within New Zealand 
+
+only stations running more than 500w PEP output 
+
+only stations using the same transmission mode 
+
+other amateur stations world-wide 
+
+% ans 4 
+
+%Question: 61
+#1.61 As a New Zealand amateur radio operator you: 
+
+must regularly operate using dry batteries 
+
+should use shortened antennas 
+
+may train for and support disaster relief activities 
+
+must always have solar-powered equipment in reserve 
+
+% ans 3 
+
+%Question: 62
+#1.62 Your General Amateur Operator Certificate of Competency permits you to: 
+
+work citizen band stations 
+
+establish and operate an earth station in the amateur satellite service 
+
+service commercial radio equipment over 1 kW output 
+
+re-wire fixed household electrical supply mains 
+
+% ans 2 
+
+%Question: 63
+#1.63 You hear a station using the callsign “VK3XYZ stroke ZL” on your local VHF repeater. This is: 
+
+a callsign not authorised for use in New Zealand 
+
+a confused illegal operator 
+
+the station of an overseas visitor 
+
+probably an unlicensed person using stolen equipment 
+
+% ans 3 
+
+%Question: 64
+#1.64 The abbreviation “HF” refers to the radio spectrum between: 
+
+2 MHz and 10 MHz 
+
+3 MHz and 30 MHz 
+
+20 MHz and 200 MHz 
+
+30 MHz and 300 MHz 
+
+% ans 2 
+
+%Question: 65
+#1.65 Bandplans showing the transmission modes for New Zealand amateur radio bands are developed and published for the mutual respect and advantage of all operators: 
+
+to ensure that your operations do not impose problems on other operators and that their operations do not impact on you 
+
+to keep experimental developments contained 
+
+to reduce the number of modes in any one band 
+
+to keep overseas stations separate from local stations 
+
+% ans 1 
+
+%Question: 66
+#1.66 The abbreviation “VHF” refers to the radio spectrum between: 
+
+2 MHz and 10 MHz 
+
+3 MHz and 30 MHz 
+
+30 MHz and 300 MHz 
+
+200 MHz and 2000 MHz 
+
+% ans 3 
+
+%Question: 67
+#1.67 An amateur radio operator must be able to: 
+
+converse in the languages shown on the Certificate of Competency 
+
+read Morse code at 12 words-per-minute 
+
+monitor standard frequency transmissions 
+
+verify that transmissions are within an authorised frequency band 
+
+% ans 4 
+
+%Question: 68
+#1.68 An amateur station may be closed down at any time by: 
+
+a demand from an irate neighbour experiencing television interference 
+
+a demand from an authorised official of the Ministry of Business, Innovation, and Employment
+
+an official from your local council 
+
+anyone until your aerials are made less unsightly 
+
+% ans 2 
+
+%Question: 69
+#1.69 A General Amateur Operator Certificate of Competency: 
+
+can never be revoked 
+
+gives a waiver over copyright 
+
+does not confer on its holder a monopoly on the use of any frequency or band 
+
+can be readily transferred 
+
+% ans 3 
+
+%Question: 70
+#1.70 A person in distress: 
+
+must use correct communication procedures 
+
+may use any means available to attract attention 
+
+must give position with a grid reference 
+
+must use allocated safety frequencies 
+
+% ans 2 
+

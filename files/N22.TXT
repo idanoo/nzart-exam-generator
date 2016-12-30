@@ -1,0 +1,149 @@
+% FILENAME = N22.TXT
+% Regulated Power Supplies
+% Release version 3, October 2001
+% Q 4, 10 corrected 6 Mar 2012
+
+%Question: 1 
+#22.1 The block marked 'Filter' in the diagram is to: 
+<img src = "regps.gif" align = center width = 511 height = 129> 
+<totallines = 13 >
+
+filter RF radiation from the output of the power supply 
+
+smooth the rectified waveform from the rectifier 
+
+act as a 50 Hz tuned circuit 
+
+restore voltage variations 
+
+% ans 2 
+
+%Question: 2 
+#22.2 The block marked 'Regulator' in the diagram is to: 
+<img src = "regps.gif" align = center width = 511 height = 129> 
+<totallines = 13 >
+
+regulate the incoming mains voltage to a constant value 
+
+ensure that the output voltage never exceeds a dangerous value 
+
+keep the incoming frequency constant at 50 Hz 
+
+keep the output voltage at a constant value 
+
+% ans 4 
+
+%Question: 3 
+#22.3 The block marked 'Transformer' in the diagram is to: 
+<img src = "regps.gif" align = center width = 511 height = 129> 
+<totallines = 13 >
+
+transform the incoming mains AC voltage to a DC voltage 
+
+ensure that any RF radiation cannot get into the power supply 
+
+transform the mains AC voltage to a more convenient AC voltage 
+
+transform the mains AC waveform into a higher frequency waveform 
+
+% ans 3 
+
+%Question: 4 
+#22.4 The block marked 'Rectifier' in the diagram is to: 
+<img src = "regps.gif" align = center width = 511 height = 129> 
+<totallines = 13 >
+
+turn the AC voltage from the transformer into a fluctuating DC voltage 
+
+rectify any waveform errors introduced by the transformer 
+
+turn the sinewave output of the rectifier into a square wave 
+
+smooth the DC waveform 
+
+% ans 1 
+
+%Question: 5 
+#22.5 The block marked 'Regulator' in the diagram could consist of: 
+<img src = "regps.gif" align = center width = 511 height = 129> 
+<totallines = 13 >
+
+four silicon power diodes in a regulator configuration 
+
+two silicon power diodes and a centre-tapped transformer 
+
+a three-terminal regulator chip 
+
+a single silicon power diode connected as a half-wave rectifier 
+
+% ans 3 
+
+%Question: 6 
+#22.6 In the block marked regulator in the diagram below, a reversed diode may be present across the regulator.  Its job is to
+<img src = "regps.gif" align = center width = 511 height = 129> 
+<totallines = 15 >
+
+Block negative voltages from appearing at the output 
+
+Blow a fuse if high voltages occur at the output
+
+Blow a fuse if negative currents occur at the output
+
+Bypass the regulator for higher voltage at its output compared to its input
+
+% ans 4 
+
+%Question: 7
+#22.7 A power supply is to power a solid-state transceiver. A suitable 
+over-voltage protection device is a: 
+
+crowbar across the regulator output 
+
+100 uF capacitor across the transformer output 
+
+fuse in parallel with the regulator output 
+
+zener diode in series with the regulator 
+
+% ans 1 
+
+%Question: 8 
+#22.8 In a regulated power supply, the 'crowbar' is a: 
+
+means to lever up the output voltage 
+
+circuit for testing mains fuses 
+
+last-ditch protection against failure of the regulator in the supply 
+
+convenient means to move such a heavy supply unit 
+
+% ans 3 
+
+%Question: 9 
+#22.9 In a regulated power supply, 'current limiting' is sometimes used to: 
+
+prevent transformer core saturation 
+
+protect the mains fuse 
+
+minimise short-circuit current passing through the regulator 
+
+eliminate earth-leakage effects 
+
+% ans 3
+
+%Question: 10 
+#22.10 The purpose of a series pass transistor in a regulated power supply is 
+to: 
+
+suppress voltage spikes across the transformer secondary winding 
+
+work as a surge multiplier to speed up regulation 
+
+amplify output voltage errors to assist regulation 
+
+Allow for a higher current to be supplied than the regulator would otherwise allow
+
+% ans 4 
+

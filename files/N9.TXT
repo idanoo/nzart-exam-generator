@@ -1,0 +1,288 @@
+% FILENAME = N9.TXTR
+% Capacitors, Inductors, Resonance
+% Release version 2, January 2000
+% Q 3 deleted "radio" 6 Mar 2012.  PDF is corrected already
+
+%Question: 1
+#9.1 The total capacitance of two or more capacitors in series is: 
+
+always less than that of the smallest capacitor 
+
+always greater than that of the largest capacitor 
+
+found by adding each of the capacitances together 
+
+found by adding the capacitances together and dividing by their total number  
+
+% ans 1 
+
+%Question: 2
+#9.2 Filter capacitors in power supplies are sometimes connected in series to: 
+
+withstand a greater voltage than a single capacitor can withstand 
+
+increase the total capacity 
+
+reduce the ripple voltage further 
+
+resonate the filter circuit 
+
+% ans 1 
+
+%Question: 3
+#9.3 A component is identified as a capacitor if its value is measured 
+in: 
+
+microvolts 
+
+millihenrys 
+
+megohms 
+
+microfarads 
+
+% ans 4 
+
+%Question: 4
+#9.4 Two metal plates separated by air form a 0.001 uF capacitor. Its value may 
+be changed to 0.002 uF by: 
+
+bringing the metal plates closer together 
+
+making the plates smaller in size 
+
+moving the plates apart 
+
+touching the two plates together 
+
+% ans 1
+
+%Question: 5
+#9.5 The material separating the plates of a capacitor is the: 
+
+dielectric 
+
+semiconductor 
+
+resistor 
+
+lamination 
+
+% ans 1
+
+%Question: 6
+#9.6 Three 15 picofarad capacitors are wired in parallel. The value of the 
+combination is: 
+
+45 picofarad 
+
+18 picofarad 
+
+12 picofarad 
+
+5 picofarad 
+
+% ans 1
+
+%Question: 7
+#9.7 Capacitors and inductors oppose an alternating current. This is known as: 
+
+resistance 
+
+resonance 
+
+conductance 
+
+reactance 
+
+% ans 4	
+
+%Question: 8
+#9.8 The reactance of a capacitor increases as the: 
+
+frequency increases 
+
+frequency decreases 
+
+applied voltage increases 
+
+applied voltage decreases 
+
+% ans 2
+
+%Question: 9
+#9.9 The reactance of an inductor increases as the: 
+
+frequency increases 
+
+frequency decreases 
+
+applied voltage increases 
+
+applied voltage decreases 
+
+% ans 1
+
+%Question: 10
+#9.10 Increasing the number of turns on an inductor will make its inductance: 
+
+decrease 
+
+increase 
+
+remain unchanged 
+
+become resistive 
+
+% ans 2
+
+%Question: 11
+#9.11 The unit of inductance is the: 
+
+farad 
+
+henry 
+
+ohm 
+
+reactance 
+
+% ans 2
+
+%Question: 12
+#9.12 Two 20 uH inductances are connected in series. The total inductance is: 
+
+10 uH 
+
+20 uH 
+
+40 uH 
+
+80 uH 
+
+% ans 3
+
+%Question: 13
+#9.13 Two 20 uH inductances are connected in parallel. The total inductance is: 
+
+10 uH 
+
+20 uH 
+
+40 uH 
+
+80 uH 
+
+% ans 1	
+
+%Question: 14
+#9.14 A toroidal inductor is one in which the: 
+
+windings are wound on a closed ring of magnetic material 
+
+windings are air-spaced 
+
+windings are wound on a ferrite rod 
+
+inductor is enclosed in a magnetic shield 
+
+% ans 1
+
+%Question: 15
+#9.15 A transformer with 100 turns on the primary winding and 10 turns on the 
+secondary winding is connected to 230 volt AC mains. The voltage across the 
+secondary is: 
+
+10 volt 
+
+23 volt 
+
+110 volt 
+
+2300 volt 
+
+% ans 2
+
+%Question: 16
+#9.16 An inductor and a capacitor are connected in series. At the resonant 
+frequency the resulting impedance is: 
+
+maximum 
+
+minimum 
+
+totally reactive 
+
+totally inductive 
+
+% ans 2
+
+%Question: 17 
+#9.17 An inductor and a capacitor are connected in parallel. At the resonant 
+frequency the resulting impedance is: 
+
+maximum 
+
+minimum 
+
+totally reactive 
+
+totally inductive 
+
+% ans 1
+
+%Question: 18
+#9.18 An inductor and a capacitor form a resonant circuit. The capacitor value 
+is increased by four times. The resonant frequency will: 
+
+increase by four times 
+
+double 
+
+decrease to half 
+
+decrease to one quarter 
+
+% ans 3
+
+%Question: 19
+#9.19 An inductor and a capacitor form a resonant circuit. If the value of the 
+inductor is decreased by a factor of four, the resonant frequency will: 
+
+increase by a factor of four 
+
+increase by a factor of two 
+
+decrease by a factor of two 
+
+decrease by a factor of four 
+
+% ans 2
+
+%Question: 20
+#9.20 A "high Q" resonant circuit is one which: 
+
+carries a high quiescent current 
+
+is highly selective 
+
+has a wide bandwidth 
+
+uses a high value inductance 
+
+% ans 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

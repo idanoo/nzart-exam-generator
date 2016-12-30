@@ -1,0 +1,319 @@
+% FILENAME = N18.TXT
+% Transmitter Block Diagrams
+% Release version 3, October 2001  
+
+%Question 1
+#18.1 In the transmitter block diagram shown, the "oscillator": 
+<img src = "ssbtx.gif" align = center width = 483 height = 145> 
+<totallines = 15 >
+
+is variable in frequency 
+
+generates an audio frequency tone during tests 
+
+uses a crystal for good frequency stability 
+
+may have a calibrated dial 
+
+% ans 3
+
+
+%Question 2 
+#18.2 In the transmitter block diagram shown, the "balanced modulator": 
+<img src = "ssbtx.gif" align = center width = 483 height = 145> 
+<totallines = 15 >
+
+balances the high and low frequencies in the audio signal 
+
+performs double sideband suppressed carrier modulation 
+
+acts as a tone control 
+
+balances the standing wave ratio 
+
+% ans 2 
+
+
+%Question 3 
+#18.3 In the transmitter block diagram shown, the "filter": 
+<img src = "ssbtx.gif" align = center width = 483 height = 145> 
+<totallines = 15 >
+
+removes mains hum from the audio signal 
+
+suppresses unwanted harmonics of the RF signal 
+
+removes one sideband from the modulated signal 
+
+removes the carrier component from the modulated signal 
+
+% ans 3 
+
+
+%Question 4
+#18.4 In the transmitter block diagram shown, the "mixer": 
+<img src = "ssbtx.gif" align = center width = 483 height = 145> 
+<totallines = 15 >
+
+adds the correct proportion of carrier to the SSB signal 
+
+mixes the audio and RF signals in the correct proportions 
+
+translates the SSB signal to the required frequency 
+
+mixes the two sidebands in the correct proportions 
+
+% ans 3 
+
+
+%Question 5
+#18.5 In the transmitter block diagram shown, the "linear amplifier": 
+<img src = "ssbtx.gif" align = center width = 483 height = 145> 
+<totallines = 15 >
+
+has all components arranged in-line 
+
+amplifies the modulated signal with no distortion 
+
+aligns the two sidebands correctly 
+
+removes any unwanted amplitude modulation from the signal 
+
+% ans 2
+
+%Question 6
+#18.6 In the transmitter block diagram shown, the "VFO" is: 
+<img src = "ssbtx.gif" align = center width = 483 height = 145> 
+<totallines = 15 >
+
+a voice frequency oscillator 
+
+a varactor fixed oscillator 
+
+a virtual faze oscillator 
+
+a variable frequency oscillator 
+
+% ans 4
+
+
+%Question 7
+#18.7 In the transmitter block diagram shown, the "master oscillator" produces:
+<img src = "cwtx.gif" align = center width = 404 height = 163>
+<totallines = 13>
+
+a steady signal at the required carrier frequency 
+
+a pulsating signal at the required carrier frequency 
+
+a 800 Hz signal to modulate the carrier 
+
+a modulated CW signal 
+
+% ans 1
+
+
+%Question 8
+#18.8 In the transmitter block diagram shown, the "driver buffer": 
+<img src = "cwtx.gif" align = center width = 404 height = 163> 
+<totallines = 13>
+
+filters any sharp edges from the input signal 
+
+drives the power amplifier into saturation 
+
+provides isolation between the oscillator and power amplifier 
+
+changes the frequency of the master oscillator signal 
+
+% ans 3
+
+
+%Question 9
+#18.9 In the transmitter block diagram shown, the "Morse key": 
+<img src = "cwtx.gif" align = center width = 404 height = 163> 
+<totallines = 13>
+
+turns the DC power to the transmitter on and off 
+
+allows the oscillator signal to pass only when the key is depressed 
+
+changes the frequency of the transmitted signal when the key is 
+depressed 
+
+adds an 800 Hz audio tone to the signal when the key is depressed 
+
+% ans 2
+
+
+
+%Question 10
+#18.10 In the transmitter block diagram shown, the "power amplifier": 
+<img src = "cwtx.gif" align = center width = 404 height = 163> 
+<totallines = 13 >
+
+need not have linear characteristics 
+
+amplifies the bandwidth of its input signal 
+
+must be adjusted during key-up conditions 
+
+should be water-cooled 
+
+% ans 1
+
+
+%Question 11
+#18.11 In the transmitter block diagram shown, the "speech amplifier": 
+<img src = "fmtx.gif" align = center width = 600 height = 143> 
+<totallines = 16 >
+
+amplifies the audio signal from the microphone 
+
+is a spectral equalization entropy changer 
+
+amplifies only speech, while discriminating against background noises 
+
+shifts the frequency spectrum of the audio signal into the RF region 
+
+% ans 1
+
+
+%Question 12
+#18.12 In the transmitter block diagram shown, the "modulator": 
+<img src = "fmtx.gif" align = center width = 600 height = 143> 
+<totallines = 16>
+
+is an amplitude modulator with feedback 
+
+is an SSB modulator with feedback 
+
+causes the speech waveform to gate the oscillator on and off 
+
+causes the speech waveform to shift the frequency of the oscillator 
+
+% ans 4
+
+
+%Question 13
+#18.13 In the transmitter block diagram shown, the "oscillator" is: 
+<img src = "fmtx.gif" align = center width = 600 height = 143> 
+<totallines = 16 >
+
+an audio frequency oscillator 
+
+a variable frequency RF oscillator 
+
+a beat frequency oscillator 
+
+a variable frequency audio oscillator 
+
+% ans 2
+
+
+%Question 14
+#18.14 In the transmitter block diagram shown, the "frequency multiplier": 
+<img src = "fmtx.gif" align = center width = 600 height = 143> 
+<totallines = 16 >
+
+translates the frequency of the modulated signal into the RF spectrum 
+
+changes the frequency of the speech signal 
+
+produces a harmonic of the oscillator signal 
+
+multiplies the oscillator signal by the speech signal 
+
+% ans 3
+
+
+
+
+
+%Question 15
+#18.15 In the transmitter block diagram shown, the "power amplifier": 
+<img src = "fmtx.gif" align = center width = 600 height = 143> 
+<totallines = 16 >
+
+increases the voltage of the mains to drive the antenna 
+
+amplifies the audio frequency component of the signal 
+
+amplifies the selected sideband to a suitable level 
+
+amplifies the RF signal to a suitable level 
+
+% ans 4
+
+%Question 16
+#18.16 The signal from an amplitude modulated transmitter consists of: 
+
+a carrier and two sidebands 
+
+a carrier and one sideband 
+
+no carrier and two sidebands 
+
+no carrier and one sideband 
+
+% ans 1
+
+%Question 17
+#18.17 The signal from a frequency modulated transmitter has: 
+
+an amplitude which varies with the modulating waveform 
+
+a frequency which varies with the modulating waveform 
+
+a single sideband which follows the modulating waveform 
+
+no sideband structure 
+
+% ans 2
+
+%Question 18
+#18.18 The signal from a balanced modulator consists of: 
+
+a carrier and two sidebands 
+
+a carrier and one sideband 
+
+no carrier and two sidebands 
+
+no carrier and one sideband 
+
+% ans 3
+
+%Question 19
+#18.19 The signal from a CW transmitter consists of: 
+
+a continuous, unmodulated RF waveform 
+
+a continuous RF waveform modulated with an 800 Hz Morse signal 
+
+an RF waveform which is keyed on and off to form Morse characters 
+
+a continuous RF waveform which changes frequency in synchronism with 
+an applied Morse signal 
+
+% ans 3
+
+%Question 20
+#18.20 The following signal can be amplified using a non-linear 
+amplifier: 
+
+SSB 
+
+FM 
+
+AM 
+
+DSBSC 
+
+% ans 2
+
+ 
+
+
+
+

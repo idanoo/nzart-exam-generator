@@ -1,0 +1,265 @@
+% FILENAME = N7.TXT
+% Power calculations
+% Release 3, October 2001
+
+%Question: 1
+#7.1 A transmitter power amplifier requires 30 mA at 300 volt. The DC input power is: 
+
+300 watt 
+
+9000 watt 
+
+9 watt 
+
+6 watt 
+
+% ans 3 
+
+%Question: 2
+#7.2 The DC input power of a transmitter operating at 12 volt and drawing 500 milliamp would be: 
+
+6 watt 
+
+12 watt 
+
+20 watt 
+
+500 watt 
+
+% ans 1 
+
+%Question: 3
+#7.3 When two 500 ohm 1 watt resistors are connected in series, the maximum total power that can be dissipated by both resistors is: 
+
+4 watt 
+
+2 watt 
+
+1 watt 
+
+1/2 watt 
+
+% ans 2 
+
+%Question: 4
+#7.4 When two 1000 ohm 5 watt resistors are connected in parallel, they can dissipate a maximum total power of: 
+
+40 watt 
+
+20 watt 
+
+10 watt 
+
+5 watt 
+
+% ans 3 
+
+%Question: 5
+#7.5 The current in a 100 kilohm resistor is 10 mA. The power dissipated is: 
+
+1 watt 
+
+10 watt 
+
+100 watt 
+
+10,000 watt 
+
+% ans 2 
+
+%Question: 6
+#7.6 A current of 500 milliamp passes through a 1000 ohm resistance. The power dissipated is: 
+
+0.25 watt 
+
+2.5 watt 
+
+25 watt 
+
+250 watt 
+
+% ans 4 
+
+%Question: 7
+#7.7 A 20 ohm resistor carries a current of 0.25 ampere. The power dissipated is: 
+
+1.25 watt 
+
+5 watt 
+
+2.50 watt 
+
+10 watt 
+
+% ans 1 
+
+%Question: 8
+#7.8 If 200 volt is applied to a 2000 ohm resistor, the resistor will dissipate: 
+
+20 watt 
+
+30 watt 
+
+10 watt 
+
+40 watt 
+
+% ans 1 
+
+%Question: 9
+#7.9 The power delivered to an antenna is 500 watt. The effective antenna resistance is 20 ohm. The antenna current is: 
+
+25 amp 
+
+2.5 amp 
+
+10 amp 
+
+5 amp 
+
+% ans 4 
+
+%Question: 10
+#7.10 The unit for power is the: 
+
+ohm 
+
+watt 
+
+ampere 
+
+volt 
+
+% ans 2 
+
+%Question: 11
+#7.11 The following two quantities should be multiplied together to find power: 
+
+resistance and capacitance 
+
+voltage and current 
+
+voltage and inductance 
+
+inductance and capacitance 
+
+% ans 2 
+
+%Question: 12
+#7.12 The following two electrical units multiplied together give the unit "watt": 
+
+volt and ampere 
+
+volt and farad 
+
+farad and henry 
+
+ampere and henry 
+
+% ans 1 
+
+%Question: 13
+#7.13 The power dissipation of a resistor carrying a current of 10 mA with 10 volt across it is: 
+
+0.01 watt 
+
+0.1 watt 
+
+1 watt 
+
+10 watt 
+
+% ans 2 
+
+%Question: 14
+#7.14 If two 10 ohm resistors are connected in series with a 10 volt battery, the battery load is: 
+
+5 watt 
+
+10 watt 
+
+20 watt 
+
+100 watt 
+
+% ans 1 
+
+%Question: 15
+#7.15 Each of 9 resistors in a circuit is dissipating 4 watt. If the circuit operates from a 12 volt supply, the total current flowing in the circuit is: 
+
+48 ampere 
+
+36 ampere 
+
+9 ampere 
+
+3 ampere 
+
+% ans 4 
+
+%Question: 16
+#7.16 Three 18 ohm resistors are connected in parallel across a 12 volt supply. The total power 
+dissipation of the resistor load is: 
+
+3 watt 
+
+18 watt 
+
+24 watt 
+
+36 watt 
+
+% ans 3 
+
+%Question: 17
+#7.17 A resistor of 10 kilohm carries a current of 20 mA. The power dissipated in the resistor is: 
+
+2 watt 
+
+4 watt 
+
+20 watt 
+
+40 watt 
+
+% ans 2 
+
+%Question: 18
+#7.18 A resistor in a circuit becomes very hot and starts to burn. This is because the resistor is dissipating too much: 
+
+current 
+
+voltage 
+
+resistance 
+
+power 
+
+% ans 4 
+
+%Question: 19
+#7.19 A current of 10 ampere rms at a frequency of 50 Hz flows through a 100 ohm resistor. The 
+power dissipated is: 
+
+500 watt 
+
+707 watt 
+
+10,000 watt 
+
+50,000 watt 
+
+% ans 3 
+
+%Question: 20
+#7.20 The voltage applied to two resistors in series is doubled. The total power dissipated will: 
+
+increase by four times 
+
+decrease to half 
+
+double 
+
+not change 
+
+% ans 1 

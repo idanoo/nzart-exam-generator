@@ -1,0 +1,394 @@
+% FILENAME = N6.TXT 
+% Resistance
+% Release version 2, January 2000
+ 
+%Question: 1
+#6.1 The total resistance in a parallel circuit: 
+
+is always less than the smallest resistance 
+
+depends upon the voltage drop across each branch 
+
+could be equal to the resistance of one branch 
+
+depends upon the applied voltage 
+
+% ans 1 
+
+%Question: 2
+#6.2 Two resistors are connected in parallel and are connected across a 40 volt battery. If each resistor is 1000 ohms, the total battery current is: 
+
+40 ampere 
+
+40 milliampere 
+
+80 ampere 
+
+80 milliampere 
+
+% ans 4 
+
+%Question: 3
+#6.3 The total current in a parallel circuit is equal to the: 
+
+current in any one of the parallel branches 
+
+sum of the currents through all the parallel branches 
+
+applied voltage divided by the value of one of the resistive elements 
+
+source voltage divided by the sum of the resistive elements 
+
+% ans 2 
+
+%Question: 4
+#6.4 One way to operate a 3 volt bulb from a 9 volt supply is to connect it in: 
+
+series with the supply 
+
+parallel with the supply 
+
+series with a resistor 
+
+parallel with a resistor 
+
+% ans 3 
+
+%Question: 5
+#6.5 You can operate this number of identical lamps, each drawing a current of 250 mA, from a 5A supply: 
+
+50 
+
+30 
+
+20 
+
+5 
+
+% ans 3 
+
+%Question: 6
+#6.6 Six identical 2-volt bulbs are connected in series. The supply voltage to cause the bulbs to light normally is: 
+
+12 V 
+
+1.2 V 
+
+6 V 
+
+2 V 
+
+% ans 1 
+
+%Question: 7
+#6.7 This many 12 volt bulbs can be arranged in series to form a string of lights to operate from a 240 volt power supply: 
+
+12 x 240 
+
+240 + 12 
+
+240 - 12 
+
+240 / 12 
+
+% ans 4 
+
+%Question: 8
+#6.8 Three 10,000 ohm resistors are connected in series across a 90 volt supply. The voltage drop across one of the resistors is: 
+
+30 volt 
+
+60 volt 
+
+90 volt 
+
+15.8 volt 
+
+% ans 1 
+
+%Question: 9
+#6.9 Two resistors are connected in parallel. R1 is 75 ohm and R2 is 50 ohm. The total resistance of this parallel circuit is: 
+
+10 ohm 
+
+70 ohm 
+
+30 ohm 
+
+40 ohm 
+
+% ans 3 
+
+%Question: 10
+#6.10 A dry cell has an open circuit voltage of 1.5 volt. When supplying a large current the voltage drops to 1.2 volt. This is due to the cell's: 
+
+internal resistance 
+
+voltage capacity 
+
+electrolyte becoming dry 
+
+current capacity 
+
+% ans 1 
+
+%Question: 11
+#6.11 A 6 ohm resistor is connected in parallel with a 30 ohm resistor. The total resistance of the combination is: 
+
+5 ohm 
+
+8 ohm 
+
+24 ohm 
+
+35 ohm 
+
+% ans 1 
+
+%Question: 12
+#6.12 The total resistance of several resistors connected in series is: 
+
+less than the resistance of any one resistor 
+
+greater than the resistance of any one resistor 
+
+equal to the highest resistance present 
+
+equal to the lowest resistance present 
+
+% ans 2 
+
+%Question: 13
+#6.13 Five 10 ohm resistors connected in series give a total resistance of: 
+
+1 ohm 
+
+5 ohms 
+
+10 ohms 
+
+50 ohms 
+
+% ans 4 
+
+%Question: 14
+#6.14 Resistors of 10, 270, 3900, and 100 ohm are connected in series. The total resistance is: 
+
+9 ohm 
+
+3900 ohm 
+
+4280 ohm 
+
+10 ohm 
+
+% ans 3 
+
+%Question: 15
+#6.15 This combination of series resistors could replace a single 120 ohm resistor: 
+
+five 24 ohm 
+
+six 22 ohm 
+
+two 62 ohm 
+
+five 100 ohm 
+
+% ans 1 
+
+%Question: 16
+#6.16 If a 2.2 megohm and a 100 kilohm resistor are connected in series, the total resistance is: 
+
+2.1 megohm 
+
+2.11 megohm 
+
+2.21 megohm 
+
+2.3 megohm 
+
+% ans 4 
+
+%Question:17
+#6.17 If ten resistors of equal value R are wired in parallel, the total resistance is: 
+
+R 
+
+10R 
+
+10/R 
+
+R/10 
+
+% ans 4 
+
+%Question: 18
+#6.18 The total resistance of four 68 ohm resistors wired in parallel is: 
+
+12 ohm 
+
+17 ohm 
+
+34 ohm 
+
+272 ohm 
+
+% ans 2 
+
+%Question: 19
+#6.19 Resistors of 68 ohm, 47 kilohm, 560 ohm and 10 ohm are connected in parallel. The total resistance is: 
+
+less than 10 ohm 
+
+between 68 and 560 ohm 
+
+between 560 and and 47 kilohm 
+
+greater than 47 kilohm 
+
+% ans 1 
+
+%Question: 20
+#6.20 The following resistor combination can most nearly replace a single 150 ohm resistor: 
+
+four 47 ohm resistors in parallel 
+
+five 33 ohm resistors in parallel 
+
+three 47 ohm resistors in series 
+
+five 33 ohm resistors in series 
+
+% ans 3 
+
+%Question: 21
+#6.21 Two 120 ohm resistors are arranged in parallel to replace a faulty resistor. The faulty resistor had an original value of: 
+
+15 ohm 
+
+30 ohm 
+
+60 ohm 
+
+120 ohm 
+
+% ans 3 
+
+%Question: 22
+#6.22 Two resistors are in parallel. Resistor A carries twice the current of resistor B which means that: 
+
+A has half the resistance of B 
+
+B has half the resistance of A 
+
+the voltage across A is twice that across B 
+
+the voltage across B is twice that across A 
+
+% ans 1 
+
+%Question: 23
+#6.23 The smallest resistance that can be made with five 1 k ohm resistors is: 
+
+50 ohm by arranging them in series 
+
+50 ohm by arranging them in parallel 
+
+200 ohm by arranging them in series 
+
+200 ohm by arranging them in parallel 
+
+% ans 4 
+
+%Question: 24
+#6.24 The following combination of 28 ohm resistors has a total resistance of 42 ohm: 
+
+three resistors in series 
+
+three resistors in parallel 
+
+a combination of two resistors in parallel, then placed in series with another resistor 
+
+a combination of two resistors in parallel, then placed in series with another two in parallel 
+
+% ans 3 
+
+%Question: 25
+#6.25 Two 100 ohm resistors connected in parallel are wired in series with a 10 ohm resistor. The total resistance of the combination is: 
+
+60 ohms 
+
+180 ohms 
+
+190 ohms 
+
+210 ohms 
+
+% ans 1 
+
+%Question: 26
+#6.26 A 5 ohm and a 10 ohm resistor are wired in series and connected to a 15 volt power supply. The current flowing from the power supply is: 
+
+0.5 ampere 
+
+1 ampere 
+
+2 ampere 
+
+15 ampere 
+
+% ans 2 
+
+%Question: 27
+#6.27 Three 12 ohm resistors are wired in parallel and connected to an 8 volt supply. The total current flow from the supply is: 
+
+1 ampere 
+
+2 amperes 
+
+3 amperes 
+
+4.5 amperes 
+
+% ans 2 
+
+%Question: 28
+#6.28 Two 33 ohm resistors are connected in series with a power supply. If the current flowing is 100 mA, the voltage across one of the resistors is: 
+
+66 volt 
+
+33 volt 
+
+3.3 volt 
+
+1 volt 
+
+% ans 3 
+
+%Question: 29
+#6.29 A simple transmitter requires a 50 ohm dummy load. You can fabricate this from: 
+
+four 300 ohm resistors in parallel 
+
+five 300 ohm resistors in parallel 
+
+six 300 ohm resistors in parallel 
+
+seven 300 ohm resistors in parallel 
+
+% ans 3 
+
+%Question: 30
+#6.30 Three 500 ohm resistors are wired in series. Short-circuiting the centre resistor will change the value of the network from: 
+
+1500 ohm to 1000 ohm 
+
+500 ohm to 1000 ohm 
+
+1000 ohm to 500 ohm 
+
+1000 ohm to 1500 ohm 
+
+% ans 1
+

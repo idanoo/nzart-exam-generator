@@ -1,0 +1,134 @@
+% FILENAME = N8.TXT
+% Alternating Current
+% Release version 2, January 2000
+
+%Question: 1
+#8.1 An 'alternating current' is so called because: 
+
+it reverses direction periodically 
+
+it travels through a circuit using alternate paths 
+
+its direction of travel is uncertain 
+
+its direction of travel can be altered by a switch 
+
+% ans 1 
+
+%Question: 2 
+#8.2 The time for one cycle of a 100 Hz signal is: 
+
+1 second 
+
+0.01 second 
+
+0.0001 second 
+
+10 seconds 
+
+% ans 2 
+
+%Question: 3 
+#8.3 A 50 hertz current in a wire means that: 
+
+a potential difference of 50 volts exists across the wire 
+
+the current flowing in the wire is 50 amperes 
+
+the power dissipated in the wire is 50 watts 
+
+a cycle is completed 50 times in each second 
+
+% ans 4 
+
+%Question: 4 
+#8.4 The current in an AC circuit completes a cycle in 0.1 second. So the frequency is: 
+
+1 Hz 
+
+10 Hz 
+
+100 Hz 
+
+1000 Hz 
+
+% ans 2 
+
+%Question: 5 
+#8.5 An impure signal is found to have 2 kHz and 4 kHz components. This 4 kHz signal is: 
+
+a fundamental of the 2 kHz signal 
+
+a sub-harmonic of 2 kHz 
+
+the DC component of the main signal 
+
+a harmonic of the 2 kHz signal
+
+% ans 4 
+
+%Question: 6 
+#8.6 The correct name for the equivalent of 'one cycle per second' is one: 
+
+henry 
+
+volt 
+
+hertz 
+
+coulomb 
+
+% ans 3 
+
+%Question: 7 
+#8.7 One megahertz is equal to: 
+
+0.0001 Hz 
+
+100 kHz 
+
+1000 kHz 
+
+10 Hz 
+
+% ans 3 
+
+%Question: 8 
+#8.8 One GHz is equal to: 
+
+1000 kHz 
+
+10 MHz 
+
+100 MHz 
+
+1000 MHz 
+
+% ans 4
+
+%Question: 9 
+#8.9 The 'rms value' of a sine-wave signal is: 
+
+half the peak voltage 
+
+1.414 times the peak voltage 
+
+the peak-to-peak voltage 
+
+0.707 times the peak voltage
+
+% ans 4 
+
+%Question: 10 
+#8.10 A sine-wave alternating current of 10 ampere peak has an rms value of: 
+
+5 amp 
+
+7.07 amp 
+
+14.14 amp 
+
+20 amp 
+
+% ans 2 
+

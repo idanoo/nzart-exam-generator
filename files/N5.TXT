@@ -1,0 +1,266 @@
+% FILENAME = N5.TXT
+% Ohm's Law
+Release version 3, October 2001
+
+%Question: 1
+#5.1 The voltage across a resistor carrying current can be calculated using the formula: 
+
+E = I + R  [voltage equals current plus resistance]
+
+E = I - R  [voltage equals current minus resistance]
+
+E = I x R  [voltage equals current times resistance]
+
+E = I / R  [voltage equals current divided by resistance]
+
+% ans 3  
+
+%Question: 2
+#5.2 A 10 mA current is measured in a 500 ohm resistor. The voltage across the resistor will be: 
+
+5 volt 
+
+50 volt 
+
+500 volt 
+
+5000 volt 
+
+% ans 1  
+
+%Question: 3
+#5.3 The value of a resistor to drop 100 volt with a current of 0.8 milliampere is: 
+
+125 ohm 
+
+125 kilohm 
+
+1250 ohm 
+
+1.25 kilohm 
+
+% ans 2  
+
+%Question: 4
+#5.4 I = E/R is a mathematical equation describing: 
+
+Ohm's Law 
+
+Thevenin's Theorem 
+
+Kirchoff's First Law 
+
+Kirchoff's Second Law 
+
+% ans 1  
+
+%Question: 5
+#5.5 The voltage to cause a current of 4.4 ampere in a 50 ohm resistance is: 
+
+2220 volt 
+
+220 volt 
+
+22.0 volt 
+
+0.222 volt 
+
+% ans 2  
+
+%Question: 6
+#5.6 A current of 2 ampere flows through a 16 ohm resistance. The applied voltage is: 
+
+8 volt 
+
+14 volt 
+
+18 volt 
+
+32 volt 
+
+% ans 4  
+
+%Question: 7
+#5.7 A current of 5 ampere in a 50 ohm resistance produces a potential difference of: 
+
+20 volt 
+
+45 volt 
+
+55 volt 
+
+250 volt 
+
+% ans 4  
+
+%Question: 8
+#5.8 This voltage is needed to cause a current of 200 mA to flow in a lamp of 25 ohm resistance: 
+
+5 volt 
+
+8 volt 
+
+175 volt 
+
+225 volt 
+
+% ans 1  
+
+%Question: 9
+#5.9 A current of 0.5 ampere flows through a resistance when 6 volt is applied. To change the 
+current to 0.25 ampere the voltage must be: 
+
+increased to 12 volt 
+
+reduced to 3 volt 
+
+held constant 
+
+reduced to zero 
+
+% ans 2  
+
+%Question: 10
+#5.10 The current flowing through a resistor can be calculated by using the formula: 
+
+I = E x R  [current equals voltage times resistance] 
+
+I = E / R  [current equals voltage divided by resistance] 
+
+I = E + R  [current equals voltage plus resistance] 
+
+I = E - R  [current equals voltage minus resistance] 
+
+% ans 2  
+
+%Question: 11
+#5.11 When an 8 ohm resistor is connected across a 12 volt supply the current flow is: 
+
+12 / 8 amps 
+
+8 / 12 amps 
+
+12 - 8 amps 
+
+12 + 8 amps 
+
+% ans 1  
+
+%Question: 12
+#5.12 A circuit has a total resistance of 100 ohm and 50 volt is applied across it. The current flow will be: 
+
+50 mA 
+
+500 mA 
+
+2 ampere 
+
+20 ampere 
+
+% ans 2  
+
+%Question: 13
+#5.13 The following formula gives the resistance of a circuit: 
+
+R = I / E  [resistance equals current divided by voltage] 
+
+R = E x I  [resistance equals voltage times current 
+
+R = E / R  [resistance equals voltage divided by resistance] 
+
+R = E / I  [resistance equals voltage divided by current]  
+
+% ans 4  
+
+%Question: 14
+#5.14 A resistor with 10 volt applied across it and passing a current of 1 mA has a value of: 
+
+10 ohm 
+
+100 ohm 
+
+1 kilohm 
+
+10 kilohm 
+
+% ans 4  
+
+%Question: 15
+#5.15 If a 3 volt battery causes 300 mA to flow in a circuit, the circuit resistance is: 
+
+10 ohm 
+
+9 ohm 
+
+5 ohm 
+
+3 ohm 
+
+% ans 1  
+
+%Question: 16
+#5.16 A current of 0.5 ampere flows through a resistor when 12 volt is applied. The value of the resistor is: 
+
+6 ohms 
+
+12.5 ohms 
+
+17 ohms 
+
+24 ohms 
+
+% ans 4  
+
+%Question: 17
+#5.17 The resistor which gives the greatest opposition to current flow is: 
+
+230 ohm 
+
+1.2 kilohm 
+
+1600 ohm 
+
+0.5 megohm 
+
+% ans 4  
+
+%Question: 18
+#5.18 The ohm is the unit of: 
+
+supply voltage 
+
+electrical pressure 
+
+current flow 
+
+electrical resistance 
+
+% ans 4  
+
+%Question: 19
+#5.19 If a 12 volt battery supplies 0.15 ampere to a circuit, the circuit's resistance is: 
+
+0.15 ohm 
+
+1.8 ohm 
+
+12 ohm 
+
+80 ohm 
+
+% ans 4  
+
+%Question: 20
+#5.20 If a 4800 ohm resistor is connected to a 12 volt battery, the current flow is: 
+
+2.5 mA 
+
+25 mA 
+
+40 A 
+
+400 A 
+
+% ans 1  
+
+

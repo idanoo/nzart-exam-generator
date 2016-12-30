@@ -1,0 +1,134 @@
+% FILENAME = N19.TXT
+% Transmitter Theory 
+% Release version 2, January 00
+
+%QUESTION: 1
+#19.1 Morse code is usually transmitted by radio as: 
+
+an interrupted carrier 
+
+a voice modulated carrier 
+
+a continuous carrier 
+
+a series of clicks 
+
+% ans 1
+
+%QUESTION: 2 
+#19.2 To obtain high frequency stability in a transmitter, the VFO should be: 
+
+run from a non-regulated AC supply 
+
+in a plastic box 
+
+powered from a regulated DC supply 
+
+able to change frequency with temperature 
+
+% ans 3 
+
+%QUESTION: 3 
+#19.3 SSB transmissions: 
+
+occupy about twice the bandwidth of AM transmissions 
+
+contain more information than AM transmissions 
+
+occupy about half the bandwidth of AM transmissions 
+
+are compatible with FM transmissions 
+
+% ans 3 
+
+%QUESTION: 4 
+#19.4 The purpose of a balanced modulator in a SSB transmitter is to: 
+
+make sure that the carrier and both sidebands are in phase 
+
+make sure that the carrier and both sidebands are 180 degrees out of phase 
+
+ensure that the percentage of modulation is kept constant 
+
+suppress the carrier while producing two sidebands 
+
+% ans 4 
+
+%QUESTION: 5 
+#19.5 Several stations advise that your FM simplex transmission in the "two metre" band is 
+distorted. The cause might be that: 
+
+the transmitter modulation deviation is too high 
+
+your antenna is too low 
+
+the transmitter has become unsynchronised 
+
+your transmitter frequency split is incorrect 
+
+% ans 1 
+
+%QUESTION: 6 
+#19.6 The driver stage of a transmitter is located: 
+
+before the power amplifier 
+
+between oscillator and buffer 
+
+with the frequency multiplier 
+
+after the output low-pass filter circuit 
+
+% ans 1 
+
+%QUESTION: 7 
+#19.7 The purpose of the final amplifier in a transmitter is to: 
+
+increase the frequency of a signal 
+
+isolate the multiplier and later stages 
+
+produce a stable radio frequency 
+
+increase the power fed to the antenna 
+
+% ans 4 
+
+%QUESTION: 8 
+#19.8 The difference between DC input power and RF power output of a transmitter RF amplifier: 
+
+radiates from the antenna 
+
+is dissipated as heat 
+
+is lost in the feedline 
+
+is due to oscillating current 
+
+% ans 2 
+
+%QUESTION: 9 
+#19.9 The process of modulation allows: 
+
+information to be impressed on to a carrier 
+
+information to be removed from a carrier 
+
+voice and Morse code to be combined 
+
+none of these 
+
+% ans 1 
+
+%QUESTION: 10 
+#19.10 The output power rating of a linear amplifier in a SSB transmitter is specified by the: 
+
+peak DC input power 
+
+mean AC input power 
+
+peak envelope power 
+
+unmodulated carrier power 
+
+% ans 3 

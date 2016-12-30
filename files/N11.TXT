@@ -1,0 +1,271 @@
+% FILENAME = N11.TXT
+% Semiconductors 
+% Release version 2, January 2000
+% Q 11 modified 6 Mar 2012
+
+%Question: 1
+#11.1 The basic semiconductor amplifying device is a: 
+
+diode 
+
+transistor 
+
+pn-junction 
+
+silicon gate 
+
+% ans 2
+
+%Question: 2
+#11.2 Zener diodes are normally used as: 
+
+RF detectors 
+
+AF detectors 
+
+current regulators 
+
+voltage regulators 
+
+% ans 4
+
+%Question: 3
+#11.3 The voltage drop across a germanium signal diode when conducting is 
+about: 
+
+0.3V 
+
+0.6V 
+
+0.7V 
+
+1.3V 
+
+% ans 1
+
+%Question: 4
+#11.4 A bipolar transistor has three terminals named: 
+
+base, emitter and drain 
+
+collector, base and source 
+
+emitter, base and collector
+
+drain, source and gate 
+
+% ans 3
+
+%Question: 5
+#11.5 The three leads from a PNP transistor are named the: 
+
+collector, source, drain 
+
+gate, source, drain 
+
+drain, base, source 
+
+collector, emitter, base 
+
+% ans 4
+
+%Question: 6
+#11.6 A low-level signal is applied to a transistor circuit input and a 
+higher-level signal is present at the output. This effect is known as: 
+
+amplification 
+
+detection 
+
+modulation 
+
+rectification 
+
+% ans 1
+
+%Question: 7
+#11.7 The type of rectifier diode in almost exclusive use in power supplies is: 
+
+lithium 
+
+germanium 
+
+silicon 
+
+copper-oxide 
+
+% ans 3
+
+%Question: 8
+#11.8 One important application for diodes is recovering information from 
+transmitted signals. This is referred to as: 
+
+biasing 
+
+rejuvenation 
+
+ionisation 
+
+demodulation 
+
+% ans 4
+
+%Question: 9
+#11.9 In a forward biased pn junction, the electrons: 
+
+flow from p to n 
+
+flow from n to p 
+
+remain in the n region 
+
+remain in the p region 
+
+% ans 2
+
+%Question: 10
+#11.10 The following material is considered to be a semiconductor: 
+
+copper 
+
+sulphur 
+
+silicon 
+
+tantalum 
+
+% ans 3
+
+%Question: 11
+#11.11 A varactor diode acts like a variable: 
+
+resistor 
+
+voltage regulator 
+
+capacitor 
+
+inductor 
+
+% ans 3
+
+%Question: 12
+#11.12 A semiconductor is said to be doped when small quantities of the 
+following are added: 
+
+electrons 
+
+protons 
+
+ions 
+
+impurities 
+
+% ans 4
+
+%Question: 13
+#11.13 The connections to a semiconductor diode are known as: 
+
+cathode and drain 
+
+anode and cathode 
+
+gate and source 
+
+collector and base 
+
+% ans 2
+
+%Question: 14
+#11.14 Bipolar transistors usually have: 
+
+4 connecting leads 
+
+3 connecting leads 
+
+2 connecting leads 
+
+1 connecting lead 
+
+% ans 2
+
+%Question: 15
+#11.15 A semiconductor is described as a "general purpose audio NPN device". 
+This is a: 
+
+triode 
+
+silicon diode 
+
+bipolar transistor 
+
+field effect transistor 
+
+% ans 3
+
+%Question: 16
+#11.16 Two basic types of bipolar transistors are: 
+
+p-channel and n-channel types 
+
+NPN and PNP types 
+
+diode and triode types 
+
+varicap and zener types 
+
+% ans 2
+
+%Question: 17
+#11.17 A transistor can be destroyed in a circuit by: 
+
+excessive light 
+
+excessive heat 
+
+saturation 
+
+cut-off 
+
+% ans 2
+
+%Question: 18
+#11.18 To bias a transistor to cut-off, the base must be: 
+
+at the collector potential 
+
+at the emitter potential 
+
+mid-way between collector and emitter potentials 
+
+mid-way between the collector and the supply potentials 
+
+% ans 2
+
+%Question: 19
+#11.19 Two basic types of field effect transistors are: 
+
+n-channel and p-channel 
+
+NPN and PNP 
+
+germanium and silicon 
+
+inductive and capacitive 
+
+% ans 1
+
+%Question: 20
+#11.20 A semiconductor with leads labelled gate, drain and source, is best 
+described as a: 
+
+bipolar transistor 
+
+silicon diode 
+
+gated transistor 
+
+field-effect transistor 
+
+% ans 4
+

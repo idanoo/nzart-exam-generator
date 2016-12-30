@@ -1,0 +1,146 @@
+% FILENAME = N14.TXT
+% Decibels, Amplification and Attenuation
+% Release version 2   December 1999
+
+%Question: 1 
+#14.1 The input to an amplifier is 1 volt rms and the output 10 volt rms. This is an 
+increase of: 
+
+3 dB 
+
+6 dB 
+
+10 dB 
+
+20 dB 
+
+% ans 4  
+
+%Question: 2 
+#14.2 The input to an amplifier is 1 volt rms and output 100 volt rms. This is an 
+increase of: 
+
+10 dB 
+
+20 dB 
+
+40 dB 
+
+100 dB 
+
+% ans 3  
+
+%Question: 3 
+#14.3 An amplifier has a gain of 40 dB. The ratio of the rms output voltage to the rms 
+input voltage is: 
+
+20 
+
+40 
+
+100 
+
+400 
+
+% ans 3  
+
+%Question: 4 
+#14.4 A transmitter power amplifier has a gain of 20 dB. The ratio of the output 
+power to the input power is: 
+
+10 
+
+20 
+
+40 
+
+100 
+
+% ans 4  
+
+%Question: 5 
+#14.5 An attenuator network comprises two 100 ohm resistors in series with the input 
+applied across both resistors and the output taken from across one of them. The 
+voltage attenuation of the network is: 
+
+3 dB 
+
+6 dB 
+
+50 dB 
+
+100 dB 
+
+% ans 2  
+
+%Question: 6 
+#14.6 An attenuator network has 10 volt rms applied to its input with 1 volt rms 
+measured at its output. The attenuation of the network is: 
+
+6 dB 
+
+10 dB 
+
+20 dB 
+
+40 dB 
+
+% ans 3  
+
+%Question: 7 
+#14.7 An attenuator network has 10 volt rms applied to its input with 5 volt rms 
+measured at its output. The attenuation of the network is: 
+
+6 dB 
+
+10 dB 
+
+20 dB 
+
+40 dB 
+
+% ans 1  
+
+%Question: 8 
+#14.8 Two amplifiers with gains of 10 dB and 40 dB are connected in cascade. The 
+gain of the combination is: 
+
+8 dB 
+
+30 dB 
+
+50 dB 
+
+400 dB 
+
+% ans 3  
+
+%Question: 9 
+#14.9 An amplifier with a gain of 20 dB has a -10 dB attenuator connected in cascade. 
+The gain of the combination is: 
+
+8 dB 
+
+10 dB 
+
+-10 dB 
+
+-200 dB 
+
+% ans 2  
+
+%Question: 10 
+#14.10 Each stage of a three-stage amplifier provides 5 dB gain. The total 
+amplification is:
+
+10 dB
+
+15 dB
+
+25 dB
+
+125 dB
+
+% ans 2  
+
+

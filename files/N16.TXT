@@ -1,0 +1,314 @@
+% FILENAME = N25.TXT
+% Receiver Block Diagrams
+% Release version 3, October 2001
+% Q 15 and 19 changed 6 Mar 2012
+
+%Question: 1
+#16.1 In the block diagram of the receiver shown, the "RF amplifier": 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+decreases random fluctuation noise 
+
+is a restoring filter amplifier 
+
+increases the incoming signal level 
+
+changes the signal frequency 
+
+% ans 3 
+
+
+%Question: 2
+#16.2 In the block diagram of the receiver shown, the "mixer": 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+combines signals at two different frequencies to produce one at an intermediate frequency 
+
+combines sidebands to produce a stronger signal 
+
+discriminates against SSB and AM signals 
+
+inserts a carrier wave to produce a true FM signal 
+
+% ans 1 
+
+
+%Question: 3
+#16.3 In the block diagram of the receiver shown, the output frequency of the 
+"oscillator" is: 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+the same as that of the incoming received signal 
+
+the same as that of the IF frequency 
+
+different from both the incoming signal and IF frequencies 
+
+at a low audio frequency 
+
+% ans 3  
+
+%Question: 4
+#16.4 In the block diagram of the receiver shown, the "filter" rejects: 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+AM and RTTY signals 
+
+unwanted mixer outputs 
+
+noise bursts 
+
+broadcast band signals 
+
+% ans 2  
+
+%Question: 5
+#16.5 In the block diagram of the receiver shown, the "IF amplifier" is an: 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15 >
+
+isolation frequency amplifier 
+
+intelligence frequency amplifier 
+
+indeterminate frequency amplifier 
+
+intermediate frequency amplifier 
+
+% ans 4  
+
+%Question: 6
+#16.6 In the block diagram of the receiver shown, the "product detector": 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+produces an 800 Hz beat note 
+
+separates CW and SSB signals 
+
+rejects AM signals 
+
+translates signals to audio frequencies 
+
+% ans 4  
+
+%Question: 7
+#16.7 In the block diagram of the receiver shown, the "AF amplifier": 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+rejects AM and RTTY signals 
+
+amplifies audio frequency signals 
+
+has a very narrow passband 
+
+restores ambiance to the audio 
+
+% ans 2  
+
+%Question: 8
+#16.8 In the block diagram of the receiver shown, the "BFO" stands for: 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+bad frequency obscurer 
+
+basic frequency oscillator 
+
+beat frequency oscillator 
+
+band filter oscillator 
+
+% ans 3  
+
+%Question: 9
+#16.9 In the block diagram of the receiver shown, most of the receiver gain is in the: 
+<img src = "ssbrx.gif" align = center width = 600 height = 161> 
+<totallines = 15>
+
+RF amplifier 
+
+IF amplifier 
+
+AF amplifier 
+
+mixer 
+
+% ans 2  
+
+%Question: 10
+#16.10 In the block diagram of the receiver shown, the "RF amplifier": 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+decreases random fluctuation noise 
+
+masks strong noise 
+
+should produce little internal noise 
+
+changes the signal frequency 
+
+% ans 3  
+
+%Question: 11
+#16.11 In the block diagram of the receiver shown, the "mixer": 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+changes the signal frequency 
+
+rejects SSB and CW signals 
+
+protects against receiver overload 
+
+limits the noise on the signal 
+
+% ans 1 
+
+%Question: 12
+#16.12 In the receiver shown, when receiving a signal, the output frequency of the "oscillator" is: 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16 >
+
+the same as that of the signal 
+
+the same as that of the IF amplifier 
+
+of constant amplitude and frequency 
+
+passed through the following filter 
+
+% ans 3  
+
+%Question: 13
+#16.13 In the block diagram of the receiver shown, the "limiter": 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+limits the signal to a constant amplitude 
+
+rejects SSB and CW signals 
+
+limits the frequency shift of the signal 
+
+limits the phase shift of the signal 
+
+% ans 1  
+
+%Question: 14
+#16.14 In the block diagram of the receiver shown, the "frequency demodulator" 
+could be implemented with a: 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+product detector 
+
+phase-locked loop 
+
+full-wave rectifier 
+
+low-pass filter 
+
+% ans 2  
+
+%Question: 15
+#16.15 In the block diagram of the receiver shown, the "AF amplifier": 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+amplifies stereo signals 
+
+amplifies speech frequencies 
+
+is an all frequency amplifier 
+
+must be fitted with a tone control 
+
+% ans 2  
+
+%Question: 16 
+#16.16 In this receiver, an audio frequency gain control 
+would be associated with the block labelled: 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+AF amplifier 
+
+frequency demodulator 
+
+speaker, phones 
+
+IF amplifier 
+
+% ans 1  
+
+%Question: 17
+#16.17 In the block diagram of the receiver shown, the selectivity would be set by the: 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+AF amplifier 
+
+mixer 
+
+limiter 
+
+filter 
+
+% ans 4  
+
+%Question: 18
+#16.18 In the FM communications receiver shown in the block diagram, the "filter" 
+bandwidth is typically: 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+3 kHz 
+
+10 kHz 
+
+64 kHz 
+
+128 kHz 
+
+% ans 2  
+
+%Question: 19
+#16.19 In the block diagram of the receiver shown, an automatic gain 
+control (AGC) circuit would be associated with the: 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16> 
+
+Speaker 
+
+IF amplifier 
+
+RF filter 
+
+Oscillator
+
+% ans 2  
+
+%Question: 20
+#16.20 In the block diagram of the receiver shown, the waveform produced by the 
+"oscillator" would ideally be a: 
+<img src = "fmrx.gif" align = center width = 600 height = 151> 
+<totallines = 16>
+
+square wave 
+
+pulsed wave 
+
+sinewave 
+
+hybrid frequency wave 
+
+% ans 3  
+
+

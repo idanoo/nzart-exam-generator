@@ -1,0 +1,264 @@
+% FILENAME = N2.TXT
+% Frequencies
+% Release version 4, October 2006
+% Q 14 no modification needed 6 Mar 2012
+
+%Question 1
+#2.1 Amateur stations are often regarded as "frequency agile". This means: 
+
+operation is limited to frequency modulation 
+
+operators can choose to operate anywhere on a shared band 
+
+a bandswitch is required on all transceivers 
+
+on a shared band operators can change frequency to avoid interfering 
+
+% ans 4
+
+%Question 2
+#2.2 A new amateur radio operator is permitted to: 
+
+operate on all amateur bands other than VHF at least weekly using a computer for log-keeping 
+
+operate only on specified amateur bands for 3 months logging at least 50 contacts and retaining the log book for at least one year for possible official inspection 
+
+operate only on one fixed frequency in the amateur bands between 5 and 25 MHz for 6 months and then present the log book for official inspection 
+
+operate on amateur bands between 5 and 25 MHz as and when the operator chooses 
+
+% ans 2
+
+%Question 3
+#2.3 The frequency limits of the “80 metre band” are: 
+
+3.50 to 4.0 MHz 
+
+3.50 to 3.90 MHz 
+
+3.50 to 3.85 MHz 
+
+3.6 to 3.9 MHz 
+
+% ans 2
+
+%Question 4
+#2.4 In New Zealand the frequency limits of the “40 metre band” are: 
+
+7.00 to 7.10 MHz 
+
+7.00 to 7.15 MHz 
+
+7.00 to 7.30 MHz 
+
+7.10 to 7.40 MHz 
+
+% ans 3
+
+%Question 5
+#2.5 The frequency limits of the “20 metre band” are: 
+
+14.00 to 14.10 MHz 
+
+14.00 to 14.45 MHz 
+
+14.00 to 14.50 MHz 
+
+14.00 to 14.35 MHz 
+
+% ans 4
+
+%Question 6
+#2.6 The frequency limits of the “15 metre band” are: 
+
+21.00 to 21.35 MHz 
+
+21.00 to 21.40 MHz 
+
+21.00 to 21.45 MHz 
+
+21.00 to 21.50 MHz 
+
+% ans 3
+
+%Question 7
+#2.7 The frequency limits of the “10 metre band” are: 
+
+28.00 to 28.35 MHz 
+
+28.00 to 28.40 MHz 
+
+28.00 to 29.00 MHz 
+
+28.00 to 29.70 MHz 
+
+% ans 4
+
+%Question 8
+#2.8 The frequency limits of the “2 metre band” are: 
+
+144 to 149 MHz 
+
+144 to 148 MHz 
+
+146 to 148 MHz 
+
+144 to 150 MHz 
+
+% ans 2
+
+%Question 9
+#2.9 The frequency limits of the “70 centimetre band” are: 
+
+430 to 440 MHz 
+
+430 to 450 MHz 
+
+435 to 438 MHz 
+
+430 to 460 MHz 
+
+% ans 1
+
+%Question 10
+#2.10 The published bandplans for the New Zealand amateur bands: 
+
+are determined by the Ministry of Business, Innovation and Employment 
+
+change at each equinox 
+
+limit the operating frequencies of high-power stations 
+
+were developed by NZART in the interests of all radio amateurs 
+
+% ans 4
+
+%Question 11
+#2.11 Operation on the 130 to 190 kHz band requires: 
+
+a vertical half-wave antenna 
+
+special permission to operate in daylight hours 
+
+power output limited to 5 watt e.i.r.p. maximum 
+
+receivers with computers with sound cards 
+
+% ans 3
+
+%Question 12
+#2.12 Two bands where amateur satellites may operate are 
+
+28.0 to 29.7 MHz and 144.0 to 146.0 MHz 
+
+21.0 to 21.1 MHz and 146.0 to 148.0 MHz 
+
+3.5 to 3.8 MHz and 7.0 to 7.1 MHz 
+
+7.1 to 7.3 MHz and 10.1 to 10.15 MHz 
+
+% ans 1
+
+%Question 13
+#2.13 The band 50 to 51 MHz is available to: 
+
+amateur radio operators subject to special conditions 
+
+all amateur radio operators as part of the 6 metre band 
+
+television broadcasting only 
+
+radio broadcasting stations only 
+
+% ans 1
+
+%Question 14
+#2.14 The following amateur radio band is shared with other services: 
+
+14.0 to 14.35 MHz 
+
+7.2 to 7.3 MHz 
+
+18.068 to 18.168 MHz 
+
+144.0 to 146.0 MHz 
+
+% ans 2
+
+%Question 15
+#2.15 The frequency band 146 to 148 MHz is: 
+
+shared with other communication services 
+
+allocated exclusively for police communications 
+
+exclusive to repeater operation 
+
+reserved for emergency communications 
+
+% ans 1
+
+%Question 16
+#2.16 The following amateur radio band is shared with another service in New Zealand: 
+
+51 to 53 MHz 
+
+144 to 146 MHz 
+
+7.0 to 7.1 MHz 
+
+24.89 to 24.99 MHz 
+
+% ans 1
+
+%Question 17
+#2.17 The published New Zealand amateur radio bandplans are: 
+
+obligatory for all amateur radio operators to observe 
+
+recommended, and all amateur radio operators should follow them 
+
+to show where distant stations can be worked 
+
+for tests and experimental purposes only 
+
+% ans 2
+
+%Question 18
+#2.18 The following band is allocated to New Zealand amateur radio operators on a primary basis: 
+
+3.5 to 3.9 MHz 
+
+10.1 to 10.15 MHz 
+
+146 to 148 MHz 
+
+21 to 21.45 MHz 
+
+% ans 4
+
+%Question 19
+#2.19 When the Amateur Service is a secondary user of a band and another service is the primary user, this means: 
+
+nothing at all, all users have equal rights to operate 
+
+amateurs may only use the band during emergencies 
+
+the band may be used by amateurs provided they do not cause harmful interference to primary users 
+
+you may increase transmitter power to overcome any interference caused by primary users 
+
+% ans 3
+
+%Question 20
+#2.20 This rule applies if two amateur radio stations want to use the same frequency: 
+
+the operator with the newer qualification must yield the frequency to the more experienced operator 
+
+the station with the lower power output must yield the frequency to the station with the higher power output 
+
+both stations have an equal right to operate on the frequency, the second-comer courteously giving way after checking that the frequency is in use 
+
+stations in ITU Regions 1 and 2 must yield the frequency to stations in Region 3 
+
+% ans 3
