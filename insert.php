@@ -6,20 +6,43 @@ if (isset($_REQUEST['raw'])) {
     $data = array_map('trim', $data);
     foreach($data as $i=>$d) {
         if(empty($d)) continue;
-        if (strpos($d, 'Question') !== false) {
+        if (strpos(strtolower($d), 'question') !== false) {
             $fullQuestion = substr(preg_replace('/^.+\n/', '', $d),1); //Strip useless firstline.
             $numbers = explode(" ", $fullQuestion);
             $questions[$i]['questionNumber'] = $numbers[0]; // Get # of question
-
             $lengthOfNumber = strlen($questions[$i]['questionNumber']); //Get length of #
             $splitNewLine = explode("\n", trim($fullQuestion)); //Split rest into lines.
-            $questions[$i]['question'] = trim(substr($splitNewLine[0], $lengthOfNumber));
+            $twoLineQuestion = $imageFirstLine = false;
+            if (strpos(strtolower($splitNewLine[0]), '<img') !== false) {
+                preg_match('/".*?"/', $splitNewLine[0], $matches);
+                $questions[$i]['image'] = strtoupper($matches[0]);
+                $imageFirstLine = true;
+            }
+            if ($imageFirstLine) {
+                if (strpos($splitNewLine[1], ':') !== false || !empty(trim($splitNewLine[2]))) {
+                    $twoLineQuestion = true;
+                }
+                $cutOutImageShit = explode(">", $splitNewLine[1]);
+                $trashBin = array_shift($cutOutImageShit);
+                $firstLine = implode(" ", $cutOutImageShit);
+                $questions[$i]['question'] = trim(substr(($twoLineQuestion ? $firstLine . " "
+                    . $splitNewLine[2] : $firstLine), $lengthOfNumber));
+            } else {
+                if (strpos($splitNewLine[0], ':') !== false || !empty(trim($splitNewLine[1]))) {
+                    $twoLineQuestion = true;
+                }
+                $questions[$i]['question'] = trim(substr(($twoLineQuestion ? $splitNewLine[0] . " "
+                    . $splitNewLine[1] : $splitNewLine[0]), $lengthOfNumber));
+            }
             $x=$b=1;
             foreach ($splitNewLine as $a=>$line) {
                 if($a==0) continue;
+                if(($twoLineQuestion || $imageFirstLine) && $a==1) continue;
+                if($twoLineQuestion && $imageFirstLine && $a==2) continue;
                 if(empty(trim($line))) continue;
-                if(strpos($line, 'totallines') !== false) continue;
-                if(strpos($line, '<img') !== false) {
+                if(strpos(strtolower($line), 'totallines') !== false) continue;
+
+                if(strpos(strtolower($line), '<img') !== false) {
                     preg_match('/".*?"/', $line, $matches);
                     $questions[$i]['image'] = strtoupper($matches[0]);
                     continue;
