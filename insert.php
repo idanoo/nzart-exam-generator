@@ -101,13 +101,4 @@ foreach($files as $file) {
     } else {
         var_dump($questions);
     }
-}?>
-<h1>Question inserter thingy.</h1>
-<h3>RAW DATA</h3>
-<form action="/insert.php" method="POST">
-    Raw Data: <label>
-        Actually insert: <input type="checkbox" name="insert" value="1">
-        <textarea cols="200" rows="20" name="raw" required><?=$_REQUEST['raw']?:""?></textarea>
-    </label><br/><br/>
-    <button type="submit">Submit</button>
-</form>
+}
