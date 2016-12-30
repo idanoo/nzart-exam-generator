@@ -1,5 +1,4 @@
 <?php
-die("nonononono");
 require_once("includes/include.php");
 if (isset($_REQUEST['raw'])) {
     $questions = [];
