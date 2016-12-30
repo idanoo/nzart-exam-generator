@@ -95,6 +95,7 @@ foreach($files as $file) {
                 $row++;
             }
             $db = null;
+            $count++;
         }
 
         echo "Inserted " . $count . " questions.";
