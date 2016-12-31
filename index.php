@@ -43,7 +43,8 @@ $questions = Question::getQuestions(QUESTION_COUNT);
             </div>
             <div id="footer">
                 All Questions and images from NZART question bank located
-                <a href="http://www.nzart.org.nz/exam/download-examination-files/">Here</a>
+                <a href="http://www.nzart.org.nz/exam/download-examination-files/">Here</a><br/>
+                Last updated 31-12-2016.
             </div>
         </div>
 

@@ -1,4 +1,5 @@
 <?php
+die("remove this to prevent people hitting it live");
 require_once("includes/include.php");
 $questionArray = $masterLineArray = $questions = [];
 $skip = 0;
@@ -44,7 +45,7 @@ foreach($lines as $i=>$line) {
             $stillNeedQuestion = true;
         }
         preg_match('/".*?"/', $line, $matches);
-        $questions[$x]['image'] = strtoupper($matches[0]);
+        if(strlen($matches[0])) $questions[$x]['image'] = strtoupper($matches[0]);
         continue;
     }
     if(substr($line, 0, 1) == "#" || strpos(strtolower($line), 'totallines') !== false || strpos(strtolower($line), 'extralines') !== false) {
@@ -89,7 +90,7 @@ foreach($lines as $i=>$line) {
 }
 
 //CHECK ALL THE STUFF IS CORRECT.
-$badCount = $totalCount = $goodCount = 0;
+$badCount = $totalCount = $goodCount = $image = 0;
 foreach($questions as $q) {
     $bad = false;
     if(!$q['correctAnswer']) $bad = true;
@@ -99,114 +100,7 @@ foreach($questions as $q) {
     if (strpos(strtolower($q['question']), 'totallines') !== false) $bad = true;
     if (strpos(strtolower($q['question']), 'extralines') !== false) $bad = true;
     if(count($q['answers']) != 4) $bad = true;
-    foreach($q['answers'] as $a) {
-        if(empty(trim($a))) $bad = true;
-    }
-    if($bad) {
-        var_dump($q); //DEBUGGING
-        $badCount++;
-    } else {
-        $goodCount++;
-    }
-    $totalCount++;
-//    var_dump($questions);
-}
-
-echo "Array count:".count($questionArray)."<br>Total questions:".$totalCount."<br>Good questions:".$goodCount."<br>Bad questions:".$badCount;
-exit();
-
-    //SECTIONS. Q/A/Q/A/Q/A
-    foreach ($data as $i => $d) {
-        if (empty($d)) continue;
-        if (strpos(strtolower($d), 'question') !== false) {
-            //PARSE THE QUESTION
-            $fullQuestion = substr(preg_replace('/^.+\n/', '', $d), 1); //Strip useless firstline.
-            $numbers = explode(" ", $fullQuestion);
-            $questions[$i]['questionNumber'] = $numbers[0]; // Get # of question
-            $lengthOfNumber = strlen($questions[$i]['questionNumber']); //Get length of #
-            $splitNewLine = explode("\n", trim($fullQuestion)); //Split rest into lines.
-            $twoLineQuestion = $imageFirstLine = $threeLineQuestion = false;
-            if (strpos(strtolower($splitNewLine[0]), '<img') !== false) {
-                preg_match('/".*?"/', $splitNewLine[0], $matches);
-                $questions[$i]['image'] = strtoupper($matches[0]);
-
-                if (strpos($splitNewLine[1], ':') !== false || !empty(trim($splitNewLine[2]))) {
-                    $twoLineQuestion = true;
-                }
-                $cutOutImageShit = explode(">", $splitNewLine[1]);
-                $trashBin = array_shift($cutOutImageShit);
-                $firstLine = implode(" ", $cutOutImageShit);
-                $questions[$i]['question'] = trim(substr(($twoLineQuestion ? $firstLine . " "
-                    . $splitNewLine[2] : $firstLine), $lengthOfNumber));
-            } else {
-                if (strpos($splitNewLine[0], ':') !== false || !empty(trim($splitNewLine[1]))) {
-                    if (strpos($splitNewLine[0], ':') !== false) {
-                        if($questions[$i]['questionNumber'] == "10.2") error_log('here');
-
-                        $twoLineQuestion = true;
-                        if (strpos(strtolower($splitNewLine[1]), '<img') !== false) {
-                            $twoLineQuestion = false;
-                            preg_match('/".*?"/', $splitNewLine[1], $matches);
-                            $questions[$i]['image'] = strtoupper($matches[0]);
-                        }
-                    } elseif (!empty(trim($splitNewLine[2]))) {
-
-                        $threeLineQuestion = true;
-                    }
-                }
-                $questions[$i]['question'] = trim(substr(($twoLineQuestion ? $splitNewLine[0] . " "
-                    . $splitNewLine[1] : $splitNewLine[0]), $lengthOfNumber));
-            }
-            $x = $b = 1;
-            $skip = false;
-            foreach ($splitNewLine as $a => $line) {
-                //Don't ask what this witchcraft is. I don't know either.
-                if ($a == 0 || $skip) {
-                    $skip = false;
-                    continue;
-                }
-                if (($twoLineQuestion || $imageFirstLine) && $a == 1) continue;
-                if ($threeLineQuestion || ($twoLineQuestion && $imageFirstLine) && $a == 2) continue;
-                if ($imageFirstLine && $threeLineQuestion && $a == 3) continue;
-                if (empty(trim($line))) continue;
-                if (strpos(strtolower($line), 'totallines') !== false) continue;
-
-                if (strpos(strtolower($line), '<img') !== false) {
-                    preg_match('/".*?"/', $line, $matches);
-                    $questions[$i]['image'] = strtoupper($matches[0]);
-                    continue;
-                }
-
-//                if(!empty($splitNewLine[$a+1])) {
-//                    if(!empty($splitNewLine[$a+2])) {
-//                        $questions[$i]['answers'][$b] = trim($line) . trim($splitNewLine[$a + 1]) . trim($splitNewLine[$a + 2]);
-//                    } else {
-//                        $questions[$i]['answers'][$b] = trim($line) . trim($splitNewLine[$a + 1]);
-//                    }
-//                    $skip = true;
-//                } else {
-//                    $questions[$i]['answers'][$b] = trim($line);
-//                }
-
-                $questions[$i]['answers'][$b] = trim($line);
-
-                $b++;
-            }
-        } elseif (strpos(strtolower($d), 'ans ') !== false) {
-            //PARSE THE CORRECT ANSWER
-            $questions[$i - 1]['correctAnswer'] = substr($d, 3);
-        }
-    }
-
-//CHECK ALL THE STUFF IS CORRECT.
-foreach($questions as $q) {
-    $bad = false;
-    if(count($q['answers']) != 4) {
-        $bad = true;
-    }
-    if(!$q['correctAnswer']) $bad = true;
-    if(!$q['questionNumber']) $bad = true;
-    if(empty(trim($q['question']))) $bad = true;
+    if($q['image']) $image++;
     foreach($q['answers'] as $a) {
         if(empty(trim($a))) $bad = true;
     }
@@ -219,13 +113,10 @@ foreach($questions as $q) {
     $totalCount++;
 }
 
-    $questionArray = array_merge($questionArray, $questions);
-
-
-echo "Array count:".count($questionArray)."<br>Total questions:".$totalCount."<br>Good questions:".$goodCount."<br>Bad questions:".$badCount;
-exit();
-$i = $b = $d = $a = $count = 0; //Clear the useless stuff from above.
-foreach ($questionArray as $q) {
+echo "Images:".$image."<br>Total questions:".$totalCount."<br>Good questions:".$goodCount."<br>Bad questions:".$badCount;
+if($badCount!=0) exit();
+$count = $answer = 0;
+foreach ($questions as $q) {
     $db = new db();
     $db->query("INSERT INTO question(question_time, questiondata_number, questiondata_content, questiondata_image)
                   VALUES(:qTime, :qNumber, :qContent, :qImage)");
@@ -248,8 +139,9 @@ foreach ($questionArray as $q) {
         $db->execute();
         $db->kill();
         $row++;
+        $answer++;
     }
     $db = null;
     $count++;
 }
-echo "Inserted " . $count . " questions.";
+echo "Inserted " . $count . " questions and ".$answer." answers.";
