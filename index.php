@@ -1,7 +1,10 @@
 <?php
 require_once('includes/include.php');
-define('QUESTION_COUNT', 60); //How many questions to ask.
-$questions = Question::getQuestions(QUESTION_COUNT);
+$questions = [];
+if(!isset($_POST['mark'])) {
+    define('QUESTION_COUNT', 60); //How many questions to ask.
+    $questions = Question::getQuestions(QUESTION_COUNT);
+}
 ?><!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -20,7 +23,23 @@ $questions = Question::getQuestions(QUESTION_COUNT);
         <div id="container">
             <div id="header"><h1>Unofficial NZART Practice Exam</h1></div>
             <div id="body" class="center">
+                <?php if(isset($_POST['mark'])) {
+                    ?><a href="/">Return to new Questions</a><br/><br/><?php
+                    unset($_POST['mark']);
+                        foreach($_POST as $i=>$q) {
+                            $question = Question::getById($i);
+                            $answer = Answer::getById($q);
+                            echo $question->getQuestion()."<br>";
+                            if($answer->isCorrect()) {
+                                echo "Correct - ".$answer->getAnswer()."<br>";
+                            } else {
+                                $corAnswer = $question->getCorrectAnswer();
+                                echo "Wrong.<br>Your Answer: ".$answer->getAnswer()."<br>Correct Answer:".$corAnswer->getAnswer();
+                            }
+                        }
+                    } else { ?>
                 60 Questions
+                <form action="/" method="POST">
                 <table>
                     <tbody>
                     <?php
@@ -28,7 +47,7 @@ $questions = Question::getQuestions(QUESTION_COUNT);
                         foreach($questions as $i=>$q) {
                             echo "<tr>";
                                 echo "<td>".($i+1)."</td>";
-                                echo "<td>".$q->getQuestion()."</td>";
+                                echo "<td style='padding-left:10px'>".$q->getQuestion()."</td>";
                             echo "</tr>";
                             if(!empty($q->getImage())) {
                                 echo "<tr>";
@@ -37,15 +56,18 @@ $questions = Question::getQuestions(QUESTION_COUNT);
                             }
                             foreach($q->answers as $x=>$ans) {
                                 echo "<tr>";
-                                    echo "<td style='padding-left:10px'>".$letters[$x]."</td>";
-                                    echo "<td style='padding-left:10px'>".$ans->getAnswer()."</td>";
+                                    echo "<td></td>";
+                                    echo "<td style='padding-left:10px'><input type='radio' name='".$q->getId()."' value='".$ans->getId()."'> ".($letters[$x]." ".$ans->getAnswer())."</td>";
                                 echo "</tr>";
                             }
                             echo "<tr><td>&nbsp;</td><td></td></tr>";
                         }
                     ?>
+                    <tr><td></td><td><input type="hidden" name="mark" value="1"><button type="submit">Submit</button></td></tr>
                     </tbody>
                 </table>
+                </form>
+                <?php } ?>
             </div>
             <div id="footer">
                 All Questions and images from NZART question bank located

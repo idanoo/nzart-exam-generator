@@ -28,4 +28,9 @@ class Answer extends DataItem
     {
         return $this->answerdata_correct;
     }
+
+    public static function checkIfCorrect($answer)
+    {
+
+    }
 }

@@ -38,6 +38,11 @@ class Question extends DataItem {
         return Answer::getAllWhere("answerdata_question = ".$this->getId());
     }
 
+    public function getCorrectAnswer()
+    {
+        return Answer::getWhere("answerdata_question = ".$this->getId()." and answerdata_correct = 1");
+    }
+
     public function getImage()
     {
         return $this->questiondata_image;

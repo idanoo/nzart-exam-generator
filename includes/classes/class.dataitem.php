@@ -8,10 +8,11 @@ class DataItem {
         $this->_db = new db(); //Will optimise this to get existing conn at some point.
     }
 
-    public function getById($id) {
-        $this->_db->query("SELECT * FROM `".static::_getType()."` WHERE ".static::_getType()."_id = :id");
-        $this->_db->bind(":id", $id);
-        return $this->_db->getObject();
+    public static function getById($id) {
+        $db = new db();
+        $db->query("SELECT * FROM `".static::_getType()."` WHERE ".static::_getType()."_id = :id");
+        $db->bind(":id", $id);
+        return $db->getObject();
     }
 
     private function _getAllWhere($where = false, $orderBy = false, $join = false, $limit = false) {
