@@ -45,12 +45,10 @@ if(!isset($_POST['mark'])) {
         <div id="container">
             <div id="header"><h1>Unofficial NZART Practice Exam</h1></div>
             <div id="body" class="center">
-                New Exam: <a href="/index.php?questions=10">10 Questions</a>
-                <a href="/index.php?questions=20">20 Questions</a>
-                <a href="/index.php?questions=30">30 Questions</a>
-                <a href="/index.php?questions=40">40 Questions</a>
-                <a href="/index.php?questions=50">50 Questions</a>
-                <a href="/index.php?questions=60">60 Questions</a>
+                New Exam: <a href="/index.php?questions=10">10 Questions</a> -
+                <a href="/index.php?questions=20">30 Questions (Half Exam)</a> -
+                <a href="/index.php?questions=60">60 Questions (Full Exam)</a> -
+                <a href="/index.php?questions=600">600 Questions (All Questions)</a>
                 <br/><br/>
                 <?php if($total) {
                     ?><?php
