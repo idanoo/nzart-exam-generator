@@ -30,12 +30,18 @@ $questions = Question::getQuestions(QUESTION_COUNT);
                                 echo "<td>".($i+1)."</td>";
                                 echo "<td>".$q->getQuestion()."</td>";
                             echo "</tr>";
+                            if(!empty($q->getImage())) {
+                                echo "<tr>";
+                                    echo "<td></td><td><img src='img/".str_replace("\"",'',$q->getImage())."'></td>";
+                                echo "</tr>";
+                            }
                             foreach($q->answers as $x=>$ans) {
                                 echo "<tr>";
                                     echo "<td style='padding-left:10px'>".$letters[$x]."</td>";
                                     echo "<td style='padding-left:10px'>".$ans->getAnswer()."</td>";
                                 echo "</tr>";
                             }
+                            echo "<tr><td>&nbsp;</td><td></td></tr>";
                         }
                     ?>
                     </tbody>

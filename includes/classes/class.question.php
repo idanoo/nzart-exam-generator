@@ -20,7 +20,7 @@ class Question extends DataItem {
 
     public static function getQuestions($count = false)
     {
-        $questions = static::getAllWhere(false, false, false, $count);
+        $questions = static::getAllWhere(false, "order by rand()", false, $count);
         foreach ($questions as $q) {
             $q->answers = $q->getAnswers();
             shuffle($q->answers);
@@ -36,5 +36,10 @@ class Question extends DataItem {
     public function getAnswers()
     {
         return Answer::getAllWhere("answerdata_question = ".$this->getId());
+    }
+
+    public function getImage()
+    {
+        return $this->questiondata_image;
     }
 }
