@@ -1,4 +1,4 @@
--- base sql
+-- Creates an empty DB for your own questions/etc.
 CREATE TABLE IF NOT EXISTS `user` (
   `user_id` INT(11) NOT NULL AUTO_INCREMENT,
   `user_time` INT(11) NOT NULL,
