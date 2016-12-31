@@ -4,6 +4,24 @@ $questions = [];
 if(!isset($_POST['mark'])) {
     define('QUESTION_COUNT', 60); //How many questions to ask.
     $questions = Question::getQuestions(QUESTION_COUNT);
+    $total = false;
+} else {
+    unset($_POST['mark']);
+    $total = count($_POST);
+    $correct = $wrong = 0;
+    $output = "";
+    foreach($_POST as $i=>$q) {
+        $question = Question::getById($i);
+        $answer = Answer::getById($q);
+        if($answer->isCorrect()) {
+            $correct++;
+        } else {
+            $output .= "<span style='font-weight:bold'>".$question->getQuestion()."</span><br>";
+            $corAnswer = $question->getCorrectAnswer();
+            $output .= "Wrong.<br>Your Answer: ".$answer->getAnswer()."<br>Correct Answer: ".$corAnswer->getAnswer().'<br><br>';
+            $wrong++;
+        }
+    }
 }
 ?><!doctype html>
 <html class="no-js" lang="">
@@ -23,20 +41,10 @@ if(!isset($_POST['mark'])) {
         <div id="container">
             <div id="header"><h1>Unofficial NZART Practice Exam</h1></div>
             <div id="body" class="center">
-                <?php if(isset($_POST['mark'])) {
-                    ?><a href="/">Return to new Questions</a><br/><br/><?php
-                    unset($_POST['mark']);
-                        foreach($_POST as $i=>$q) {
-                            $question = Question::getById($i);
-                            $answer = Answer::getById($q);
-                            echo $question->getQuestion()."<br>";
-                            if($answer->isCorrect()) {
-                                echo "Correct - ".$answer->getAnswer()."<br>";
-                            } else {
-                                $corAnswer = $question->getCorrectAnswer();
-                                echo "Wrong.<br>Your Answer: ".$answer->getAnswer()."<br>Correct Answer:".$corAnswer->getAnswer();
-                            }
-                        }
+                <?php if($total) {
+                    ?><a href="/">Return to a new set of questions</a><br/><br/><?php
+                        echo "<h3>Score ".(($correct/$total)*100)."% (".$correct."/".$total.")</h3>";
+                        echo $output;
                     } else { ?>
                 60 Questions
                 <form action="/" method="POST">

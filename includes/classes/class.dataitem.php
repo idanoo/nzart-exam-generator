@@ -12,7 +12,14 @@ class DataItem {
         $db = new db();
         $db->query("SELECT * FROM `".static::_getType()."` WHERE ".static::_getType()."_id = :id");
         $db->bind(":id", $id);
-        return $db->getObject();
+        $result = $db->single();
+        if(!$result) return false;
+        $className = static::_getClass();
+        $obj = new $className();
+        foreach ($result as $key=>$val) {
+            $obj->$key = $val;
+        }
+        return $obj;
     }
 
     private function _getAllWhere($where = false, $orderBy = false, $join = false, $limit = false) {
