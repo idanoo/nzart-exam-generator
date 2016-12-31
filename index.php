@@ -65,7 +65,7 @@ if(!isset($_POST['mark'])) {
                             foreach($q->answers as $x=>$ans) {
                                 echo "<tr>";
                                     echo "<td></td>";
-                                    echo "<td style='padding-left:10px'><input type='radio' name='".$q->getId()."' value='".$ans->getId()."'> ".($letters[$x]." ".$ans->getAnswer())."</td>";
+                                    echo "<td style='padding-left:10px'><input type='radio' name='".$q->getId()."' value='".$ans->getId()."' required> ".($letters[$x]." ".$ans->getAnswer())."</td>";
                                 echo "</tr>";
                             }
                             echo "<tr><td>&nbsp;</td><td></td></tr>";
