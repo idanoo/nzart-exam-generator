@@ -2,7 +2,11 @@
 require_once('includes/include.php');
 $questions = [];
 if(!isset($_POST['mark'])) {
-    define('QUESTION_COUNT', 60); //How many questions to ask.
+    if(isset($_GET['questions'])) {
+        define('QUESTION_COUNT', intval($_GET['questions']));
+    } else {
+        define('QUESTION_COUNT', 60);
+    }
     $questions = Question::getQuestions(QUESTION_COUNT);
     $total = false;
 } else {
@@ -18,7 +22,7 @@ if(!isset($_POST['mark'])) {
         } else {
             $output .= "<span style='font-weight:bold'>".$question->getQuestion()."</span><br>";
             $corAnswer = $question->getCorrectAnswer();
-            $output .= "Wrong.<br>Your Answer: ".$answer->getAnswer()."<br>Correct Answer: ".$corAnswer->getAnswer().'<br><br>';
+            $output .= "Your Answer: ".$answer->getAnswer()."<br>Correct Answer: ".$corAnswer->getAnswer().'<br><br>';
             $wrong++;
         }
     }
@@ -41,12 +45,19 @@ if(!isset($_POST['mark'])) {
         <div id="container">
             <div id="header"><h1>Unofficial NZART Practice Exam</h1></div>
             <div id="body" class="center">
+                New Exam: <a href="/index.php?questions=10">10 Questions</a>
+                <a href="/index.php?questions=20">20 Questions</a>
+                <a href="/index.php?questions=30">30 Questions</a>
+                <a href="/index.php?questions=40">40 Questions</a>
+                <a href="/index.php?questions=50">50 Questions</a>
+                <a href="/index.php?questions=60">60 Questions</a>
+                <br/><br/>
                 <?php if($total) {
-                    ?><a href="/">Return to a new set of questions</a><br/><br/><?php
+                    ?><?php
                         echo "<h3>Score ".(($correct/$total)*100)."% (".$correct."/".$total.")</h3>";
                         echo $output;
                     } else { ?>
-                60 Questions
+                <?=QUESTION_COUNT?> Questions<br><br>
                 <form action="/" method="POST">
                 <table>
                     <tbody>
