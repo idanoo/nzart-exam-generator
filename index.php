@@ -1,5 +1,14 @@
 <?php
 require_once('includes/include.php');
+if(isset($_REQUEST['login']) || isset($_REQUEST['register'])) {
+    User::loginOrRegister($_REQUEST);
+}
+if(isset($_REQUEST['logout'])) User::logout();
+$loggedIn = $user = false;
+if(isset($_SESSION['userId'])) {
+    $user = User::getById($_SESSION['userId']);
+}
+
 $questions = [];
 if(!isset($_POST['mark'])) {
     if(isset($_GET['questions'])) {
@@ -26,6 +35,10 @@ if(!isset($_POST['mark'])) {
             $wrong++;
         }
     }
+    if(is_object($user)) {
+        $user->storeResult($_POST);
+    }
+
 }
 ?><!doctype html>
 <html class="no-js" lang="">
@@ -40,9 +53,26 @@ if(!isset($_POST['mark'])) {
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
         <div id="container">
+            <div id="user"><?php if(is_object($user)) {
+                    echo "Welcome Back ".$_SESSION['username'].". <a href='index.php/logout=1'>Logout</a>";
+                } else {
+                    echo "<div id='loginTrigger' onclick='showLoginBox()'>Login or Register</div>";
+                } ?></div>
+            <div id="cover" style="display:none;"></div>
+            <div id="login" style="display:none;">
+                <form method="post">
+                    <label>Username<input type="text" name="username"><br/></label>
+                    <label>Password<input type="text" name="password"><br/></label>
+                    <button type="submit" class="loginbutton" value="login">Login</button>
+                </form>
+            </div>
             <div id="header"><h1>Unofficial NZART Practice Exam</h1></div>
             <div id="body" class="center">
                 New Exam: <a href="/index.php?questions=10">10 Questions</a> -
@@ -93,10 +123,5 @@ if(!isset($_POST['mark'])) {
                 Last updated 31-12-2016.
             </div>
         </div>
-
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
     </body>
 </html>

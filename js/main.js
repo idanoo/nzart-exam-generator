@@ -1,0 +1,4 @@
+function showLoginBox()
+{
+  alert("login");
+}

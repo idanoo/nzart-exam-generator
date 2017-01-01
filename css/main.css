@@ -24,6 +24,16 @@ html, body, #container {
     margin: 0 auto 0 auto;
 }
 
+#user {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 250px;
+    text-align:right;
+}
+
 html {
     color: #222;
     font-size: 1em;
