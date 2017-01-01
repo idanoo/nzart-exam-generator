@@ -72,6 +72,33 @@ INSERT INTO `question` VALUES (1,1483169094,'1.1','The Amateur Service may be br
 UNLOCK TABLES;
 
 --
+-- Table structure for table `result`
+--
+
+DROP TABLE IF EXISTS `result`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `result` (
+  `result_id` int(11) NOT NULL AUTO_INCREMENT,
+  `result_time` int(11) NOT NULL,
+  `resultdata_user` int(11) NOT NULL,
+  `resultdata_result` mediumtext,
+  `resultdata_score` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`result_id`),
+  UNIQUE KEY `result_id_UNIQUE` (`result_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `result`
+--
+
+LOCK TABLES `result` WRITE;
+/*!40000 ALTER TABLE `result` DISABLE KEYS */;
+/*!40000 ALTER TABLE `result` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `user`
 --
 
@@ -107,4 +134,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-12-31 20:28:19
+-- Dump completed on 2017-01-02 10:44:10

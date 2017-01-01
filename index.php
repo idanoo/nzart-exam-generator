@@ -1,6 +1,6 @@
 <?php
 require_once('includes/include.php');
-if(isset($_REQUEST['login']) || isset($_REQUEST['register'])) {
+if(isset($_REQUEST['method'])) {
     User::loginOrRegister($_REQUEST);
 }
 if(isset($_REQUEST['logout'])) User::logout();
@@ -10,35 +10,47 @@ if(isset($_SESSION['userId'])) {
 }
 
 $questions = [];
-if(!isset($_POST['mark'])) {
+if (isset($_REQUEST['viewresult']) && is_object($user)) {
+    $result = Result::getById($_REQUEST['viewresult']);
+    if(!is_object($result) || $result->getUser() != $user->getId()) {
+        header("Location: //".$_SERVER['HTTP_HOST']);
+        exit();
+    }
+    $res = $result->getResult();
+    foreach($res as $p=>$r) {
+        $_POST[$p] = $r;
+    }
+    $_POST['mark'] = 1;
+} elseif (isset($_REQUEST['results']) && is_object($user)) {
+    $results = $user->getResults();
+}
+if (isset($_POST['mark'])) {
+    unset($_POST['mark']);
+    $score['total'] = $score['correct'] = $score['wrong'] = 0;
+    foreach($_POST as $i=>$q) {
+        $question = Question::getById($i);
+        $answer = Answer::getById($q);
+        if(!is_object($question) || !is_object($answer)) continue;
+        if($answer->isCorrect()) {
+            $score['correct']++;
+        } else {
+            $output .= "<span style='font-weight:bold'>".$question->getQuestion()."</span><br>";
+            $corAnswer = $question->getCorrectAnswer();
+            $output .= "Your Answer: ".$answer->getAnswer()."<br>Correct Answer: ".$corAnswer->getAnswer().'<br><br>';
+            $score['wrong']++;
+        }
+        $score['total']++;
+    }
+    if(is_object($user)) {
+        $user->storeResult($_POST, $score);
+    }
+} else {
     if(isset($_GET['questions'])) {
         define('QUESTION_COUNT', intval($_GET['questions']));
     } else {
         define('QUESTION_COUNT', 60);
     }
     $questions = Question::getQuestions(QUESTION_COUNT);
-    $total = false;
-} else {
-    unset($_POST['mark']);
-    $total = count($_POST);
-    $correct = $wrong = 0;
-    $output = "";
-    foreach($_POST as $i=>$q) {
-        $question = Question::getById($i);
-        $answer = Answer::getById($q);
-        if($answer->isCorrect()) {
-            $correct++;
-        } else {
-            $output .= "<span style='font-weight:bold'>".$question->getQuestion()."</span><br>";
-            $corAnswer = $question->getCorrectAnswer();
-            $output .= "Your Answer: ".$answer->getAnswer()."<br>Correct Answer: ".$corAnswer->getAnswer().'<br><br>';
-            $wrong++;
-        }
-    }
-    if(is_object($user)) {
-        $user->storeResult($_POST);
-    }
-
 }
 ?><!doctype html>
 <html class="no-js" lang="">
@@ -61,16 +73,24 @@ if(!isset($_POST['mark'])) {
     <body>
         <div id="container">
             <div id="user"><?php if(is_object($user)) {
-                    echo "Welcome Back ".$_SESSION['username'].". <a href='index.php/logout=1'>Logout</a>";
+                    echo "<a href='index.php?results=1'>Result History</a>. Welcome Back ".$_SESSION['username'].".<br><a href='index.php?logout=1'>Logout</a>";
                 } else {
-                    echo "<div id='loginTrigger' onclick='showLoginBox()'>Login or Register</div>";
+                    echo "<div id='loginTrigger'>Login or Register</div>";
                 } ?></div>
             <div id="cover" style="display:none;"></div>
             <div id="login" style="display:none;">
+                <h2 style="margin:0 0 5px 0;padding:0;">Login/Register</h2>
                 <form method="post">
                     <label>Username<input type="text" name="username"><br/></label>
-                    <label>Password<input type="text" name="password"><br/></label>
+                    <label>Password<input type="password" name="password"><br/></label><br/>
+                    <input type="hidden" name="method" value="register">
                     <button type="submit" class="loginbutton" value="login">Login</button>
+                    <button type="submit" class="loginbutton" value="register">Register</button>
+                    <script type="text/javascript">
+                        $(".loginbutton").on("click", function(){
+                            $('input[name=method]').attr("value",$(this).attr("value"));
+                        });
+                    </script>
                 </form>
             </div>
             <div id="header"><h1>Unofficial NZART Practice Exam</h1></div>
@@ -80,12 +100,21 @@ if(!isset($_POST['mark'])) {
                 <a href="/index.php?questions=60">60 Questions (Full Exam)</a> -
                 <a href="/index.php?questions=600">600 Questions (All Questions)</a>
                 <br/><br/>
-                <?php if($total) {
+                <?php if(isset($score)) {
                     ?><?php
-                        echo "<h3>Score ".(($correct/$total)*100)."% (".$correct."/".$total.")</h3>";
+                        echo "<h3>Score ".(($score['correct']/$score['total'])*100)."% (".$score['correct']."/".$score['total'].")</h3>";
                         echo $output;
-                    } else { ?>
-                <?=QUESTION_COUNT?> Questions<br><br>
+                    } elseif (isset($results)) {
+                        foreach ($results as $result) {
+                            $score = $result->getScore();
+                            echo date("Y-m-d", $result->getTime())." Score ".(($score['correct']/$score['total'])*100)."% (".$score['correct']."/".$score['total']."). ".
+                            "<a href='index.php?viewresult=".$result->getId()."'>View Result</a><br/>";
+                        }
+                } else {
+                    if(!is_object($user)) { ?>
+                        Please Login to track results.<br>
+                        <?php } ?><span style="font-weight:bold">
+                <?=QUESTION_COUNT?> Questions</span><br><br>
                 <form action="/" method="POST">
                 <table>
                     <tbody>

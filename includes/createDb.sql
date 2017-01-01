@@ -28,3 +28,13 @@ CREATE TABLE IF NOT EXISTS `answer` (
   PRIMARY KEY (`answer_id`),
   UNIQUE KEY `answer_id_UNIQUE` (`answer_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE IF NOT EXISTS `result` (
+  `result_id` INT(11) NOT NULL AUTO_INCREMENT,
+  `result_time` INT(11) NOT NULL,
+  `resultdata_user` INT(11) NOT NULL,
+  `resultdata_result` MEDIUMTEXT DEFAULT NULL,
+  `resultdata_score` VARCHAR(255) DEFAULT NULL,
+  PRIMARY KEY (`result_id`),
+  UNIQUE KEY `result_id_UNIQUE` (`result_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -30,8 +30,33 @@ html, body, #container {
     right: 0;
     margin-right: 15px;
     margin-top: 10px;
-    width: 250px;
+    width: 300px;
     text-align:right;
+}
+
+#cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #222222;
+    z-index: 100;
+    opacity: 0.9;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    height: 180px;
+    width: 250px;
+    background-color:  #EEEEEE;
+    padding: 20px;
+    margin: -150px 0 0 -125px;
+    z-index: 101;
 }
 
 html {

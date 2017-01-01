@@ -16,9 +16,9 @@ class User extends DataItem {
 
     public static function loginOrRegister($data)
     {
-        if(isset($data['register'])) {
+        if($data['method'] == "register") {
             self::register($data['username'], $data['password']);
-        } elseif(isset($data['login'])) {
+        } elseif ($data['method'] == "login") {
             self::login($data['username'], $data['password']);
         }
     }
@@ -97,11 +97,17 @@ class User extends DataItem {
         return $this->userdata_username;
     }
 
-    public function storeuser($dataArray)
+    public function storeResult($dataArray, $score)
     {
-        $user = new user();
-        $user->setuser($dataArray);
-        $user->setUser($this->getId());
-        $user->save();
+        $result = new Result();
+        $result->setResult($dataArray);
+        $result->setUser($this->getId());
+        $result->setScore($score);
+        $result->save();
+    }
+
+    public function getResults()
+    {
+        return Result::getAllWhere("resultdata_user = ".$this->getId(), "ORDER BY result_time DESC");
     }
 }

@@ -65,7 +65,7 @@ class DataItem {
     }
 
     public function getTime() {
-        $timeColumn = static::_getCreationTime();
+        $timeColumn = self::_getTime();
         return $this->$timeColumn;
     }
 }
