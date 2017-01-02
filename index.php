@@ -101,15 +101,33 @@ if (isset($_POST['mark'])) {
                 <a href="/index.php?questions=600">600 Questions (All Questions)</a>
                 <br/><br/>
                 <?php if(isset($score)) {
-                    ?><?php
                         echo "<h3>Score ".(($score['correct']/$score['total'])*100)."% (".$score['correct']."/".$score['total'].")</h3>";
                         echo $output;
                     } elseif (isset($results)) {
-                        foreach ($results as $result) {
+                        $day = [];
+                        foreach ($results as $i=>$result) {
                             $score = $result->getScore();
-                            echo date("Y-m-d", $result->getTime())." Score ".(($score['correct']/$score['total'])*100)."% (".$score['correct']."/".$score['total']."). ".
+                            $date = date("Y-m-d", $result->getTime());
+                            $day[$date][] = date("h:i a", $result->getTime())." - Score ".(($score['correct']/$score['total'])*100)."% (".$score['correct']."/".$score['total']."). ".
                             "<a href='index.php?viewresult=".$result->getId()."'>View Result</a><br/>";
+                            if(!isset($day[$date]['total'])) {
+                                $day[$date]['total'] = ($score['correct'] / $score['total']) * 100;
+                            } else {
+                                $original = $day[$date]['total'];
+                                $day[$date]['total'] = ($original + (($score['correct'] / $score['total']) * 100)) / 2;
+                            }
                         }
+
+                        foreach ($day as $t=>$da) {
+                            echo "<span style='font-weight:bold'>".$t."</span><br/>";
+                            $total = $da['total'];
+                            unset($da['total']);
+                            foreach($da as $c=>$d) {
+                                echo $d;
+                            }
+                            echo $total."% Average<br/><br/>";
+                        }
+
                 } else {
                     if(!is_object($user)) { ?>
                         Please Login to track results.<br>
