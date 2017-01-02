@@ -125,7 +125,7 @@ if (isset($_POST['mark'])) {
                             foreach($da as $c=>$d) {
                                 echo $d;
                             }
-                            echo $total."% Average<br/><br/>";
+                            echo round($total,2)."% Average<br/><br/>";
                         }
 
                 } else {
