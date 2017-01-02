@@ -114,17 +114,17 @@ if (isset($_POST['mark'])) {
                         }
 
                         foreach ($day as $t=>$da) {
-                            echo "<span style='font-weight:bold'>".$t."</span><br/>";
+                            echo "<br/><span style='font-weight:bold'>".$t."</span> - ";
                             $total = 0;
                             foreach($da['total'] as $t) {
                                 $total = $total+$t;
                             }
                             $total = round(($total/count($da['total'])),2);
+                            echo $total."% Average<br/>";
                             unset($da['total']);
                             foreach($da as $c=>$d) {
                                 echo $d;
                             }
-                            echo $total."% Average<br/><br/>";
                         }
 
                 } else {
