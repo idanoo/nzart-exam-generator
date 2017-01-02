@@ -110,22 +110,21 @@ if (isset($_POST['mark'])) {
                             $date = date("Y-m-d", $result->getTime());
                             $day[$date][] = date("h:i a", $result->getTime())." - Score ".(($score['correct']/$score['total'])*100)."% (".$score['correct']."/".$score['total']."). ".
                             "<a href='index.php?viewresult=".$result->getId()."'>View Result</a><br/>";
-                            if(!isset($day[$date]['total'])) {
-                                $day[$date]['total'] = ($score['correct'] / $score['total']) * 100;
-                            } else {
-                                $original = $day[$date]['total'];
-                                $day[$date]['total'] = ($original + (($score['correct'] / $score['total']) * 100)) / 2;
-                            }
+                            $day[$date]['total'][] = ($score['correct'] / $score['total']) * 100;
                         }
 
                         foreach ($day as $t=>$da) {
                             echo "<span style='font-weight:bold'>".$t."</span><br/>";
-                            $total = $da['total'];
+                            $total = 0;
+                            foreach($da['total'] as $t) {
+                                $total = $total+$t;
+                            }
+                            $total = round(($total/count($da['total'])),2);
                             unset($da['total']);
                             foreach($da as $c=>$d) {
                                 echo $d;
                             }
-                            echo round($total,2)."% Average<br/><br/>";
+                            echo $total."% Average<br/><br/>";
                         }
 
                 } else {
