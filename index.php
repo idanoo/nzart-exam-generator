@@ -45,11 +45,7 @@ if (isset($_POST['mark'])) {
         $user->storeResult($_POST, $score);
     }
 } else {
-    if(isset($_GET['questions'])) {
-        define('QUESTION_COUNT', intval($_GET['questions']));
-    } else {
-        define('QUESTION_COUNT', 60);
-    }
+    define('QUESTION_COUNT', isset($_GET['questions'])?intval($_GET['questions']):"60");
     $questions = Question::getQuestions(QUESTION_COUNT);
 }
 ?><!doctype html>
@@ -95,10 +91,8 @@ if (isset($_POST['mark'])) {
             </div>
             <div id="header"><h1>Unofficial NZART Practice Exam</h1></div>
             <div id="body" class="center">
-                New Exam: <a href="/index.php?questions=10">10 Questions</a> -
-                <a href="/index.php?questions=20">30 Questions (Half Exam)</a> -
-                <a href="/index.php?questions=60">60 Questions (Full Exam)</a> -
-                <a href="/index.php?questions=600">600 Questions (All Questions)</a>
+                New Exam: <a href="/index.php?questions=10">10 Questions (Random)</a> -
+                <a href="/index.php">60 Questions (Full Exam)</a> -
                 <br/><br/>
                 <?php if(isset($score)) {
                         echo "<h3>Score ".(($score['correct']/$score['total'])*100)."% (".$score['correct']."/".$score['total'].")</h3>";

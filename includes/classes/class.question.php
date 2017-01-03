@@ -18,14 +18,32 @@ class Question extends DataItem {
         return "question";
     }
 
-    public static function getQuestions($count = false)
+    public static function getQuestions($count)
     {
-        $questions = static::getAllWhere(false, "order by rand()", false, $count);
+        if($count == "60") return self::getExamQuestions();
+        $questions = self::getAllWhere(false, "order by rand()", false, $count);
         foreach ($questions as $q) {
             $q->answers = $q->getAnswers();
             shuffle($q->answers);
         }
         return $questions;
+    }
+
+    public static function getExamQuestions()
+    {
+        $questions = [];
+        $i=1;
+        while ($i<=30) {
+            $limit = parent::count("SELECT COUNT(*)/10 FROM question WHERE FLOOR(questiondata_number) = ".$i);
+            $questions = array_merge($questions, self::getAllWhere("FLOOR(questiondata_number) = ".$i, "order by rand()", false, intval($limit)));
+            $i++;
+        }
+        foreach ($questions as $q) {
+            $q->answers = $q->getAnswers();
+            shuffle($q->answers);
+        }
+        return $questions;
+
     }
 
     public function getQuestion()
@@ -46,5 +64,10 @@ class Question extends DataItem {
     public function getImage()
     {
         return $this->questiondata_image;
+    }
+
+    public function getCountFromNumber()
+    {
+
     }
 }

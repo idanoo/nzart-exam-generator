@@ -44,6 +44,13 @@ class DataItem {
         return $obj;
     }
 
+    public static function count($query)
+    {
+        $db = new db();
+        $db->query($query);
+        return array_pop($db->single());
+    }
+
     public function getId() {
         $typeName = static::_getType();
         $id = $typeName."_id";
